@@ -31,13 +31,12 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: MatPoli-blx.bib
 Database file #2: Bibliography.bib
-Database file #3: AMiede_Publications.bib
 Biblatex version: 3.19
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 1 entry,
             6399 wiz_defined-function locations,
-            1216 strings with 9322 characters,
+            1215 strings with 9303 characters,
 and the built_in function-call counts, 1562 in all, are:
 = -- 74
 > -- 73
