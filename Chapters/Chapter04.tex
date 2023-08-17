@@ -63,6 +63,7 @@ Quasi tutti i materiali plastici hanno comportamento pseudo-plastico. Con $\eta$
 Se $\dot{\gamma}$ aumenta, significa che il fluido di assottiglia sempre di più perché viene speso molto sforzo di taglio per deformare l'oggetto. In generale viene considerato un vantaggio.
 
 Per un fluido polimerico, si può tracciare un comportamento del tipo \ref{fig:PesudoPlastico}.
+Il comportamento dilatante invece si ha per tutti i fluidi, come amidi e vernici in cui si inspessisce aumentando la velocità di deformazione.
 
 \begin{figure}
 \centering
@@ -70,6 +71,66 @@ Per un fluido polimerico, si può tracciare un comportamento del tipo \ref{fig:P
 \caption{Comportamento di un fluido polimerico}
 \label{fig:PesudoPlastico}
 \end{figure}
+
+\section{Equazioni di modellazione dei materiali polimerici}
+\subsection{Legge di potenza}
+Attraverso la legge di potenza si può definire:
+\begin{equation}
+\tau = K \lvert \dot{\gamma}^{-(n-1)}\rvert\dot{\gamma}
+\label{eqn:LeggePotenza}
+\end{equation}
+dove:\\
+\begin{tabular}{cl}
+$K$ & coefficiente di consistenza\\
+$n$ & indice di pseudo-plasticità
+\end{tabular}\\
+Il modello appena descritto dalla \eqref{eqn:LeggePotenza}, va bene per materiali pseudo-plastici e dilatanti, d'altronde basta modificare $n$ per ottenere il comportamento corretto.
+\begin{description}
+\item[$n\geq 1$] descrive il comportamento dei fluidi dilatanti.
+\item[$n \approx 1$] descrive il comportamento dei fluidi newtoniani.
+\item[$n \leq 1$] descrive il comportamento dei fluidi pseudo-plastici.
+\end{description}
+
+In generale i materiali polimerici presentano un indice di pseudo-plasticità:
+$0.4 \leq n \leq 0.9$ ad eccezione del \ac{PVC} che presenta $n \approx 0.2$.
+
+Se il materiale è caratterizzato da $n < 0.4$ in genere è indice che il modello adottato non è perfettamente adatto.
+Si possono nascondere degli snervamenti che alzerebbero $n$.
+Lo snervamento è difficile da misurare per cui è difficile descriverlo analiticamente.
+Per osservarlo bisognerebbe imporre $\dot{\gamma}$ molto basse. Però sarebbero necessari degli strumenti molto particolare ed accurati.
+
+Se $\dot{\gamma} > 0$ allora $\eta = K \dot{\gamma}^{n-1}$
+Da cui:
+\begin{equation}
+\begin{split}
+\log \eta &= \log\left( K \dot{\gamma}^{n-1}\right)\\
+&= \log K + (n-1)\log \dot{\gamma}
+\end{split}
+\end{equation}
+Se $0\leq n \leq 1$: la legge di potenza è semplificazione perché manca il plateau newtoniano. Funziona, come approssimazione, per lo stampaggio ad iniezione in cui si hanno velocità di deformazione che sta nel range utile della legge di potenza.
+
+Con l'estrusione si lavora a velocità di deformazione più basse, per cui serve un modello più accurato.
+
+\subsection{Modello di Carreau-Yasuda}
+\begin{equation}
+\frac{\eta - \eta_{\infty}}{\eta_0 - \eta_{\infty}} = \left[1 + (\lambda \gamma)^a\right]^{\frac{n-1}{a}}
+\label{eqn:CarreauYasuda}
+\end{equation}
+dove:\\
+\begin{tabular}{cp{0.8\textwidth}}
+$\eta_0$ & Primo plateau newtoniano\\
+$\eta_{\infty}$ & Secondo plateau newtoniano\\
+$\lambda$ & parametro che sposta l'inclinazione del ginocchio tra plateau newtoniano e comportamento pseudo-plastico\\
+$n$ & Indice di pseudo-plasticità\\
+$a$ & Indice che modifica i nasi della curva. Se $n=2$ è il modello di Carreau
+\end{tabular}\\
+
+\subsection{Modello di Cross}
+\begin{equation}
+\eta = \eta_{\infty} + \frac{\eta_0 - \eta_{\infty}}{1+(\lambda \dot{\gamma})^n}
+\end{equation}
+
+la scelta del modello dipende dall'applicazione per cui si sta studiando il fluido, per cui i parametri si adeguano meglio.
 
 \section{Effetti di sforzo normale e viscoelasticità}
 \subsection{Sforzo normale}
@@ -122,6 +183,7 @@ Entrambi hanno una legge del tipo:
 
 \section{Tissotropia}
 \begin{figure}
+\centering
 \includegraphics[width = 0.7\textwidth]{gfx/Tissotropia}
 \caption{Caratteristica della viscosità in funzione del tempo}
 \label{fig:Tissotropia}
@@ -131,6 +193,150 @@ La tissotropia si può presentare in due forme particolari:
 \item[Fluido reopectico] sono quei (pochi) fluidi che aumentano la loro viscosità all'aumentare del tempo.
 \item[Fluido tissotropico] sono i fluidi, non newtoniani che diminuiscono la loro viscosità all'aumentare del tempo.
 \end{description}
+
+\section{Flusso di un fluido non newtoniano}
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/FlussoTubo}
+\caption{Schematizzazione del flusso di un fluido al interno di un tubo rigido}
+\label{fig:FlussoTubo}
+\end{figure}
+Considerando un tubo a pareti rigide come quello del disegno \ref{fig:FlussoTubo}.
+Possiamo considerare le seguenti ipotesi:
+\begin{itemize}
+\item Il flusso è un componente simmetrico
+\item Velocità del fluido indipendente da $\theta$: $dv/d\theta = 0$
+\item Velocità puramente in direzione assiale: $\vec{v} = v_z \vec{e}_z$
+\item Flusso completamente sviluppato $v_z = v_z(r)$
+\item Accelerazione trascurabile
+\end{itemize}
+Allora si può scrivere l'equazione di equilibrio in z:
+\begin{equation}
+p \pi r^2 - (p - dp)\pi r^2 + \tau \cdot 2\pi r dz = 0
+\end{equation}
+Con:
+\begin{equation}
+\tau = \frac{dp}{dz}\frac{r}{2} \qquad \frac{dp}{dz}= cost.
+\end{equation}
+Se il fluido fosse newtoniano allora: $\tau = \eta \dot{\gamma}$ con $\eta = cost.$
+Per un fluido non newtoniano: $\dot{\gamma} = \frac{dv}{dr} \Rightarrow \dot{\gamma}=\dot{\gamma}(r)$.
+Dunque:
+\begin{equation}
+\begin{split}
+\tau &= \frac{dp}{dz} \frac{r}{2}\\
+0 &= \frac{d\tau}{dz} = \frac{d}{dz}\left(\frac{dp}{dz}\frac{r}{2}\right) =\\
+&= \frac{r}{2}\underbrace{\frac{d^2p}{dz^2}}_{\frac{dp}{dz} = cost.} = 0 
+\end{split} 
+\end{equation}
+Dunque, imponendo $p$ e assumendo che $l$ sia la lunghezza del tubo, possiamo ricavare $\tau$:
+\begin{equation}
+\frac{dp}{dz} = -\frac{p}{l} \qquad \tau = -\frac{p}{l}\frac{r}{2}
+\end{equation}
+da cui, imponendo $r = R$ ovvero il raggio del tubo:
+\begin{equation}
+\tau_W = -\frac{p}{l}\frac{R}{2} \Rightarrow \tau = -\tau_W \frac{r}{R}
+\end{equation}
+Dalla velocità di deformazione:
+\begin{equation}
+\dot{\gamma} = \frac{dv}{dr} \qquad \dot{\gamma} = \frac{\tau}{\eta}
+\end{equation}
+Allora:
+\begin{equation}
+\dot{\gamma} = \frac{dv}{dr} = \frac{\tau}{\eta} = -\frac{1}{\eta}\frac{p}{2l}r
+\end{equation}
+Si deve risolvere un sistema differenziali del primo ordine a variabili separabili:
+\begin{equation}
+\begin{cases}
+\frac{dv}{dr} = -\frac{1}{\eta}\frac{p}{2l}r\\
+v(R) = 0 :=\text{ condizione di aderenza}
+\end{cases}
+\end{equation}
+Allora la soluzione sarà:
+\begin{equation}
+\begin{split}
+v &= -\frac{1}{\eta}\frac{P}{2l}\frac{r^2}{2} + C \Rightarrow\\
+&\Rightarrow C = \frac{1}{\eta}\frac{p}{2l}\frac{R^2}{2}\\
+v &= -\frac{1}{\eta}\frac{p}{2l}\frac{r^2}{2} + \frac{1}{\eta}\frac{p}{2l}\frac{R^2}{2}\\
+&= \frac{1}{\eta}\frac{p}{2l}\left(\frac{R^2}{2} - \frac{r^2}{2}\right)=\\
+&=\frac{1}{\eta}\frac{p}{4l}\left(R^2 - r^2\right)
+\end{split}
+\end{equation}
+Calcoliamo ora la portata del fluido $Q$:
+\begin{equation}
+\begin{split}
+Q &= \int_A{v(r)\,dA} = \int_0^r{v(r) \cdot 2\pi r \, dr}=\\
+&= \int_0^r{\frac{1}{\eta}\frac{p}{4l}\left(R^2 - r^2\right)\cdot 2\pi r \, dr} =\\
+&= \int_0^r{2\pi \frac{p}{4\eta l} r (R^2 - r^2) \, dr} =\\
+&= \frac{\pi}{2\eta} \frac{p}{l}\left[R^2 \cdot \frac{r^2}{2} - \frac{r^4}{4}\right]_0^r =\\
+&=\frac{\pi}{2\eta} \frac{p}{l} \left[\frac{R^4}{2} - \frac{R^4}{4}\right] =\\
+&= \frac{\pi}{8}\frac{R^4}{l}\left(\frac{1}{\eta}\right)(p)
+\end{split}
+\end{equation}
+Dove il termine $\frac{R^4}{l}$ descrive la dipendenza della portata dalla geometria del tubo, risulta essere il termine preponderante nell'equazione.
+Mentre, il termine $\frac{1}{\eta}$ mostra la dipendenza della portata dal comportamento viscoso del fluido.
+
+Applichiamo ora la legge di potenza, che descrive il comportamento della maggior parte dei fluidi.
+\begin{equation}
+\frac{dp}{dz}=-\frac{p}{l} \qquad \tau = -\frac{p}{l}\frac{r}{2}
+\end{equation}
+Ricordando che:
+\begin{equation}
+\tau = \eta \dot{\gamma} \qquad \tau = K \lvert \dot{\gamma} \rvert^{n-1}\dot{\gamma}
+\end{equation}
+Sostituendo:
+\begin{equation}
+\underbrace{K \Big|\frac{dv}{dr}\Big|^{n-1}\frac{dv}{dr}}_{\tau} = -\frac{p}{l}\frac{r}{2}
+\end{equation}
+Tra l'altro vale che: se $\tau \leq 0$ allora $\frac{dv}{dr} \leq 0$.
+\begin{equation}
+\begin{split}
+K \left(-\frac{dv}{dr}\right)^{n-1}\left(-\frac{dv}{dr}\right) &= \frac{p}{l}\frac{r}{2}\\
+K \left(-\frac{dv}{dr}\right)^{n} &= \frac{p}{l}\frac{r}{2} 
+\end{split}
+\end{equation}
+Allora, si può scrivere un sistema differenziale a variabili separabili.
+\begin{equation}
+\begin{cases}
+\frac{dv}{dr}=-\left(\frac{p}{2Kl}\right)^{1/n}r^{1/n}\\
+v(R) = 0 \quad \text{Aderenza a parete}
+\end{cases}
+\end{equation}
+Da cui
+\begin{equation}
+v(r) = -\left(\frac{p}{2Kl}\right)^{1/n}\frac{r^{\frac{1}{n}+1}}{\frac{1}{n}+1}+C
+\end{equation}
+Da cui imponendo la condizione iniziale si ottiene
+\begin{equation}
+v(r) = \left(\frac{p}{2Kl}\right)^{1/n} \frac{n}{1+n} \left(R^{\frac{1}{n}+1} - r^{\frac{1}{n}+1}\right)
+\end{equation}
+Sostituendo con $n=1$ si dovrebbe riottenere la legge per il fluido newtoniano.
+Alla figura \ref{fig:SpeedProfile}, sono rappresentati i principali profili di velocità per fluidi descrivibili tramite legge di potenza.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/SpeedProfile}
+\caption{Profili di velocità per diversi fluidi}
+\label{fig:SpeedProfile}
+\end{figure}
+
+Calcoliamo la portata del fluido nel caso del tubo.
+\begin{equation}
+\begin{split}
+Q &= \int_A{v(r)\,dA} = 2\pi \int_0^r{v(r)\,dr}\\
+&= \int_0^r{\left(\frac{p}{2Kl}\right)^{1/n} \frac{n}{1+n} \left(R^{\frac{1}{n}+1} - r^{\frac{1}{n}+1}\right) r\,dr}=\\
+&= 2\pi \left(\frac{p}{2Kl}\right)^{\frac{1}{n}}\frac{n}{n+1}\left[R^{1+\frac{1}{n}}\frac{r^2}{2} - \frac{r^{3+\frac{1}{n}}}{3 + \frac{1}{n}}\right]_0^r=\\
+&= 2\pi \left(\frac{p}{2Kl}\right)^{1/n}\frac{n}{n+1}\left[\frac{R^{3+\frac{1}{n}}}{2} - \frac{R^{3+\frac{1}{n}}}{3+\frac{1}{n}}\right]=\\
+&= 2\pi \left(\frac{p}{2Kl}\right)^{1/n}\frac{n}{n+1} R^{3+\frac{1}{n}} \frac{3+\frac{1}{n} -2}{2\left(3+\frac{1}{n}\right)} =\\
+&=\pi \left(\frac{p}{2Kl}\right)^{1/n} \frac{n}{n+1} R^{3+\frac{1}{n}} \frac{1+\frac{1}{n}}{3+\frac{1}{n}} =\\
+&=\frac{\pi}{2^{1/n}} \left(\frac{1}{K}\right)^{1/n} \frac{n}{3n+1} \frac{R^{3+\frac{1}{n}}}{l^{1/n}} p^{1/n}
+\end{split}
+\end{equation}
+Dove:\\
+\begin{tabular}{cp{0.8\textwidth}}
+$\frac{\pi}{2^{1/n}} \left(\frac{1}{K}\right)^{1/n} \frac{n}{3n+1}$ & Lega la portata alla tipologia del materiale\\
+$ \frac{R^{3+\frac{1}{n}}}{l^{1/n}}$ & Lega la portata alla geometria del tubo\\
+$p^{1/n}$ & Lega portata e pressione
+\end{tabular}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Reologia (o Reometria)}\label{chp:Reologia}
@@ -157,7 +363,7 @@ p = \frac{\mathbf{F}}{A} = \left[\frac{N}{m^2}\right] = \left[Pa\right]
 \end{equation}
 
 \section{Le curve di flusso e di viscosità}
-la correlazione tra lo sforzo di taglio e gradiente di velocità che definisce il comportamento reologico di un liquido può essere graficamente riportato in un diagramma $t/D$. Il diagramma prende il nome di \textbf{curva di flusso}.
+la correlazione tra lo sforzo di taglio e gradiente di velocità che definisce il comportamento reologico di un liquido può essere graficamente riportato in un diagramma $\tau/D$. Il diagramma prende il nome di \textbf{curva di flusso}.
 Altro diagramma assai comune è quello che riporta $\eta$ in funzione di $D$ (velocità). Questo diagramma è detto \textbf{Curva di viscosità}.
 
 \section{Fluidi pseudo-plastici}
@@ -165,7 +371,7 @@ Molti liquidi mostrano una drastica diminuzione della viscosità quando il gradi
 Tecnicamente questo significa che sotto l'azione di una determinata forza (o pressione) una maggiore quantità di materiale può essere soggetta allo scorrimento o che può essere ridotto il lavoro meccanico necessario a mantenere una determinata portata.
 I materiali che subiscono una fluidificazione dovuta all'aumento del gradiente di velocità sono detti \textbf{pseudo-plastici}.
 All'aumentare del gradiente di velocità le particelle allungate sospese nel liquido si orientano nella direzione del moto. Le macromolecole di un fuso o di una soluzione possono disintecciarsi, allungarsi e orientarsi parallelamente alla direzione della forza impressa. L'allineamento delle particelle o delle molecole consente loro di scivolare le une sulle altre e questo comporta una diminuzione della viscosità.
-Per la maggior parte dei liquidi la diminuzione di $h$ al crescere di $D$ è irreversibile, magari dopo un certo lasso di tempo, cioè il liquido riacquista la sua elevata viscosità originale per cessazione dello sforzo applicato.
+Per la maggior parte dei liquidi la diminuzione di $\eta$ al crescere di $D$ è irreversibile, magari dopo un certo lasso di tempo, cioè il liquido riacquista la sua elevata viscosità originale per cessazione dello sforzo applicato.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
