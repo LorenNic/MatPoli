@@ -1,3 +1,140 @@
 %************************************************
 \chapter{Morfologia dei materiali polimerici}\label{ch:Morfologia}
 %************************************************
+
+
+%************************************************
+\chapter{Proprietà meccaniche dei polimeri}\label{chp:MeccanicaPolimeri}
+%************************************************
+Tenendo conto del modello del gomitolo statistico a livello molecolare, vediamo come si classificano le proprietà meccaniche dei polimeri.
+\begin{quote}
+\emph{Come devono essere "costruiti" i polimeri in modo che si possano ottenere delle proprietà meccaniche interessanti?}
+\end{quote}
+
+Un primo modo può essere la strada degli additivi, del resto:\\
+\includegraphics[width = \textwidth]{gfx/Plastica}\\
+Un primo additivo usato per irrigidire un struttura polimerica è la fibra di vetro corta.
+Vengono infuse nella plastica per migliorare le caratteristiche meccaniche.
+Non se ne possono infondere troppe, altrimenti si perde il pregio della formabilità tipica dei materiali plastici.
+Le \ac{FVC} vengono aggiunte fino al $40 \div 50\%$ in peso al polimero.
+
+Esistono altre strade per poter migliorare le caratteristiche meccaniche dei polimeri;
+\begin{description}
+\item[Vincolo geometrico] Vincolare, in qualche modo, il materiale per evitare che il polimero formi la conformazione a gomitolo.
+\item[Vincolo chimico] Si può pensare di irrigidire il polimero agendo sulle rotazioni relative delle molecole.
+\item[Vincolo di legame] Agire sulla qualità dei legami intermolecolari.
+\end{description}
+
+\subsection{Vincolo geometrico}
+Per evitare che le molecole ritornino alla forma di gomitolo statistico, si può formare delle fibre di materiale. Così viene limitato ad una certa geometria che, a meno di un piccolo ritorno elastico, non cambia la sua conformazione nel tempo.
+
+Il motivo dell'aumento della resistenza è data dalla forma particolarmente allungata in cui le catene polimeriche vengono forzate.
+Infatti, sebbene un minimo resta la conformazione a gomitolo, questo sarà particolarmente allungato. Tale conformazione permetterà alle forze applicate al polimero di agire di più sui legami di buona qualità piuttosto di quelli intermolecolari di qualità più scarsa.
+Inoltre la fibra, essendo di piccolo spessore, prevede statisticamente meno difetti lungo la sezione. in pratica si limita la propagazione della frattura.
+
+In particolare, questa pratica viene adottata per il \ac{PE}.
+
+\subsection{Vincolo chimico}
+Tenendo a mente la conformazione del \ac{PE}: se in catena principale vengono inseriti degli elementi che costituiscano dei legami covalenti a più alta energia in modo da limitare la rotazione relativa delle molecole.
+Ad esempio si possono costituire legami doppi nella catena principale.
+Il problema diventa l'instabilità dei legami doppi: tendono ad aprirsi molto facilmente.
+Altra soluzione molto sfruttata sta nell'inserire anelli benzenici nella catena principale.
+Stiamo parlando del \ac{PET}
+
+\begin{figure}
+\centering
+$\Big($\chemfig{-C(=[6]O)-(*6(-=-(-C(=[6]O)-O-CH_2-CH_2-O-)=-=))}$\Big)_n$
+\caption{Monomero del Polietilene tereftalato}
+\label{fig:PET}
+\end{figure}
+
+La rigidezza del materiale è donato dall'anello benzenico. Infatti questo racchiude la maggior parte della massa del monomero. Inoltre è particolarmente rigido in quanto non sono permesse le rotazioni delle molecole componenti l'anello per via della risonanza.
+
+Altro esempio di miglioramento del materiale grazie a vincoli chimici è quello del \ac{PPS}.
+\begin{figure}
+\centering
+$\Big($\chemfig{-*6(=-=(-S-)-=-)}$\Big)_n$
+\caption{Monomero del Polifenilen solfuro}
+\label{fig:PPS}
+\end{figure}
+Le caratteristiche così interessanti sono donate dal fatto che il monomero è praticamente un anello benzenico.
+In entrambi i casi si parla di \textbf{Irrigidimento della catena principale}.
+
+Non è l'unica soluzione: si possono aggiungere elementi rinforzanti come sostituenti laterali. In genere si usano elementi pesanti o ingombranti.
+In questo caso viene limitato lo scorrimento relativo delle molecole per via dell'ingombro degli anelli benzenici, ad esempio.
+Vengono limitate le rotazioni e gli scorrimenti relativi delle molecole per effetto degli ingombri dei sostituenti laterali
+
+\begin{figure}
+\centering
+$\Big($\chemfig{-CH_2-CH(-[6]*6(-=-=-=))-}$\Big)_n$
+\caption{Irrigidimento dei sostituenti laterali}
+\label{fig:IrrigidimentoLaterali}
+\end{figure}
+
+Ma:
+\begin{itemize}
+\item non si arriva al livello di irrigidimento che si ottiene tramite rinforzo in catena principale.
+\item Il materiale ne risulta più fragile (per effetto dei vincoli dati dai sostituenti).
+\end{itemize}
+Questa tecnica viene detta di \textbf{irrigidimento dei sostituenti laterali}.
+
+\subsection{Vincolo intermolecolare}
+Le possibilità in questo caso sono due:
+\begin{enumerate}
+\item incrementare il numero di legami intermolecolari;
+\item incrementare la qualità dei legami intermolecolari;
+\end{enumerate}
+
+\paragraph{Incremento numero dei legami}
+Prendendo il caso del \ac{PE}: i legami intermolecolari sono di pessima qualità, principalmente \ac{FdW}. Aumentandone il numero risulta in una sommatoria "più lunga" di legami intermolecolari, permettendo un numero di vincoli maggiori.
+Vengono realizzate delle catene principali estremamente lunghe.
+In questo modo aumentano i "grovigli" che bloccano le catene rispettivamente.
+Sempre nel \ac{PE}, si realizzano materiali ad alto grado di polimerizzazione $n \uparrow\uparrow$.
+Però aumenta, contemporaneamente, il \ac{PM}:
+\begin{equation}
+P.M. = P_{\textup{monomero}} * n
+\end{equation}
+
+Aumentando il grado di polimerizzazione, le caratteristiche meccaniche aumentano, come si vede in figura \ref{fig:PMMeccanica}.
+\begin{quote}
+\emph{\dots Però\dots}
+\end{quote}
+
+Come si vede dalla figura \ref{fig:ViscPM}, contemporaneamente aumenta anche la viscosità del fluido.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Andamento delle caratteristiche meccaniche in funzione del \ac{PM}}\label{fig:PMMeccanica}]
+{\includegraphics[width = 0.4\textwidth]{gfx/PMMeccanica}}\quad
+\subfloat[][\emph{Andamento della viscosità in funzione del \ac{PM}}\label{fig:ViscPM}]
+{\includegraphics[width = 0.4\textwidth]{gfx/ViscPM}}
+\caption{Confronto sull'aumento di \ac{PM} con le caratteristiche meccaniche e viscosità}
+\label{fig:ConfPM}
+\end{figure}
+
+Nella pratica si fa una scelta in base alla viscosità che serve del polimero, da cui derivano determinate caratteristiche meccaniche.
+Ciò è dovuto al fatto che le tecnologie con cui si lavorano i polimeri, necessitano di determinate viscosità per funzionare correttamente.
+Ad esempio: nello stampaggio ad iniezione serve una viscosità bassa (per garantire il riempimento dello stampo) altrimenti il fluido non entra.
+Mentre per l'estrusione serve una viscosità più alta.
+
+Riassumendo, si sceglie la viscosità sulla base della lavorazione, da quella viscosità si ottengono determinate caratteristiche meccaniche.
+
+\paragraph{Incremento qualità dei legami}
+Il concetto è di sfruttare dei legami intermolecolari a più alta energia, ad esempio passando da \ac{FdW} a legami idrogeno. Oppure sfruttare una maggiore elettronegatività per rafforzare le \ac{FdW}.
+Questo è il caso del \ac{PVC}: risulta un maggiore "attrito" tra le molecole data la presenza del cloro. Ciò è dovuta alla differente elettronegatività tra cloro e idrogeno, per cui ne risulta \ac{FdW} di miglior qualità.
+
+Altro esempio di questo genere sono le \ac{PA}6 in confronto alle \ac{PA}12.
+Nel \ac{PA}6 è più frequente il gruppo ammidico
+\chemfig{C(=[2]O)-N(-[2]H)}
+il quale è il responsabile della creazione del legame idrogeno.
+
+\begin{figure}
+\centering
+$\Big($\chemfig{-CH_2-CH_2-CH_2-CH_2-CH_2-C(=[2]O)-N(-[2]H)-}$\Big)_n$
+\caption{Poliammide 6}
+\label{fig:PA6}
+\end{figure}
+
+%************************************************
+\chapter{Classificazione dei polimeri}\label{chp:Classificazione}
+%************************************************

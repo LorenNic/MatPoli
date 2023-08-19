@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  17 AUG 2023 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  19 AUG 2023 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1521,7 +1521,65 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Cskip=\skip155
 )
 \c@@todonotes@numberoftodonotes=\count494
-)) (c:/texlive/2023/texmf-dist/tex/latex/roboto/roboto.sty
+) (c:/texlive/2023/texmf-dist/tex/generic/chemfig/chemfig.sty
+(c:/texlive/2023/texmf-dist/tex/generic/chemfig/chemfig.tex
+(c:/texlive/2023/texmf-dist/tex/generic/simplekv/simplekv.tex
+Package: simplekv 2022/10/01 v0.2a Simple keyval package (CT)
+)
+(c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
+e.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen311
+\pgfarrowlength=\dimen312
+\pgfarrowwidth=\dimen313
+\pgfarrowlinewidth=\dimen314
+)
+\CF_cnt_atomgroup=\count495
+\CF_cnt_group=\count496
+\CF_cnt_atom=\count497
+\CF_cnt_cycle=\count498
+\CF_cnt_cyclebonds=\count499
+\CF_cnt_compound=\count500
+\CF_dim=\dimen315
+\CF_arrowsize=\dimen316
+\CF_zero=\dimen317
+\CF_box=\box81
+\CF_boxstuff=\box82
+\CF_testbox=\box83
+\CF_chargebox=\box84
+\CF_substtoks=\toks47
+)
+Package: chemfig 2023/06/30 v1.6e Draw molecule with an easy syntax (CT)
+) (c:/texlive/2023/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
+
+(c:/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+)
+(c:/texlive/2023/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count501
+\g__chemgreek_tmpa_int=\count502
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count503
+\__mhchem_arrow_extPgfLength_skip=\skip156
+\mhchem@minispace@tmp=\skip157
+\mhchem@minibackspace@tmp=\skip158
+\mhchem@bondwidth=\skip159
+\mhchem@bondheight=\skip160
+\mhchem@smallbondwidth@tmpA=\skip161
+\mhchem@smallbondwidth@tmpB=\skip162
+\mhchem@smallbondwidth=\skip163
+\mhchem@bondtmp@minussidebearingleft=\skip164
+\mhchem@bondtmp@minussidebearingright=\skip165
+\l__mhchem_option_version_int=\count504
+\mhchem@option@minusmathsidebearingleft=\dimen318
+\mhchem@option@minusmathsidebearingright=\dimen319
+\mhchem@option@minustextsidebearingleft=\dimen320
+\mhchem@option@minustextsidebearingright=\dimen321
+))
+(c:/texlive/2023/texmf-dist/tex/latex/roboto/roboto.sty
 Package: roboto 2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX en
 gines.
 
@@ -1567,9 +1625,8 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (./FrontBackmatter/DirtyTitlepage.aux) (./FrontBackmatter/Titlepage.aux)
 (./FrontBackmatter/Titleback.aux) (./FrontBackmatter/Contents.aux)
 (./Chapters/Chapter01.aux) (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux
-) (./Chapters/Chapter04.aux) (./Chapters/Chapter0A.aux)
-(./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux)
-(./FrontBackmatter/Colophon.aux))
+) (./Chapters/Chapter04.aux) (./FrontBackmatter/Bibliography.aux)
+(./FrontBackmatter/Declaration.aux) (./FrontBackmatter/Colophon.aux))
 \openout1 = `MatPoli.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -1652,7 +1709,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count495
+\c@lstlisting=\count505
 Package scrhack Info: undefining \float@addtolists on input line 54.
 Package hyperref Info: Link coloring ON on input line 54.
  (./MatPoli.out) (./MatPoli.out)
@@ -1673,21 +1730,21 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 
 (c:/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count496
+\BKM@id=\count506
 ))
 (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count497
-\scratchdimen=\dimen311
-\scratchbox=\box81
-\nofMPsegments=\count498
-\nofMParguments=\count499
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count500
-\MPscratchDim=\dimen312
-\MPnumerator=\count501
-\makeMPintoPDFobject=\count502
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count507
+\scratchdimen=\dimen322
+\scratchbox=\box85
+\nofMPsegments=\count508
+\nofMParguments=\count509
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count510
+\MPscratchDim=\dimen323
+\MPnumerator=\count511
+\makeMPintoPDFobject=\count512
+\everyMPtoPDFconversion=\toks49
 ) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1714,8 +1771,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto-LF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c@mv@tabular=\count503
-\c@mv@boldtabular=\count504
+
+Package chemgreek Info: Activating mapping `default' on line 54.
+
+\c@mv@tabular=\count513
+\c@mv@boldtabular=\count514
 \openout2 = `FrontBackmatter/DirtyTitlepage.aux'.
 
 
@@ -1881,35 +1941,44 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
  (./MatPoli.lof
-Overfull \hbox (23.73804pt too wide) in paragraph at lines 11--11
+Package acronym Info: Label `acro:PM' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 9.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 9.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 9.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 9.12502pt on input line 9.
+
+Overfull \hbox (2.47539pt too wide) in paragraph at lines 9--9
+ [][] []\T1/Roboto-LF/regular/n/10.95 Confronto sull'aumento di [][][]Peso mole
+co-lare ([])[] 
+ []
+
+
+Overfull \hbox (23.73804pt too wide) in paragraph at lines 18--18
  [][] []\T1/Roboto-LF/regular/n/10.95 Rappresentazione del com-por-ta-mento sot
 to l'effetto 
  []
 
 
-Overfull \hbox (1.7289pt too wide) in paragraph at lines 12--12
+Overfull \hbox (1.7289pt too wide) in paragraph at lines 19--19
  [][] []\T1/Roboto-LF/regular/n/10.95 Caratteristica della vis-cosità in fun-zi
 one del tempo []  
  []
 
 Package acronym Info: Label `acro:PK' newly defined as it shall be overridden
-although it is yet undefined on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.12502pt on input line 18.
+although it is yet undefined on input line 25.
 
-Overfull \hbox (11.45334pt too wide) in paragraph at lines 20--20
+Overfull \hbox (11.45334pt too wide) in paragraph at lines 27--27
  [][] []\T1/Roboto-LF/regular/n/10.95 Indicazioni dei parametri del sis-tema pe
 r la misura 
  []
 
 
-Overfull \hbox (5.01797pt too wide) in paragraph at lines 21--21
+Overfull \hbox (5.01797pt too wide) in paragraph at lines 28--28
  [][] []\T1/Roboto-LF/regular/n/10.95 Descrizione del vis-cosimetro cap-il-lare
  con le cor- 
  []
@@ -1924,12 +1993,7 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 42
 \tf@lot=\write8
 \openout8 = `MatPoli.lot'.
 
- (./MatPoli.lol
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-)
+ (./MatPoli.lol)
 \tf@lol=\write9
 \openout9 = `MatPoli.lol'.
 
@@ -1939,12 +2003,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
  [6
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}])
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' aliased to
-(Font)              `T1/Roboto-LF/regular/sc' on input line 74.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 74.
- [7] [8
+]) [7] [8
 
 
 
@@ -1960,39 +2019,156 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/sc' will be
 
 (./Chapters/Chapter01.tex
 chapter 1.
-) [3
+[3
 
 
 
 ] [4
 
 
+]
+chapter 2.
+<gfx/Plastica.png, id=239, 667.293pt x 118.041pt>
+File: gfx/Plastica.png Graphic file (type png)
+<use gfx/Plastica.png>
+Package pdftex.def Info: gfx/Plastica.png  used on input line 15.
+(pdftex.def)             Requested size: 336.0pt x 59.4364pt.
+Package acronym Info: Label `acro:FVC' newly defined as it shall be overridden
+although it is yet undefined on input line 19.
+[5{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc} <./gfx/Plastica.png>
+]
+Package acronym Info: Label `acro:PE' newly defined as it shall be overridden
+although it is yet undefined on input line 35.
+Package acronym Info: Label `acro:PET' newly defined as it shall be overridden
+although it is yet undefined on input line 42.
+
+Overfull \hbox (34.34407pt too wide) in paragraph at lines 46--47
+ []$[]$[]$[][]$ 
+ []
 
 
-] [5
+Overfull \hbox (10.22496pt too wide) in paragraph at lines 51--52
+[]\T1/Roboto-LF/regular/n/10.95 La rigidezza del ma-te-ri-ale è do-nato dall'an
+ello ben-zenico. In-fatti questo
+ []
 
 
-] [6]
+Overfull \hbox (16.32637pt too wide) in paragraph at lines 51--52
+\T1/Roboto-LF/regular/n/10.95 co-lar-mente rigido in quanto non sono per-me-sse
+ le ro-tazioni delle molecole
+ []
+
+Package acronym Info: Label `acro:PPS' newly defined as it shall be overridden
+although it is yet undefined on input line 53.
+
+Overfull \hbox (12.09404pt too wide) in paragraph at lines 63--66
+\T1/Roboto-LF/regular/n/10.95 branti. In questo caso viene lim-i-tato lo scor-r
+i-mento rel-a-tivo delle molecole
+ []
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' aliased to
+(Font)              `T1/Roboto-LF/regular/sc' on input line 77.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/sc' will be
+(Font)              scaled to size 10.0pt on input line 77.
+[6]
+Package acronym Info: Label `acro:FdW' newly defined as it shall be overridden
+although it is yet undefined on input line 89.
+
+Overfull \hbox (7.79971pt too wide) in paragraph at lines 89--94
+[] []\T1/Roboto-LF/m/sc/10.95/80ls in-cre-mento nu-mero dei legami[] \T1/Roboto
+-LF/regular/n/10.95 Pren-dendo il caso del [][]: i legami
+ []
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 95.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 6.0pt on input line 95.
+<gfx/PMMeccanica.png, id=267, 369.7815pt x 243.91125pt>
+File: gfx/PMMeccanica.png Graphic file (type png)
+<use gfx/PMMeccanica.png>
+Package pdftex.def Info: gfx/PMMeccanica.png  used on input line 108.
+(pdftex.def)             Requested size: 134.39795pt x 88.65282pt.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 108.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 9.0pt on input line 108.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 108.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 9.0pt on input line 108.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 108.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 108.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 108.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 7.50002pt on input line 108.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[][]|\T1/Roboto-LF/regular/it/9 An-da-mento delle carat-ter-is-
+ []
+
+<gfx/ViscPM.png, id=270, 420.97275pt x 263.18324pt>
+File: gfx/ViscPM.png Graphic file (type png)
+<use gfx/ViscPM.png>
+Package pdftex.def Info: gfx/ViscPM.png  used on input line 110.
+(pdftex.def)             Requested size: 134.39795pt x 84.01956pt.
+
+Underfull \hbox (badness 1721) in paragraph at lines 110--110
+[][]|\T1/Roboto-LF/regular/it/9 An-da-mento della vis-cosità in
+ []
+
+[7]
+Package acronym Info: Label `acro:PVC' newly defined as it shall be overridden
+although it is yet undefined on input line 124.
+
+Overfull \hbox (4.53204pt too wide) in paragraph at lines 123--125
+\T1/Roboto-LF/regular/n/10.95 mag-giore "at-trito" tra le molecole data la pre-
+senza del cloro. Ciò è dovuta
+ []
+
+Package acronym Info: Label `acro:PA' newly defined as it shall be overridden
+although it is yet undefined on input line 126.
+
+Overfull \hbox (0.70496pt too wide) in paragraph at lines 133--134
+ []$[]$[]$[][]$ 
+ []
+
+[8 <./gfx/PMMeccanica.png> <./gfx/ViscPM.png>]
+chapter 3.
+) [9
+
+
+] [10
+
+
+
+
+] [11
+
+
+] [12]
 \openout2 = `Chapters/Chapter02.aux'.
 
  (./Chapters/Chapter02.tex
-chapter 2.
-) [7
+chapter 4.
+) [13
 
 
 
 ]
 \openout2 = `Chapters/Chapter03.aux'.
 
- (./Chapters/Chapter03.tex [8
+ (./Chapters/Chapter03.tex [14
 
 
 
 
 
 ]
-chapter 3.
-) [9] [10
+chapter 5.
+) [15] [16
 
 
 
@@ -2003,14 +2179,14 @@ Overfull \hbox (1.80588pt too wide) in paragraph at lines 92--92
 a Valentina Maz-
  []
 
-[11
+[17
 
 
-] [12]
+] [18]
 \openout2 = `Chapters/Chapter04.aux'.
 
  (./Chapters/Chapter04.tex
-chapter 4.
+chapter 6.
 
 Overfull \hbox (3.28836pt too wide) in paragraph at lines 4--6
 \T1/Roboto-LF/regular/n/10.95 I ma-te-ri-ali polimerici non possiedono com-por-
@@ -2029,12 +2205,12 @@ Overfull \hbox (1.84055pt too wide) in paragraph at lines 34--37
 -ità di de-for-mazione $[]$. Per-
  []
 
-[13
+[19
 
 
 
-{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<gfx/TaglioNonNewt.png, id=258, 1093.08376pt x 390.258pt>
+]
+<gfx/TaglioNonNewt.png, id=353, 1093.08376pt x 390.258pt>
 File: gfx/TaglioNonNewt.png Graphic file (type png)
 <use gfx/TaglioNonNewt.png>
 Package pdftex.def Info: gfx/TaglioNonNewt.png  used on input line 55.
@@ -2045,20 +2221,17 @@ Overfull \hbox (11.69554pt too wide) in paragraph at lines 60--64
  hanno com-por-ta-mento pseudo-
  []
 
-<gfx/PseudoPlastico.png, id=261, 624.53325pt x 301.125pt>
+<gfx/PseudoPlastico.png, id=356, 624.53325pt x 301.125pt>
 File: gfx/PseudoPlastico.png Graphic file (type png)
 <use gfx/PseudoPlastico.png>
 Package pdftex.def Info: gfx/PseudoPlastico.png  used on input line 70.
 (pdftex.def)             Requested size: 235.19897pt x 113.39944pt.
-[14 <./gfx/TaglioNonNewt.png> <./gfx/PseudoPlastico.png>]
-Package acronym Info: Label `acro:PVC' newly defined as it shall be overridden
-although it is yet undefined on input line 95.
-
+[20 <./gfx/TaglioNonNewt.png> <./gfx/PseudoPlastico.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 118--127
 
  []
 
-[15]
+[21]
 Overfull \hbox (13.40695pt too wide) in paragraph at lines 137--140
 \T1/Roboto-LF/regular/n/10.95 con-feren-ziale provo-cato dall'aderenza. A liv-e
 llo cir-con-feren-ziale, le catene
@@ -2070,25 +2243,17 @@ Overfull \hbox (7.92111pt too wide) in paragraph at lines 137--140
 e. Cre-ando così aderenza.
  []
 
-<gfx/Barus.png, id=282, 569.7285pt x 184.2885pt>
+<gfx/Barus.png, id=377, 569.7285pt x 184.2885pt>
 File: gfx/Barus.png Graphic file (type png)
 <use gfx/Barus.png>
 Package pdftex.def Info: gfx/Barus.png  used on input line 148.
 (pdftex.def)             Requested size: 134.39795pt x 43.47371pt.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 148.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 9.0pt on input line 148.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
-(Font)              `T1/Roboto-LF/regular/it' on input line 148.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
-(Font)              scaled to size 9.0pt on input line 148.
 
 Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][]|\T1/Roboto-LF/regular/it/9 Ef-fetto di rigon-fi-a-mento
  []
 
-<gfx/ElasticitÃ .png, id=283, 693.792pt x 257.16075pt>
+<gfx/ElasticitÃ .png, id=378, 693.792pt x 257.16075pt>
 File: gfx/ElasticitÃ .png Graphic file (type png)
 <use gfx/ElasticitÃ .png>
 Package pdftex.def Info: gfx/ElasticitÃ .png  used on input line 150.
@@ -2098,17 +2263,13 @@ Underfull \hbox (badness 2884) in paragraph at lines 150--150
 \T1/Roboto-LF/regular/it/9 ef-feto di rigon-fi-a-mento a di-
  []
 
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 157.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 157.
-[16 <./gfx/Barus.png> <./gfx/ElasticitÃ .png>]
-<gfx/EffettoPlastico.png, id=297, 456.5055pt x 299.9205pt>
+[22 <./gfx/Barus.png> <./gfx/ElasticitÃ .png>]
+<gfx/EffettoPlastico.png, id=391, 456.5055pt x 299.9205pt>
 File: gfx/EffettoPlastico.png Graphic file (type png)
 <use gfx/EffettoPlastico.png>
 Package pdftex.def Info: gfx/EffettoPlastico.png  used on input line 179.
 (pdftex.def)             Requested size: 201.60205pt x 132.45052pt.
-<gfx/Tissotropia.png, id=298, 579.96675pt x 271.61475pt>
+<gfx/Tissotropia.png, id=392, 579.96675pt x 271.61475pt>
 File: gfx/Tissotropia.png Graphic file (type png)
 <use gfx/Tissotropia.png>
 Package pdftex.def Info: gfx/Tissotropia.png  used on input line 187.
@@ -2119,28 +2280,28 @@ Overfull \hbox (2.8257pt too wide) in paragraph at lines 194--195
 cono
  []
 
-<gfx/FlussoTubo.png, id=299, 525.76425pt x 259.56975pt>
+<gfx/FlussoTubo.png, id=393, 525.76425pt x 259.56975pt>
 File: gfx/FlussoTubo.png Graphic file (type png)
 <use gfx/FlussoTubo.png>
 Package pdftex.def Info: gfx/FlussoTubo.png  used on input line 200.
 (pdftex.def)             Requested size: 336.0pt x 165.88641pt.
-[17 <./gfx/EffettoPlastico.png> <./gfx/Tissotropia.png>] [18 <./gfx/FlussoTubo.
-png>] [19]
-<gfx/SpeedProfile.png, id=325, 349.90726pt x 240.29774pt>
+[23 <./gfx/EffettoPlastico.png> <./gfx/Tissotropia.png>] [24 <./gfx/FlussoTubo.
+png>] [25]
+<gfx/SpeedProfile.png, id=420, 349.90726pt x 240.29774pt>
 File: gfx/SpeedProfile.png Graphic file (type png)
 <use gfx/SpeedProfile.png>
 Package pdftex.def Info: gfx/SpeedProfile.png  used on input line 317.
 (pdftex.def)             Requested size: 336.0pt x 230.74553pt.
- [20]
+ [26]
 Overfull \hbox (42.6691pt too wide) in paragraph at lines 333--340
 [] 
  []
 
-[21 <./gfx/SpeedProfile.png>] [22
+[27 <./gfx/SpeedProfile.png>] [28
 
 
 ]
-chapter 5.
+chapter 7.
 
 Overfull \hbox (5.16042pt too wide) in paragraph at lines 344--347
 \T1/Roboto-LF/regular/n/10.95 sforzo. I flu-idi ide-ali, liq-uidi o gas-sosi ch
@@ -2153,21 +2314,21 @@ Overfull \hbox (2.28189pt too wide) in paragraph at lines 366--368
 i-ente di ve-loc-ità che definisce
  []
 
-[23]
+[29]
 Overfull \hbox (0.30652pt too wide) in paragraph at lines 370--375
 \T1/Roboto-LF/regular/n/10.95 celle al-lun-gate sospese nel liq-uido si ori-en-
 tano nella di-rezione del moto.
  []
 
-[24]
-chapter 6.
+[30]
+chapter 8.
 
 Overfull \hbox (14.62689pt too wide) in paragraph at lines 381--385
 \T1/Roboto-LF/regular/n/10.95 di vis-cosimetri as-so-luti es-trema-mente ver-sa
 -tili. Nel mer-cato se ne trovano
  []
 
-[25
+[31
 
 
 ]
@@ -2176,7 +2337,7 @@ Overfull \hbox (10.96504pt too wide) in paragraph at lines 398--400
  mosso con ve-loc-ità costante. 
  []
 
-<gfx/Viscosimetro.png, id=362, 274.02374pt x 269.20575pt>
+<gfx/Viscosimetro.png, id=457, 274.02374pt x 269.20575pt>
 File: gfx/Viscosimetro.png Graphic file (type png)
 <use gfx/Viscosimetro.png>
 Package pdftex.def Info: gfx/Viscosimetro.png  used on input line 404.
@@ -2192,7 +2353,7 @@ Overfull \hbox (10.63239pt too wide) in paragraph at lines 435--436
  nell'uso dei sis-temi di misura
  []
 
-[26 <./gfx/Viscosimetro.png>]
+[32 <./gfx/Viscosimetro.png>]
 Overfull \hbox (5.44643pt too wide) in paragraph at lines 438--439
 \T1/Roboto-LF/regular/n/10.95 e questo può ac-cadere prima an-cora dell'inizio 
 della prova, quando
@@ -2204,7 +2365,7 @@ Overfull \hbox (3.18748pt too wide) in paragraph at lines 440--443
  del cam-pi-one verso
  []
 
-<gfx/PK.png, id=376, 567.3195pt x 398.6895pt>
+<gfx/PK.png, id=471, 567.3195pt x 398.6895pt>
 File: gfx/PK.png Graphic file (type png)
 <use gfx/PK.png>
 Package pdftex.def Info: gfx/PK.png  used on input line 448.
@@ -2214,18 +2375,18 @@ Underfull \hbox (badness 4739) in paragraph at lines 448--448
 [][]|\T1/Roboto-LF/regular/it/9 Fun-zion-a-mento del cono (1),
  []
 
-<gfx/PK_graph.png, id=377, 410.7345pt x 338.4645pt>
+<gfx/PK_graph.png, id=472, 410.7345pt x 338.4645pt>
 File: gfx/PK_graph.png Graphic file (type png)
 <use gfx/PK_graph.png>
 Package pdftex.def Info: gfx/PK_graph.png  used on input line 450.
 (pdftex.def)             Requested size: 134.39795pt x 110.75368pt.
-[27 <./gfx/PK.png> <./gfx/PK_graph.png>]
-<gfx/PiattoPiatto.png, id=387, 286.671pt x 195.73125pt>
+[33 <./gfx/PK.png> <./gfx/PK_graph.png>]
+<gfx/PiattoPiatto.png, id=482, 286.671pt x 195.73125pt>
 File: gfx/PiattoPiatto.png Graphic file (type png)
 <use gfx/PiattoPiatto.png>
 Package pdftex.def Info: gfx/PiattoPiatto.png  used on input line 477.
 (pdftex.def)             Requested size: 168.0pt x 114.70987pt.
- [28 <./gfx/PiattoPiatto.png>]
+ [34 <./gfx/PiattoPiatto.png>]
 Package acronym Info: Label `acro:MFI' newly defined as it shall be overridden
 although it is yet undefined on input line 525.
 
@@ -2234,61 +2395,43 @@ Overfull \hbox (8.25703pt too wide) in paragraph at lines 532--538
 a-mente, ad in-ter-valli presta-
  []
 
-[29]
-<gfx/Capillare.png, id=419, 454.69875pt x 195.73125pt>
+[35]
+<gfx/Capillare.png, id=514, 454.69875pt x 195.73125pt>
 File: gfx/Capillare.png Graphic file (type png)
 <use gfx/Capillare.png>
 Package pdftex.def Info: gfx/Capillare.png  used on input line 548.
 (pdftex.def)             Requested size: 336.0pt x 144.63873pt.
- [30 <./gfx/Capillare.png>]
-<gfx/CorrezioneCapillare.png, id=429, 478.78876pt x 243.91125pt>
+ [36 <./gfx/Capillare.png>]
+<gfx/CorrezioneCapillare.png, id=524, 478.78876pt x 243.91125pt>
 File: gfx/CorrezioneCapillare.png Graphic file (type png)
 <use gfx/CorrezioneCapillare.png>
 Package pdftex.def Info: gfx/CorrezioneCapillare.png  used on input line 617.
 (pdftex.def)             Requested size: 168.0pt x 85.58235pt.
- [31] [32 <./gfx/CorrezioneCapillare.png>]
-<gfx/CorrezioneDoppioLog.png, id=456, 400.49625pt x 278.2395pt>
+ [37] [38 <./gfx/CorrezioneCapillare.png>]
+<gfx/CorrezioneDoppioLog.png, id=550, 400.49625pt x 278.2395pt>
 File: gfx/CorrezioneDoppioLog.png Graphic file (type png)
 <use gfx/CorrezioneDoppioLog.png>
 Package pdftex.def Info: gfx/CorrezioneDoppioLog.png  used on input line 710.
 (pdftex.def)             Requested size: 235.19897pt x 163.40416pt.
 
-[33]
+[39]
 Overfull \hbox (0.28339pt too wide) in paragraph at lines 730--736
 \T1/Roboto-LF/regular/n/10.95 in-trodotta la cor-rezione di \T1/Roboto-LF/regul
 ar/it/10.95 Bagley\T1/Roboto-LF/regular/n/10.95 . Si tratta di va-l-utare le pe
 rdite di carico
  []
 
-<gfx/Bagley.png, id=472, 459.51675pt x 277.035pt>
+<gfx/Bagley.png, id=566, 459.51675pt x 277.035pt>
 File: gfx/Bagley.png Graphic file (type png)
 <use gfx/Bagley.png>
 Package pdftex.def Info: gfx/Bagley.png  used on input line 739.
 (pdftex.def)             Requested size: 235.19897pt x 141.79747pt.
-[34 <./gfx/CorrezioneDoppioLog.png>]) [35 <./gfx/Bagley.png>] [36
+[40 <./gfx/CorrezioneDoppioLog.png>]) [41 <./gfx/Bagley.png>] [42
 
 
-
-
-] [37
 
 
 ]
-[38]
-\openout2 = `Chapters/Chapter0A.aux'.
-
- (./Chapters/Chapter0A.tex
-chapter A.
-(c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 62.
-) [39
-
-
-
-] [40]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
 
@@ -2298,7 +2441,7 @@ LaTeX Warning: Empty bibliography on input line 12.
 
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
-(./FrontBackmatter/Declaration.tex) [41
+(./FrontBackmatter/Declaration.tex) [43
 
 
 
@@ -2307,11 +2450,7 @@ LaTeX Warning: Empty bibliography on input line 12.
 
 
 
-
-
-
-
-] [42
+] [44
 
 
 
@@ -2320,6 +2459,11 @@ LaTeX Warning: Empty bibliography on input line 12.
 \openout2 = `FrontBackmatter/Colophon.aux'.
 
  (./FrontBackmatter/Colophon.tex
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 Overfull \hbox (48.7704pt too wide) in paragraph at lines 10--13
 \T1/Roboto-LF/regular/n/10.95 This doc-u-ment was type-set us-ing the ty-po-gra
 ph-i-cal look-and-feel \T1/cmtt/m/n/10.95 classicthesis
@@ -2338,14 +2482,15 @@ egular/it/10.95 The El-e-ments of Ty-po-graphic Style\T1/Roboto-LF/regular/n/10
 .95 ''. \T1/cmtt/m/n/10.95 classicthesis
  []
 
-) [43
+) [45
 
-] (./MatPoli.aux (./FrontBackmatter/DirtyTitlepage.aux)
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+(./MatPoli.aux (./FrontBackmatter/DirtyTitlepage.aux)
 (./FrontBackmatter/Titlepage.aux) (./FrontBackmatter/Titleback.aux)
 (./FrontBackmatter/Contents.aux) (./Chapters/Chapter01.aux)
 (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux) (./Chapters/Chapter04.aux
-) (./Chapters/Chapter0A.aux) (./FrontBackmatter/Bibliography.aux)
-(./FrontBackmatter/Declaration.aux) (./FrontBackmatter/Colophon.aux))
+) (./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux)
+(./FrontBackmatter/Colophon.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2518,6 +2663,11 @@ todonotes.sty    2023/01/31
  xkeyval.sty    2022/06/16 v2.9 package option processing (HA)
  xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
     calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+ chemfig.sty    2023/06/30 v1.6e Draw molecule with an easy syntax (CT)
+  mhchem.sty    2021/12/31 v4.09 for typesetting chemical formulae
+l3keys2e.sty    2023-02-02 LaTeX2e option processing using LaTeX3 keys
+chemgreek.sty    2020/01/16 v1.1a interface for upright Greek letters for use i
+n chemistry (CN)
   roboto.sty    2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX en
 gines.
 ifluatex.sty    2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
@@ -2554,6 +2704,9 @@ FrontBackmatter/Titleback.tex
 ts1roboto-lf.fd
 FrontBackmatter/Contents.tex
 Chapters/Chapter01.tex
+gfx/Plastica.png
+gfx/PMMeccanica.png
+gfx/ViscPM.png
 Chapters/Chapter02.tex
 Chapters/Chapter03.tex
 Chapters/Chapter04.tex
@@ -2573,8 +2726,6 @@ gfx/Capillare.png
 gfx/CorrezioneCapillare.png
 gfx/CorrezioneDoppioLog.png
 gfx/Bagley.png
-Chapters/Chapter0A.tex
-lstlang1.sty    2023/02/27 1.9 listings language file
 FrontBackmatter/Bibliography.tex
 FrontBackmatter/Declaration.tex
 FrontBackmatter/Colophon.tex
@@ -2587,13 +2738,13 @@ Package logreq Info: Writing requests to 'MatPoli.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47735 strings out of 475188
- 979263 string characters out of 5767805
- 1941248 words of memory out of 5000000
- 67903 multiletter control sequences out of 15000+600000
- 756163 words of font info for 243 fonts, out of 8000000 for 9000
+ 50258 strings out of 475188
+ 1033668 string characters out of 5767805
+ 1984378 words of memory out of 5000000
+ 70388 multiletter control sequences out of 15000+600000
+ 761418 words of font info for 242 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,23n,130p,10902b,2105s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,23n,131p,10902b,2105s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb><c:/texlive/20
 23/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb><c:/texlive/2023/tex
@@ -2611,10 +2762,10 @@ mf-dist/fonts/type1/public/fpl/fplrc8a.pfb><c:/texlive/2023/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/
 public/cm-super/sftt1000.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palati
 no/uplb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on MatPoli.pdf (51 pages, 804407 bytes).
+Output written on MatPoli.pdf (53 pages, 856453 bytes).
 PDF statistics:
- 807 PDF objects out of 1000 (max. 8388607)
- 686 compressed objects within 7 object streams
- 228 named destinations out of 1000 (max. 500000)
- 49090 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 885 PDF objects out of 1000 (max. 8388607)
+ 755 compressed objects within 8 object streams
+ 248 named destinations out of 1000 (max. 500000)
+ 48089 words of extra memory for PDF output out of 51595 (max. 10000000)
 
