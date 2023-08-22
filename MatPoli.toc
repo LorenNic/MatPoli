@@ -15,7 +15,10 @@
 \contentsline {paragraph}{Poliaddizione del PLA}{11}{figure.caption.24}%
 \contentsline {section}{\numberline {3.1}Omopolimeri e copolimeri}{11}{section.3.1}%
 \contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Pesi molecolari}}{13}{part.2}%
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Pesi molecolari}}{15}{chapter.4}%
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Peso molecolare medio}}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Peso molecolare medio numerico}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Peso molecolare medio ponderale}{16}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Metodi di misura dei pesi molecolari}{16}{section.4.3}%
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Viscoelasticità}}{17}{chapter.5}%
 \contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Fluidi non newtoniani}}{19}{part.3}%
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Fluidi non newtoniani}}{21}{chapter.6}%
@@ -46,6 +49,8 @@
 \contentsline {subsection}{\numberline {8.5.1}Correzione di Rabinowitsch}{39}{subsection.8.5.1}%
 \contentsline {subsection}{\numberline {8.5.2}Correzione di Mooney}{40}{subsection.8.5.2}%
 \contentsline {subsection}{\numberline {8.5.3}Correzione di Bagley}{42}{subsection.8.5.3}%
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Appendix}}{45}{part.4}%
+\contentsline {chapter}{\numberline {a}\spacedlowsmallcaps {Tavola periodica}}{47}{appendix.A}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{45}{dummy.7}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{49}{dummy.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

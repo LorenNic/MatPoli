@@ -239,3 +239,31 @@ Il PLLA e PDLA sono conformazioni del \ac{PLA} che possono cristallizzare perch�
 Il PLDLA no, questo è il \ac{PLA} irregolare, di più bassa qualità.
 
 \section{Omopolimeri e copolimeri}
+La condizione di omopolimeri e copolimeri dipende dalla conformazione della catena principale del polimero.
+ipotizzando due monomeri $A$ e $B$ di una qualsiasi molecola, le possibili conformazioni sono quelli mostrati
+
+\begin{figure}
+\setchemfig{atom sep = 2em}
+\schemestart
+\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-A-A-A-[@{cl,.25}]}}{omopolimero}\polymerdelim[indice +n]{op}{cl}
+\schemestop
+\\\bigskip
+\schemestart
+\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-B-A-B-A-B-[@{cl,.25}]}}{copolimero alternato}\polymerdelim[indice +n]{op}{cl}
+\schemestop
+\\\bigskip
+\schemestart
+\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-B-B-B-[@{cl,.25}]}}{copolimero a blocchi}\polymerdelim[indice +n]{op}{cl}
+\schemestop
+\\\bigskip
+\schemestart
+\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-B(-[6]B(-[6]B-[6]))-[@{cl,.25}]}}{copolimero innestato}\polymerdelim[indice +n]{op}{cl}
+\schemestop
+\\\bigskip
+\schemestart
+\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-B-A-B-B-[@{cl,.25}]}}{copolimero random}
+\polymerdelim[indice +n]{op}{cl}
+\schemestop
+\caption{Esempi di omopolimero e copolimero}
+\label{fig:OmopolimeroCopolimero}
+\end{figure}
