@@ -43,7 +43,9 @@ Stiamo parlando del \ac{PET}
 
 \begin{figure}
 \centering
-$\Big($\chemfig{-C(=[6]O)-(*6(-=-(-C(=[6]O)-O-CH_2-CH_2-O-)=-=))}$\Big)_n$
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{C}-[@{op,.75}]-C(=[6]O)-(**6(---(-C(=[6]O)-O-CH_2-CH_2-O-[@{cl,.25}])---))}
+\polymerdelim[indice = n]{op}{cl}
 \caption{Monomero del Polietilene tereftalato}
 \label{fig:PET}
 \end{figure}
@@ -53,7 +55,9 @@ La rigidezza del materiale è donato dall'anello benzenico. Infatti questo racch
 Altro esempio di miglioramento del materiale grazie a vincoli chimici è quello del \ac{PPS}.
 \begin{figure}
 \centering
-$\Big($\chemfig{-*6(=-=(-S-)-=-)}$\Big)_n$
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{C}-[@{op,.75}]**6(---(-S-[@{cl,.25}])---)}
+\polymerdelim[indice = n]{op}{cl}
 \caption{Monomero del Polifenilen solfuro}
 \label{fig:PPS}
 \end{figure}
@@ -66,7 +70,9 @@ Vengono limitate le rotazioni e gli scorrimenti relativi delle molecole per effe
 
 \begin{figure}
 \centering
-$\Big($\chemfig{-CH_2-CH(-[6]*6(-=-=-=))-}$\Big)_n$
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{C}-[@{op,.75}]CH_2-CH(-[6]**6(------))-[@{cl,.25}]}
+\polymerdelim[indice = n]{op}{cl}
 \caption{Irrigidimento dei sostituenti laterali}
 \label{fig:IrrigidimentoLaterali}
 \end{figure}
@@ -125,12 +131,14 @@ Questo è il caso del \ac{PVC}: risulta un maggiore "attrito" tra le molecole da
 
 Altro esempio di questo genere sono le \ac{PA}6 in confronto alle \ac{PA}12.
 Nel \ac{PA}6 è più frequente il gruppo ammidico
-\chemfig{C(=[2]O)-N(-[2]H)}
+{\setchemfig{atom sep = 2em}\chemfig{C(=[2]O)-N(-[2]H)}}
 il quale è il responsabile della creazione del legame idrogeno.
 
 \begin{figure}
 \centering
-$\Big($\chemfig{-CH_2-CH_2-CH_2-CH_2-CH_2-C(=[2]O)-N(-[2]H)-}$\Big)_n$
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{C}-[@{op,.75}]CH_2-CH_2-CH_2-CH_2-CH_2-C(=[2]O)-N(-[2]H)-[@{cl,.25}]}
+\polymerdelim[indice = n]{op}{cl}
 \caption{Poliammide 6}
 \label{fig:PA6}
 \end{figure}
@@ -138,3 +146,96 @@ $\Big($\chemfig{-CH_2-CH_2-CH_2-CH_2-CH_2-C(=[2]O)-N(-[2]H)-}$\Big)_n$
 %************************************************
 \chapter{Classificazione dei polimeri}\label{chp:Classificazione}
 %************************************************
+Una prima classificazione dei materiali polimerici può essere fatta in base al loro comportamento di fluidificazione e/o indurimento:
+\begin{description}
+\item[Materiali termoplastici] sono tutti quei materiali che vengono scaldati per tornare allo stato fluido (anche se ad ogni ciclo si ha un degrado delle caratteristiche meccaniche)
+\item[Materiali termoindurenti] sono materiali reticolati che necessitano di un processo di riscaldamento per poter ottenere il prodotto definitivo (ad esempio gli pneumatici). I legami dei reticoli sono di tipo covalente, infatti sono materiali dalle caratteristiche meccaniche interessanti.
+\end{description}
+Sebbene le caratteristiche meccaniche dei materiali termoindurenti siano di gran lunga superiori rispetto a quelli dei termoplastici, la loro produzione è più lenta per il fatto che la reticolazione chiede tempo.
+
+Altra classificazione è basata sulla morfologia della catena principale:
+\begin{description}
+\item[Lineari] la catena principale non presenta ramificazioni o reticolazioni
+\item[Ramificati] la catena principale si sviluppa su diverse linee. Bisogna considerare che la differenza tra sostituente laterale e ramificazione sta nella lunghezza dell'aggiunta laterale alla principale. Ad esempio un singolo anello benzenico non è una ramificazione ma solo un sostituente laterale.
+\item[Reticolato] tutti i materiali termoindurenti presentano questa classificazione
+\end{description}
+
+Anche il metodo con cui si sintetizzano i polimeri ne classifica la specie:
+\begin{description}
+\item[Poliaddizione] detta anche polimerizzazione a catena
+\item[Policondensazione] detta anche polimerizzazione a stadi
+\end{description}
+
+\paragraph{Poliaddizione}\label{par:Poliaddizione}
+Tipicamente si apre un doppio legame della molecola da polimerizzare che legherà con molecole vicine, realizzando la catena principale.
+È un processo tipico dei \textbf{vinili}.
+Ad esempio la formaldeide crea delle catene di formaldeide aprendo il doppio legame tra metilene e l'ossigeno creando una catena di \ac{POM}. Il processo viene evidenziato in figura \ref{fig:Poliaddizione}.
+Viene anche chiamata resina acetalica. 
+Non più ampiamente utilizzata per via della tossicità della formaldeide.
+
+\begin{figure}
+\centering
+\setchemfig{arrow coeff = 1.8, atom sep = 2em}
+\schemestart
+\chemfig{C(-[3]H)(-[5]H)=O} \arrow{->[poliaddizione]}
+\chemfig{\vphantom{CH_2}-[@{op,.75}]C(-[2]H)(-[6]H)-O-[@{cl,.25}]}
+\polymerdelim[height = 25pt, depth = 25pt, indice = n]{op}{cl}
+\schemestop
+\caption{Esempio di poliaddizione}
+\label{fig:Poliaddizione}
+\end{figure}
+
+Ci sono delle variazioni sul processo di poliaddizione, ad esempio i \textbf{poliuretani} sono realizzati tramite l'incrocio delle due tecniche.
+
+\paragraph{Policondensazione}\label{par:Policondensazione}
+Speso non c'è una sola specie polimerica ma anche più.
+Allora si creano dei polimeri, anche di specie diversa, in più si ottengono altri prodotti a basso peso molecolare dalla condensazione dei reagenti. Per esempio dalla condensazione del \ac{PET} si ottiene acqua. Vedi figura \ref{fig:Policondensazione}.
+
+Il limite di tale processo è che le catene polimeriche non possono essere ad altissimo grado polimerico per via del fatto che del materiale viene impiegato come scarto.
+
+\begin{figure}
+\begin{minipage}{\textwidth}
+\centering
+\setchemfig{atom sep = 2em}
+\schemestart
+\chemname{\chemfig{C(=[3]C)(-[5]HO)-**6(---(-C(=[1]O)(-[7]OH))---)}}{Acido tereftalico}\+%
+\chemname{\chemfig{HO-CH_2-CH_2-OH}}{Glicole etilenico} 
+\arrow{->[Policondensazione]}[-90,2.5]
+\chemname{\chemfig{\vphantom{C}-[@{op,.75}]O-C(=[2]O)-**6(---(-C(=[2]O)-O-CH_2-CH_2-[@{cl,.25}])---)}}{Poliestere tereftalato}
+\polymerdelim[indice = n]{op}{cl} \+%
+\chemname{\chemfig{H_2O}}{Acqua}
+\schemestop
+\end{minipage}
+\caption{Policondensazione del \ac{PET}}
+\label{fig:Policondensazione}
+\end{figure}
+
+Anche il \ac{PA}6 e \ac{PA}66 vengono realizzati tramite policondensazione.
+
+Prendiamo ora in esame la realizzazione della catena polimerica più utilizzata oggigiorno:
+
+\paragraph{Poliaddizione del PLA}
+Il \ac{PLA} è una plastica utilizzatissima oggigiorno per via del fatto che è compostabile.
+Attenzione: non è disperdibile in ambiente, necessita di determinate condizioni per poter essere elaborato in compost.
+
+\begin{figure}
+\centering
+\setchemfig{atom sep = 2em}
+\schemestart
+\chemname{\chemfig{HO-C(-[2]CH_3)(-[6]H)-C(=[1]O)(-[7]OH)}}{acido lattico}%
+\arrow{->[poliaddizione]}[0,1.5]%
+\chemname{\chemfig{\vphantom{C}-[@{op,.75}]CH(-[2]CH_3)-C(=[2]O)-O-[@{cl,.75}]}}{\ac{PLA}}
+\polymerdelim[indice +n]{op}{cl}
+\schemestop
+\caption{Poliaddizione del \ac{PLA}}
+\label{fig:PoliaddizionePLA}
+\end{figure}
+
+Le molecole non sono uguali ma speculari (anche se non si vede dalla figura\ref{fig:PoliaddizionePLA}). C'è un problema di simmetria per via dell'ibridazione $sp3$ del carbonio.
+Se durante la sintesi si mescolano diversi tipi di acidi polilattici ne esce un polimero poco regolare. Questo, si vedrà in seguito, determina la possibilità se il polimero potrà cristallizzare o meno.
+In generale, un materiale polimerico può cristallizzare se, e soltanto se, è regolare.
+Questa è una \textbf{condizione necessaria ma non sufficiente}.
+Il PLLA e PDLA sono conformazioni del \ac{PLA} che possono cristallizzare perché regolari.
+Il PLDLA no, questo è il \ac{PLA} irregolare, di più bassa qualità.
+
+\section{Omopolimeri e copolimeri}
