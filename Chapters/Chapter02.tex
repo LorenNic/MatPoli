@@ -90,4 +90,156 @@ Si parla di due tipi di viscosità:
 \end{itemize}
 
 \subsection{Melt Flow Index}
-Il \ac{MFI} 
+Il \ac{MFI} È una misura che viene realizzata attraverso lo stato fluido del materiale di test. Siccome c'è una relazione tra la pressione esercitata e la portata del materiale estruso , si può misurare la viscosità del materiale.
+
+Questo tipo di misura non è ottima in quanto i dati che se ne ottengono sono molto marginali e poco caratteristici. Oltre al fatto che sono molto sporchi per via dello strumento di misurazione.
+Nei fluidi polimerici la viscosità, vedi capitolo \ref{chp:MisureViscosità} a pagina \pageref{chp:MisureViscosità}, non può essere rappresentata solo dalla pressione e dalla temperatura. Dimostra che la misura è decisamente limitata nelle sue opportunità.
+
+In generale per un polimero che deve essere stampato ad iniezione la viscosità deve essere abbastanza bassa, dunque il peso molecolare basso e il grado di polemizzazione basso conseguentemente. Ci si aggira attorno a $10\div20\unit{MFI}$.
+Bisogna considerare che l'unità di misura per la misurazione \ac{MFI} è espressa come rapporto tra la massa ogni 10 minuti $\left[g/10\,min\right]$.
+
+Questo denota anche la natura della misura ovvero si fa fluire il materiale polimerico all'interno di un capillare, applicando una ben determinata pressione e misurandone la massa caduta su un piatto sotto il capillare. Esistono alcune normative che prevedono delle indicazioni su come viene eseguita questo tipo di prova.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{gfx/MFI}
+\caption{Schematizzazione misura \ac{MFI} \href{https://commons.wikimedia.org/w/index.php?curid=33527584}{by Miladfarhani - Own work, CC BY-SA 3.0}}
+\label{fig:MFI}
+\end{figure}
+
+Altre tipologie di produzione di materiali plastici chiedono un \ac{MFI} più alto oppure più basso a seconda della tecnologia utilizzata.
+
+Il produttore di materiali plastici sono obbligati a fornire le loro misure \ac{MFI} e qualche temperatura di processo caratteristica del polimero.
+
+Resta evidente come questo tipo di misura non dà alcuna idea sul peso molecolare, se ne dà solo un'indicazione.
+Questo indice viene spesso utilizzato come controllo qualità sia in ingresso che in uscita. Si usa anche per controllare se il processo di trasformazione è stato eseguito regolarmente.
+Questo perché variazioni di temperatura durante il processo di produzione possono causare dei cambiamenti nello stato dei polimeri comportando così una perdita di qualità nel prodotto. 
+
+\subsubsection{Controllo qualità}
+Per il controllo del processo produttivo: sappiamo che il riscaldamento e il raffreddamento del materiale fanno decadere le proprietà meccaniche di quest'ultimo accorciando le catene polimeriche. 
+Ciò vuol dire che col decadimento delle catene polimeriche calerà anche il peso molecolare medio , quindi anche la viscosità e per l'appunto le caratteristiche meccaniche. Allora aumenterà \ac{MFI} indicando appunto un erroneo processo di lavorazione.
+Stesso concetto che si utilizza quando si vuole aggiungere a della plastica vergine della plastica riciclata. In questo caso allora si parla di \textbf{rimacinaggio} ovvero il processo di recupero dei materiali plastici riciclati.
+Ovviamente il materiale che si riutilizza perderà di caratteristiche meccaniche in generale non bisognerebbe superare una percentuale del $20\%$ anche se in pratica si arriva anche al $50\%$.
+
+\section{Peso molecolare medio in viscosità}
+\begin{equation}
+\bar{M}_v
+\end{equation}
+Si prende un solvente di tipo organico costituendo una soluzione. Il metodo consiste nella misurazione della viscosità della soluzione.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Viscosità della soluzione in funzione della concentrazione}\label{fig:ViscSpec}]
+{\includegraphics[width = 0.4\textwidth]{gfx/ViscSpec}}\quad
+\subfloat[][\emph{Calcolo della viscosità intrinseca}\label{eqn:ViscSpec}]
+{%
+\begin{minipage}[b]{0.4\textwidth}
+\begin{equation}
+\begin{split}
+\frac{\eta - \eta_0}{\eta_0} &= \eta_{sp}\\
+\eta &= \textup{Viscosità della soluzione}\\
+\eta_0 &= \textup{Viscosità del solvente}\\
+c &= \textup{Concentrazione}
+\end{split}
+\end{equation}
+\end{minipage}%
+}
+\caption{Calcolo della viscosità specifica del polimero}
+\label{def:ViscSpec}
+\end{figure}
+In letteratura questa viene chiamata sia a viscosità specifica che viscosità intrinseca del polimero.
+Da cui si definisce la \textbf{formula di Mark-Houwink}.
+\begin{equation}
+\left[\eta\right] = KM_v^a
+\label{eqn:MarkHounwink}
+\end{equation}
+Noto il polimero di partenza si possono ricavare $K$ ed $a$ dalla letteratura.
+Siccome la viscosità intrinseca si riesce a misurare allora si può ottenere il suo valore $\bar{M}_v$. Tra l'altro risulta che il peso medio in viscosità risulta essere intermedio tra il peso molecolare numerico e il peso molecolare ponderale.
+
+Per la misurazione delle moli si può ottenere una stima tramite dei gruppi terminali se si sanno quali sono i gruppi terminali, mediante analisi chimiche, si possono stimare i numeri delle molecole partendo proprio dalla conta dei terminali.
+Per la misura del peso molecolare medio ponderale. Non esiste una misura precisa. Si possono fare delle prove di diffusività della luce: perché le molecole a più alto peso impediscono il passaggio della luce.
+
+\subsection{La GPC}
+La \ac{GPC} È una misura di tipo viscoso e non legato a pressione e temperatura come la precedente \ac{MFI}.
+Nella pratica si scioglie il polimero in un solvente, dopodiché la soluzione viene pompata in delle colonne di separazione. Nelle colonne di separazioni sono è presente nel gel con alcune sfere porose. Le sfere porose separeranno le molecole ad alto peso molecolare da quelle a basso peso molecolare.
+Dunque, le molecole a più alto peso molecolare percorreranno le colonne in minor tempo. Questo perché non entrano all'interno della porosità delle sfere contenute nel gel. Mentre le molecole a più basso peso molecolare vengono "intrappolate" all'interno delle sfere per cui impiegano molto più tempo a percorrere il gel.
+La misura Lega il tempo percorso della soluzione. Prima verranno le molecole ad alto peso molecolare e poi le molecole via via più piccole, andando così a descrivere una vera e propria distribuzione di pesi molecolari. 
+
+
+%************************************************
+\chapter{Cristallizzazione}\label{chp:Cristallizzazione}
+%************************************************
+I cristalli sono materiali solidi i cui elementi costituenti hanno una posizione ben definita.
+
+I materiali polimerici hanno sempre una parte amorfa:
+\begin{itemize}
+\item Se il materiale cristallizza: una parte di materiale resta amorfa e una parte cristallizza.
+\item Se il materiale non cristallizza, tutto il materiale si presenta in forma amorfa. 
+\end{itemize}
+La cristallinità è il rapporto tra il materiale che ha cristallizzato rispetto alla totalità del materiale.
+
+\begin{equation}
+\alpha = \frac{M_c}{M}
+\label{eqn:Cristallinità}
+\end{equation}
+I materiali molto cristallini hanno in genere $\alpha \approx 50 \div 60 \%$.
+Fa eccezione il poliossimetilene che è praticamente tutto cristallino $\approx 90\%$ da cui derivano le sue proprietà meccaniche molto importanti. Addirittura troppo importanti, nel senso che spesso il poliossimetilene viene addizionato per evitare la sua totale cristallizzazione in modo tale che sia più tenace agli sforzi.
+
+La restante parte dei materiali, coloro che cristallizzano solo parzialmente, vengono chiamati in gergo \textbf{semi-cristallini}.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/Cristallinita}
+\caption{Esempio di materiale semi-cristallino}
+\label{fig:Cristallinita}
+\end{figure}
+
+I cristalli donano particolari caratteristiche meccaniche perché la molecola resta dritta quindi direzionabile rispetto allo sforzo.
+Inoltre, la stessa molecola può formare sia più parti cristalline che parti amorfe. Addirittura una stessa catena polimerica può far parte più volte dello stesso cristallo e collegare le parti cristalline tramite zone amorfe.
+
+Uno stesso materiale polimerico può o non può cristallizzare. Ad esempio il \ac{LDPE} è un polietilene poco cristallino. Mentre il \ac{HDPE} è un polietilene ad alta densità da cui ne derivano caratteristiche meccaniche molto interessanti.
+
+I materiali cristallini tendono ad avere una densità più alta per via del maggiore impaccamento delle molecole. Da ciò derivano anche le caratteristiche meccaniche più sviluppate. 
+
+La maggiore resistenza dei materiali cristallini è data dal fatto che se si applica uno sforzo nel senso del cristallo, allora si va ad agire direttamente sui legami principali,di più alta qualità. Evidentemente ci sono dei problemi di anisotropia nel materiale.
+Idealmente, si potrebbero migliorare le performance dei cristalli se tra di loro fossero tutti allineati in un'unica direzione. Allora, nonostante il problema di anisotropia, si può pensare di applicare al materiale uno sforzo parallelo alla direzione dei cristalli e quindi riscontrare una resistenza più alta.
+La realtà ci dice tutt'altro, infatti essendo che i materiali polimerici non possono cristallizzare totalmente, una quota parte di materiale resta amorfo. Dunque: sebbene esistano i cristalli, gli sforzi esterni tendono ad essere condivisi tra la parte cristallina e la parte amorfa. In questo modo si limitano le caratteristiche meccaniche del materiale.
+Nello specifico un materiale particolarmente disorganizzato: ovvero a basso contenuto cristallino; avrà proprietà meccaniche più basse. Invece un materiale più alto grado cristallino risulterà più duro.
+
+Le parti amorfe non sono da eliminare infatti la presenza permette al materiale di risultare più tenace che non un materiale duro ma fragile in questo modo può sopportare determinati tipi di stress in maniera più agevole.
+Ciò vale solamente nel caso in cui le parti amorfe hanno un'interfaccia con le parti cristalline.
+
+I cristalli nello specifico presentano delle catene polimeriche particolarmente dritte ed organizzate questo è dovuto all'alta stabilità termodinamica. Dunque è più difficile che le molecole ruotino tra di loro. Siccome tra l'altro c'è una convenienza dal punto di vista energetico allora la zona cristallina risulta più rigida bloccando in maniera diritta le molecole.
+
+Resta il fatto che essendo il materiale termoplastico se scaldato sufficientemente le reticolazioni possono essere sciolte 
+
+\section{Requisiti per la cristallizzazione}
+Com'era già stato anticipato, capitolo \ref{chp:Classificazione} a pagina \pageref{chp:Classificazione}: il requisito fondamentale è dato dalla regolarità della macromolecola che deve essere sintetizzata senza errori.
+Si ricorda che però questa condizione è necessaria ma non sufficiente.
+
+Prendendo il caso del \ac{PE}, con un grado di polimerizzazione che in genere si attesta attorno a $n \approx 1000 \div 10000$.
+Le possibili tipologie di errore sono:
+\begin{description}
+\item[Impurezze] Se nel relatore oltre all'etilene si presenta qualsiasi altro alcheno a basso peso molecolare si formano degli errori in catena principale.
+\item[Ramificazioni] Il \ac{LDPE} presenta parecchie ramificazioni in catena principale mentre il \ac{HDPE} si riesce a sintetizzare particolarmente lineare. Infatti quest'ultimo ne presenta in numero molto limitato e riesce a cristallizzare.Il \ac{HDPE} viene sintetizzato con dei catalizzatori che permettono di abbassare la temperatura di reazione rendendo la reazione più controllabile.
+\item[Concatenamenti] Affinché un polimero sia regolare ci deve essere un concatenamento testa-coda regolare. Può succedere che durante la sintesi si abbiano degli errori di sequenza testa-coda.
+\item[Stereo-isometria] errore comune peri vinili.  
+Questo tipo di errore prevede che nella catena polimerica l'ordine dei sostituenti laterali sia irregolare nel ordine, dovuto principalmente all'ibridazione del carbonio. Allora si parla di polimero \textbf{isotattico} quando la catena è perfettamente regolare. Se alterna il legame frontale con quello posteriore allora si parla di polimero \textbf{sindiotattico}, altrimenti si dice \textbf{atattico} nel caso sia irregolare.
+È palese che per la regola della regolarità solo i primi due possono reticolare mentre l'ultimo no.
+\end{description}
+
+\begin{figure}
+\centering
+\setchemfig{atom sep = 2em}
+\schemestart
+\chemname{\chemfig{\vphantom{C}-[@{op,.75}]**6(---(-C(-[2]CH_3)(-[6]CH_3)-**6(---(-O-C(=[2]O)-O-[@{cl,.25}])---))---)}}{Policarbonato}
+\polymerdelim[indice = n]{op}{cl}
+\schemestop
+\caption{Monomero del policarbonato}
+\label{fig:Policarbonato}
+\end{figure}
+
+Esistono comunque dei materiali che nonostante siano regolari non cristallizzino. Ad esempio il \ac{PC} (figura \ref{fig:Policarbonato}) è un materiale regolare ma presenta problemi di tipo \textbf{cinetico}. Perché durante il raffreddamento il materiale non ha il tempo per: potersi spostare e raddrizzarsi per poter formare i cristalli a causa alla catena troppo rigida. 
+Anche il \ac{PET} presenta un problema analogo. Infatti durante la solidificazione la catena principale non ha tempo di organizzarsi in cristalli. Ciò viene sfruttato a vantaggio per realizzare le bottiglie di plastica. Infatti viene forzato a cristallizzare durante il soffiaggio per ottenere la bottiglia di plastica.
+Il fenomeno è dato dal fatto che durante il soffiaggio il materiale viene scaldato e poi stirato. Per cui le molecole hanno tutta l'energia necessaria per adattarsi alla forma data dallo stampo.
+Questa viene detta \textbf{cristallizzazione sotto stiro}. 
