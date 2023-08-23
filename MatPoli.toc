@@ -50,7 +50,8 @@
 \contentsline {subsection}{\numberline {8.5.2}Correzione di Mooney}{40}{subsection.8.5.2}%
 \contentsline {subsection}{\numberline {8.5.3}Correzione di Bagley}{42}{subsection.8.5.3}%
 \contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Appendix}}{45}{part.4}%
-\contentsline {chapter}{\numberline {a}\spacedlowsmallcaps {Tavola periodica}}{47}{appendix.A}%
+\contentsline {chapter}{\numberline {a}\spacedlowsmallcaps {Esercizi Peso molecolare}}{47}{appendix.A}%
+\contentsline {chapter}{\numberline {b}\spacedlowsmallcaps {Tavola periodica}}{49}{appendix.B}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{49}{dummy.7}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{51}{dummy.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
