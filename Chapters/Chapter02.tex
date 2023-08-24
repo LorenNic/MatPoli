@@ -267,3 +267,70 @@ Altro metodo per evitare una cristallizzazione eccessiva è sfruttare la \textbf
 \end{itemize}
 
 \section{Misure di cristallinità}
+Ora si vedranno quali sono le misure che permettono di valutare il grado di cristallinità di un materiale polimerico.
+
+Le prime tre che vedremo permettono di conoscere la conformazione di quale tipo di polimero sia ciò dovuto al fatto che la temperatura di fusione è ben caratteristica del singolo polimero.
+
+In generale per conoscere la tipologia di polimero che si sta utilizzando si utilizzano delle analisi termiche.
+
+\subsection{Dilatometria}
+Determinare la temperatura di transizione vetrosa è molto complicato tramite la misura della dilatazione della plastica, perché la variazione di comportamento è poco significativa e poco percettibile.
+
+Per realizzare una dillatometria di un materiale cristallino è necessario conoscere a prescindere: il suo comportamento come se fosse completamente cristallino e il suo comportamento come se fosse completamente amorfo.
+Allora la dialettometria si realizza tramite lo spostamento della curva del materiale completamente cristallino verso la temperatura ambientale mentre si collega in maniera continua al comportamento del materiale completamente amorfo.
+
+Allora si può definire la cristallinità come:
+\begin{equation}
+\alpha = \frac{v_a - v_{sc}}{v_a - v_c}
+\label{eqn:Dilatometria}
+\end{equation}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/Dilatometria}
+\caption{Esempio di dilatometria}
+\label{fig:Dilatometria}
+\end{figure}
+
+\subsection{DSC}
+La \ac{DSC} è una prova che si basa su due contenitori con applicati dei riscaldatori: su uno viene messo il materiale di prova; sull'altro si ha il riferimento, che in genere è un gas inerte o che almeno non interagisca col polimero. Si impone una velocità di riscaldamento nota $10\unit{\celsius/\min} \div 20\unit{\celsius/\min}$ se ne misura la potenza termica a cui si sottopone il test.
+A questo punto si fa la differenza tra i due riscaldatori. Dunque si ottiene la differenza di potenza termica assorbita dal materiale sotto esame.
+Siccome a pressione costante si considera che l'entalpia sia pari ad una variazione di calore ceduta al sistema. Questo dal primo principio della termodinamica. Allora dalla curva tipica della \ac{DSC} in figura \ref{fig:DSC}, vale:
+\begin{equation}
+\begin{split}
+A &= \int_{\textup{picco}}{\frac{dH}{dt}\,dT} \Rightarrow\\
+&\Rightarrow \left[\frac{dT}{dt} = cost. = \dot{T}\right] \Rightarrow\\
+&= \dot{T}\int_{\textup{picco}}{dH} = \dot{T}H_f
+\end{split}
+\end{equation}
+Si può ridefinire il calore latente per un materiale semicristallino:
+\begin{equation}
+\lambda = \frac{H_f}{M_c}\left[J/g\right]
+\end{equation}
+Siccome il grado di cristallinità vale $\alpha = M_c/M$, allora:
+\begin{equation}
+M_c = \frac{H_f}{\lambda} = \frac{A}{\dot{T}\lambda}
+\end{equation}
+Dunque:
+\begin{equation}
+\alpha = \frac{A}{\dot{T}\lambda M}
+\end{equation}
+In genere il grado di cristallizzazione viene calcolato direttamente dallo strumento.
+Sempre grazie a questo tipo di misura si può avere una stima della temperatura di transizione vetrosa $T_g$ non è un valore esatto.
+Altro parametro che si può ottenere da questo tipo di misura è la temperatura di cristallizzazione: basti pensare al comportamento che presenta il \ac{PET} ovvero una cristallizzazione sotto stiro.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/DSC}
+\caption{Esempio di misura DSC}
+\label{fig:DSC}
+\end{figure}
+
+L'area di calore latente è in genere più grande dell'area di cristallizzazione forzata se si vuole sapere quanto fosse la cristallizzazione prima di questo processo, col materiale vetroso, basta fare la differenza tra le due aree.
+Questo permette di ottenere delle informazioni su come il materiale è stato prodotto: se il materiale presenta una cristallizzazione residua dopo il processo allora il raffreddamento non è stato eseguito correttamente e non ha cristallizzato a dovere.
+LA procedura consiste in due riscaldamenti:
+\begin{enumerate}
+\item Nel primo riscaldamento si valuta la storia termica del materiale . Quindi si ha una misura di tipo tecnologico . Se si vede una cristallizzazione che si presenta durante la prova , ciò indica che il ciclo tecnologico non è stato effettuato correttamente . Poi si raffredda il materiale con la stessa velocità con cui lo si è scaldato per azzerare la sua storia termica.
+\item Nel secondo riscaldamento, si valutano le caratteristiche del materiale perché dopo il primo riscaldamento si è azzerata la storia termica: per cui si possono valutare le caratteristiche del materiale come se fosse "vergine". Se non si presenta più cristallizzazione allora vuol dire che il materiale ha subito una cristallizzazione forzata. Altrimenti è un materiale che cristallizza per motivi cinetici più che termodinamici.
+\end{enumerate}
+Confrontando le tue caratteristiche si ottengono le informazioni definitive sul materiale.
