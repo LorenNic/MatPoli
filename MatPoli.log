@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  24 AUG 2023 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  26 AUG 2023 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2442,28 +2442,22 @@ Overfull \hbox (8.93785pt too wide) in paragraph at lines 329--332
 ale pre-senta una cristal-liz-zazione
  []
 
-[26]) [27 <./gfx/DSC.png>]
+[26] [27 <./gfx/DSC.png>]) [28]
 \openout2 = `Chapters/Chapter03.aux'.
 
- (./Chapters/Chapter03.tex [28
-
-
-
-
-
-]
+ (./Chapters/Chapter03.tex
 chapter 6.
-<gfx/Tg.png, id=589, 354.72525pt x 313.17pt>
+<gfx/Tg.png, id=592, 354.72525pt x 313.17pt>
 File: gfx/Tg.png Graphic file (type png)
 <use gfx/Tg.png>
 Package pdftex.def Info: gfx/Tg.png  used on input line 13.
 (pdftex.def)             Requested size: 336.0pt x 296.64009pt.
-<gfx/VolSpec.png, id=590, 541.42274pt x 394.47375pt>
+<gfx/VolSpec.png, id=593, 541.42274pt x 394.47375pt>
 File: gfx/VolSpec.png Graphic file (type png)
 <use gfx/VolSpec.png>
 Package pdftex.def Info: gfx/VolSpec.png  used on input line 24.
 (pdftex.def)             Requested size: 336.0pt x 244.81195pt.
-<gfx/TgTm.png, id=592, 454.69875pt x 330.63525pt>
+<gfx/TgTm.png, id=595, 454.69875pt x 330.63525pt>
 File: gfx/TgTm.png Graphic file (type png)
 <use gfx/TgTm.png>
 Package pdftex.def Info: gfx/TgTm.png  used on input line 40.
@@ -2480,7 +2474,13 @@ Overfull \hbox (0.64384pt too wide) in paragraph at lines 50--53
 in-vece Ë ten-den-zial-mente
  []
 
-[29] [30 <./gfx/Tg.png> <./gfx/VolSpec.png>]
+[29
+
+
+
+
+
+] [30 <./gfx/Tg.png> <./gfx/VolSpec.png>]
 Overfull \hbox (13.89142pt too wide) in paragraph at lines 67--71
 [] []\T1/Roboto-LF/m/sc/10.95/80ls mo-bil-it‡ della catena prin-ci-pale[] \T1/R
 oboto-LF/regular/n/10.95 La tran-sizione vet-rosa dipende
@@ -2504,7 +2504,7 @@ Overfull \hbox (7.89482pt too wide) in paragraph at lines 79--82
 c-qua con-tenuta nell'umidit‡
  []
 
-<gfx/Umidita.png, id=611, 550.4565pt x 372.1905pt>
+<gfx/Umidita.png, id=614, 550.4565pt x 372.1905pt>
 File: gfx/Umidita.png Graphic file (type png)
 <use gfx/Umidita.png>
 Package pdftex.def Info: gfx/Umidita.png  used on input line 85.
@@ -2576,7 +2576,7 @@ Overfull \hbox (1.84055pt too wide) in paragraph at lines 34--37
 
 
 ]
-<gfx/TaglioNonNewt.png, id=663, 1093.08376pt x 390.258pt>
+<gfx/TaglioNonNewt.png, id=666, 1093.08376pt x 390.258pt>
 File: gfx/TaglioNonNewt.png Graphic file (type png)
 <use gfx/TaglioNonNewt.png>
 Package pdftex.def Info: gfx/TaglioNonNewt.png  used on input line 55.
@@ -2587,7 +2587,7 @@ Overfull \hbox (11.69554pt too wide) in paragraph at lines 60--64
  hanno com-por-ta-mento pseudo-
  []
 
-<gfx/PseudoPlastico.png, id=666, 624.53325pt x 301.125pt>
+<gfx/PseudoPlastico.png, id=669, 624.53325pt x 301.125pt>
 File: gfx/PseudoPlastico.png Graphic file (type png)
 <use gfx/PseudoPlastico.png>
 Package pdftex.def Info: gfx/PseudoPlastico.png  used on input line 70.
@@ -2609,7 +2609,7 @@ Overfull \hbox (7.92111pt too wide) in paragraph at lines 137--140
 e. Cre-ando cosÏ aderenza.
  []
 
-<gfx/Barus.png, id=685, 569.7285pt x 184.2885pt>
+<gfx/Barus.png, id=688, 569.7285pt x 184.2885pt>
 File: gfx/Barus.png Graphic file (type png)
 <use gfx/Barus.png>
 Package pdftex.def Info: gfx/Barus.png  used on input line 148.
@@ -2619,7 +2619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][]|\T1/Roboto-LF/regular/it/9 Ef-fetto di rigon-fi-a-mento
  []
 
-<gfx/Elasticit√†.png, id=686, 693.792pt x 257.16075pt>
+<gfx/Elasticit√†.png, id=689, 693.792pt x 257.16075pt>
 File: gfx/Elasticit√†.png Graphic file (type png)
 <use gfx/Elasticit√†.png>
 Package pdftex.def Info: gfx/Elasticit√†.png  used on input line 150.
@@ -2630,12 +2630,12 @@ Underfull \hbox (badness 2884) in paragraph at lines 150--150
  []
 
 [42 <./gfx/Barus.png> <./gfx/Elasticit√†.png>]
-<gfx/EffettoPlastico.png, id=699, 456.5055pt x 299.9205pt>
+<gfx/EffettoPlastico.png, id=702, 456.5055pt x 299.9205pt>
 File: gfx/EffettoPlastico.png Graphic file (type png)
 <use gfx/EffettoPlastico.png>
 Package pdftex.def Info: gfx/EffettoPlastico.png  used on input line 179.
 (pdftex.def)             Requested size: 201.60205pt x 132.45052pt.
-<gfx/Tissotropia.png, id=700, 579.96675pt x 271.61475pt>
+<gfx/Tissotropia.png, id=703, 579.96675pt x 271.61475pt>
 File: gfx/Tissotropia.png Graphic file (type png)
 <use gfx/Tissotropia.png>
 Package pdftex.def Info: gfx/Tissotropia.png  used on input line 187.
@@ -2646,14 +2646,14 @@ Overfull \hbox (2.8257pt too wide) in paragraph at lines 194--195
 cono
  []
 
-<gfx/FlussoTubo.png, id=701, 525.76425pt x 259.56975pt>
+<gfx/FlussoTubo.png, id=704, 525.76425pt x 259.56975pt>
 File: gfx/FlussoTubo.png Graphic file (type png)
 <use gfx/FlussoTubo.png>
 Package pdftex.def Info: gfx/FlussoTubo.png  used on input line 200.
 (pdftex.def)             Requested size: 336.0pt x 165.88641pt.
 [43 <./gfx/EffettoPlastico.png> <./gfx/Tissotropia.png>] [44 <./gfx/FlussoTubo.
 png>] [45]
-<gfx/SpeedProfile.png, id=727, 349.90726pt x 240.29774pt>
+<gfx/SpeedProfile.png, id=730, 349.90726pt x 240.29774pt>
 File: gfx/SpeedProfile.png Graphic file (type png)
 <use gfx/SpeedProfile.png>
 Package pdftex.def Info: gfx/SpeedProfile.png  used on input line 317.
@@ -2703,7 +2703,7 @@ Overfull \hbox (10.96504pt too wide) in paragraph at lines 398--400
  mosso con ve-loc-it‡ costante. 
  []
 
-<gfx/Viscosimetro.png, id=765, 274.02374pt x 269.20575pt>
+<gfx/Viscosimetro.png, id=768, 274.02374pt x 269.20575pt>
 File: gfx/Viscosimetro.png Graphic file (type png)
 <use gfx/Viscosimetro.png>
 Package pdftex.def Info: gfx/Viscosimetro.png  used on input line 404.
@@ -2731,7 +2731,7 @@ Overfull \hbox (3.18748pt too wide) in paragraph at lines 440--443
  del cam-pi-one verso
  []
 
-<gfx/PK.png, id=779, 567.3195pt x 398.6895pt>
+<gfx/PK.png, id=782, 567.3195pt x 398.6895pt>
 File: gfx/PK.png Graphic file (type png)
 <use gfx/PK.png>
 Package pdftex.def Info: gfx/PK.png  used on input line 448.
@@ -2741,13 +2741,13 @@ Underfull \hbox (badness 4739) in paragraph at lines 448--448
 [][]|\T1/Roboto-LF/regular/it/9 Fun-zion-a-mento del cono (1),
  []
 
-<gfx/PK_graph.png, id=780, 410.7345pt x 338.4645pt>
+<gfx/PK_graph.png, id=783, 410.7345pt x 338.4645pt>
 File: gfx/PK_graph.png Graphic file (type png)
 <use gfx/PK_graph.png>
 Package pdftex.def Info: gfx/PK_graph.png  used on input line 450.
 (pdftex.def)             Requested size: 134.39795pt x 110.75368pt.
 [53 <./gfx/PK.png> <./gfx/PK_graph.png>]
-<gfx/PiattoPiatto.png, id=789, 286.671pt x 195.73125pt>
+<gfx/PiattoPiatto.png, id=792, 286.671pt x 195.73125pt>
 File: gfx/PiattoPiatto.png Graphic file (type png)
 <use gfx/PiattoPiatto.png>
 Package pdftex.def Info: gfx/PiattoPiatto.png  used on input line 477.
@@ -2759,19 +2759,19 @@ a-mente, ad in-ter-valli presta-
  []
 
 [55]
-<gfx/Capillare.png, id=819, 454.69875pt x 195.73125pt>
+<gfx/Capillare.png, id=822, 454.69875pt x 195.73125pt>
 File: gfx/Capillare.png Graphic file (type png)
 <use gfx/Capillare.png>
 Package pdftex.def Info: gfx/Capillare.png  used on input line 548.
 (pdftex.def)             Requested size: 336.0pt x 144.63873pt.
  [56 <./gfx/Capillare.png>]
-<gfx/CorrezioneCapillare.png, id=829, 478.78876pt x 243.91125pt>
+<gfx/CorrezioneCapillare.png, id=832, 478.78876pt x 243.91125pt>
 File: gfx/CorrezioneCapillare.png Graphic file (type png)
 <use gfx/CorrezioneCapillare.png>
 Package pdftex.def Info: gfx/CorrezioneCapillare.png  used on input line 617.
 (pdftex.def)             Requested size: 168.0pt x 85.58235pt.
  [57] [58 <./gfx/CorrezioneCapillare.png>]
-<gfx/CorrezioneDoppioLog.png, id=856, 400.49625pt x 278.2395pt>
+<gfx/CorrezioneDoppioLog.png, id=859, 400.49625pt x 278.2395pt>
 File: gfx/CorrezioneDoppioLog.png Graphic file (type png)
 <use gfx/CorrezioneDoppioLog.png>
 Package pdftex.def Info: gfx/CorrezioneDoppioLog.png  used on input line 710.
@@ -2789,7 +2789,7 @@ ar/it/10.95 Bagley\T1/Roboto-LF/regular/n/10.95 . Si tratta di va-l-utare le pe
 rdite di carico
  []
 
-<gfx/Bagley.png, id=873, 459.51675pt x 277.035pt>
+<gfx/Bagley.png, id=876, 459.51675pt x 277.035pt>
 File: gfx/Bagley.png Graphic file (type png)
 <use gfx/Bagley.png>
 Package pdftex.def Info: gfx/Bagley.png  used on input line 739.
@@ -2830,7 +2830,7 @@ chapter b.
 
 
 ]
-<gfx/Periodic_table2017.pdf, id=921, 646.42302pt x 357.69937pt>
+<gfx/Periodic_table2017.pdf, id=924, 646.42302pt x 357.69937pt>
 File: gfx/Periodic_table2017.pdf Graphic file (type pdf)
 <use gfx/Periodic_table2017.pdf>
 Package pdftex.def Info: gfx/Periodic_table2017.pdf  used on input line 72.
@@ -3162,8 +3162,8 @@ Package logreq Info: Writing requests to 'MatPoli.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51097 strings out of 475188
- 1048497 string characters out of 5767805
+ 51099 strings out of 475188
+ 1048525 string characters out of 5767805
  2014161 words of memory out of 5000000
  71112 multiletter control sequences out of 15000+600000
  771040 words of font info for 247 fonts, out of 8000000 for 9000
@@ -3189,10 +3189,10 @@ c/fpl/fplrc8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.
 pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive
 /2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on MatPoli.pdf (81 pages, 1281388 bytes).
+Output written on MatPoli.pdf (81 pages, 1284751 bytes).
 PDF statistics:
- 1323 PDF objects out of 1440 (max. 8388607)
- 1139 compressed objects within 12 object streams
- 361 named destinations out of 1000 (max. 500000)
+ 1326 PDF objects out of 1440 (max. 8388607)
+ 1142 compressed objects within 12 object streams
+ 363 named destinations out of 1000 (max. 500000)
  50320 words of extra memory for PDF output out of 51595 (max. 10000000)
 
