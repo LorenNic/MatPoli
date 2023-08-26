@@ -130,3 +130,60 @@ Risulta essere tutta una questione cinetica.
 %************************************************
 \chapter{Viscoelasticità}\label{ch:viscoelasticità}
 %************************************************
+Si tratta della caratterizzazione del comportamento meccanico delle plastiche allo stato solido.
+
+Ipotizzando un materiale solido di cui non si conoscono le caratteristiche meccaniche, la prima prova che si fa è la prova di trazione: si tira e si vede cosa succede.
+
+\begin{quote}
+\emph{Si, ma\dots \dots non funziona come per i metalli}
+\end{quote}
+Infatti si presenta uno sforzo dipendente, si dal carico, anche dalla velocità di deformazione.
+In generale, i materiali plastici hanno una forte \textbf{sensibilità alla velocità di deformazione}.
+Non è l'unica deviazione dal comportamento dai solidi metallici.
+
+Se un materiale è elastico, allora determinato il modulo elastico, o modulo di Young, si conosce il materiale.
+Per le plastiche vale diversamente: se il materiale è completamente amorfo, allora effettivamente l'analisi del modulo elastico è molto significativa per il materiale. Questo però è un caso limite, da non prendere come regola generale.
+Dunque, questo tipo di prova non è significativa per i materiali polimerici.
+
+Si preferisce caratterizzarli in altro modo:
+\begin{equation}
+\sigma = \sigma(\epsilon,\dot{\epsilon})
+\end{equation}
+ovvero lo sforzo non è determinato solo dalla deformazione ma anche dalla \textbf{velocità di deformazione}.
+
+Allora per caratterizzare il materiale è opportuno misurare proprio le deviazione dal comportamento elastico:
+\begin{itemize}
+\item Scorrimento viscoso \textbf{Creep},
+\item Rilassamento degli sforzi.
+\end{itemize}
+
+\paragraph{Rilassamento degli sforzi}
+Viene imposta una deformazione costante nel tempo.
+Va ricordato che:
+\begin{equation}
+\epsilon = \frac{L - L_0}{L_0} \quad	\sigma = e(\dot{\epsilon},t)
+\end{equation}
+Allora il comportamento che si osserva per tale prova è quello delle figure \ref{fig:RilassamentoE} e \ref{fig:RilassamentoS}.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Imposizione della deformazione costante}\label{fig:RilassamentoE}]
+{\includegraphics[width = 0.4\textwidth]{gfx/RilassamentoE}}\quad
+\subfloat[][\emph{Fenomeno del rilassamento degli sforzi}\label{fig:RilassamentoS}]
+{\includegraphics[width = 0.4\textwidth]{gfx/RilassamentoS}}\\
+\subfloat[][\emph{Imposizione dello sforzo costante}\label{fig:CreepS}]
+{\includegraphics[width = 0.4\textwidth]{gfx/CreepS}}\quad
+\subfloat[][\emph{Effetto di \eng{Creep}}\label{fig:CreepE}]
+{\includegraphics[width = 0.4\textwidth]{gfx/CreepE}}
+\end{figure}
+
+\paragraph{Scorrimento viscoso (\eng{Creep})}
+Imponendo uno sforzo costante, si osserva l'andamento della deformazione del materiale.
+
+Se la risposta del materiale è lineare, in una delle due variabili, allora la caratterizzazione del materiale può essere più semplice. Sopratutto de il primo degli argomenti di $\bar{\epsilon}$ o $\bar{\sigma}$.
+
+Affinché una funzione sia lineare deve soddisfare entrambe le seguenti:
+\begin{align}
+f(k*x) &= kf(x) :=\textup{Condizione di funzione omogenea}\\
+f(x_1 + x_2) &= f(x_1) + f(x_2) :=\textup{Principio di sovrapposizone degli effetti}
+\end{align}
