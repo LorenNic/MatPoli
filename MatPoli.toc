@@ -41,38 +41,43 @@
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Viscoelasticità}}{39}{chapter.7}%
 \contentsline {paragraph}{Rilassamento degli sforzi}{39}{equation.7.0.1}%
 \contentsline {paragraph}{Scorrimento viscoso (\foreignlanguage {american}{\em Creep})}{40}{subfigure.7.1.4}%
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Fluidi non newtoniani}}{41}{part.4}%
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Fluidi non newtoniani}}{43}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Condizioni di flusso}{43}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Equazioni di modellazione dei materiali polimerici}{44}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Legge di potenza}{44}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Modello di Carreau-Yasuda}{45}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Modello di Cross}{46}{subsection.8.2.3}%
-\contentsline {section}{\numberline {8.3}Effetti di sforzo normale e viscoelasticità}{46}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Sforzo normale}{46}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Viscoelasticità}{46}{subsection.8.3.2}%
-\contentsline {section}{\numberline {8.4}Effetti di plasticità}{47}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Tissotropia}{47}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Flusso di un fluido non newtoniano}{48}{section.8.6}%
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Reologia (o Reometria)}}{53}{chapter.9}%
-\contentsline {section}{\numberline {9.1}La legge della viscosità}{53}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}La legge di Newton}{53}{subsection.9.1.1}%
-\contentsline {paragraph}{Lo sforzo di taglio}{53}{equation.9.1.1}%
-\contentsline {section}{\numberline {9.2}Le curve di flusso e di viscosità}{54}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Fluidi pseudo-plastici}{54}{section.9.3}%
-\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Misure di Viscosità}}{55}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Viscosimetri rotazionali}{55}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Viscosimetro di Couette}{55}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Reometro Piatto-Cono}{56}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Reometro Piatto-Piatto}{58}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Viscosimetro capillare}{59}{section.10.5}%
-\contentsline {paragraph}{Melt Flow Index}{61}{Item.13}%
-\contentsline {subsection}{\numberline {10.5.1}Correzione di Rabinowitsch}{61}{subsection.10.5.1}%
-\contentsline {subsection}{\numberline {10.5.2}Correzione di Mooney}{62}{subsection.10.5.2}%
-\contentsline {subsection}{\numberline {10.5.3}Correzione di Bagley}{64}{subsection.10.5.3}%
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{67}{part.5}%
-\contentsline {chapter}{\numberline {a}\spacedlowsmallcaps {Esercizi Peso molecolare}}{69}{appendix.A}%
-\contentsline {chapter}{\numberline {b}\spacedlowsmallcaps {Tavola periodica}}{71}{appendix.B}%
+\contentsline {section}{\numberline {7.1}Viscoelasticità lineare}{40}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Test per la valutazione se il materiale è lineare}{41}{subsection.7.1.1}%
+\contentsline {paragraph}{Osservazioni}{41}{figure.caption.51}%
+\contentsline {section}{\numberline {7.2}Prova di trazione per materiali viscoelastici lineari}{43}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Fluidi e solidi viscoelastici}{44}{section.7.3}%
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Fluidi non newtoniani}}{45}{part.4}%
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Fluidi non newtoniani}}{47}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Condizioni di flusso}{47}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Equazioni di modellazione dei materiali polimerici}{48}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}Legge di potenza}{48}{subsection.8.2.1}%
+\contentsline {subsection}{\numberline {8.2.2}Modello di Carreau-Yasuda}{49}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}Modello di Cross}{50}{subsection.8.2.3}%
+\contentsline {section}{\numberline {8.3}Effetti di sforzo normale e viscoelasticità}{50}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Sforzo normale}{50}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}Viscoelasticità}{50}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.4}Effetti di plasticità}{51}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Tissotropia}{51}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Flusso di un fluido non newtoniano}{52}{section.8.6}%
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Reologia (o Reometria)}}{57}{chapter.9}%
+\contentsline {section}{\numberline {9.1}La legge della viscosità}{57}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}La legge di Newton}{57}{subsection.9.1.1}%
+\contentsline {paragraph}{Lo sforzo di taglio}{57}{equation.9.1.1}%
+\contentsline {section}{\numberline {9.2}Le curve di flusso e di viscosità}{58}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Fluidi pseudo-plastici}{58}{section.9.3}%
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Misure di Viscosità}}{59}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Viscosimetri rotazionali}{59}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Viscosimetro di Couette}{59}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Reometro Piatto-Cono}{60}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Reometro Piatto-Piatto}{62}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Viscosimetro capillare}{63}{section.10.5}%
+\contentsline {paragraph}{Melt Flow Index}{65}{Item.16}%
+\contentsline {subsection}{\numberline {10.5.1}Correzione di Rabinowitsch}{65}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Correzione di Mooney}{66}{subsection.10.5.2}%
+\contentsline {subsection}{\numberline {10.5.3}Correzione di Bagley}{68}{subsection.10.5.3}%
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Appendix}}{71}{part.5}%
+\contentsline {chapter}{\numberline {a}\spacedlowsmallcaps {Esercizi Peso molecolare}}{73}{appendix.A}%
+\contentsline {chapter}{\numberline {b}\spacedlowsmallcaps {Tavola periodica}}{75}{appendix.B}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{73}{dummy.5}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{77}{dummy.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

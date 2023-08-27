@@ -187,3 +187,134 @@ Affinché una funzione sia lineare deve soddisfare entrambe le seguenti:
 f(k*x) &= kf(x) :=\textup{Condizione di funzione omogenea}\\
 f(x_1 + x_2) &= f(x_1) + f(x_2) :=\textup{Principio di sovrapposizone degli effetti}
 \end{align}
+
+\section{Viscoelasticità lineare}
+Ricordando che:
+\begin{equation}
+\begin{split}
+\sigma &= e(\bar{\epsilon}, t) &=\textup{Rilassamento}\label{eqn:Rilassamento}%
+\\
+\epsilon &= d(\bar{\sigma}, t) &=\textup{\eng{Creep}}
+\end{split}
+\end{equation}
+Ipotizzando che $e$ sia lineare in $\bar{\epsilon}$:
+\begin{equation}
+e(\bar{\epsilon},t) \rightarrow \bar{\epsilon} * E(t)
+\label{eqn:ModuloRilassamento}
+\end{equation}
+Dove si può definire $E(t)$ come \textbf{Modulo di rilassamento}.
+Lo si può ottenere sostituendo nella \eqref{eqn:Rilassamento} la definizione appena trovata \eqref{eqn:ModuloRilassamento}, ottenendo:
+\begin{equation}
+E(t) = \frac{\sigma(t)}{\bar{\epsilon}}
+\end{equation}
+Ciò vale solamente in cui il materiale sia linearmente dipendente dalla deformazione.
+D'altra parte si può definire un comportamento analogo nel caso:
+\begin{equation}
+\epsilon(t) = d(\bar{\sigma},t) = \bar{\sigma} * D(t)
+\end{equation}
+Allora si può definire $D(t)$ come \textbf{Cedevolezza di creep}.
+Definito, in maniera analoga al modulo di rilassamento:
+\begin{equation}
+D(t) = \frac{\epsilon(t)}{\bar{\sigma}}
+\end{equation}
+Sempre a patto che il materiale presenti una dipendenza lineare allo sforzo applicato.
+
+Valgono anche le seguenti:
+\begin{enumerate}
+\item Se il materiale è lineare in rilassamento, allora lo è anche in \eng{creep}. Se il materiale è lineare in \eng{creep} allora lo è anche in rilassamento.
+\item $E(t)$ e $D(t)$ non sono indipendenti tra loro: misurandone una si ottiene di conseguenza l'altra. Il problema sta nella complessità della relazione tra le due.
+\item Misurando tutte e due, si può ottenere il comportamento del materiale anche quando una delle due "costanti" è funzione del tempo. Dunque considerando una storia sforzo/carico arbitraria.
+\end{enumerate}
+Quindi: il materiale o è lineare o non lo è e non c'è modo di linearizzarlo.
+
+Con le ipotesi di linearità con risposta viscoelastica del materiale,
+le equazioni che abbiamo trovato sono:
+\begin{align}
+\sigma(t) &= E(t)\epsilon_0 + \int_0^t{E(t-s)\dot{\epsilon}(s)\,ds} \label{eqn:RilassamentoComp}\\
+\epsilon(t) &= D(t)\sigma_0 + \int_0^t{D(t-s)\dot{\sigma}(s)\,ds}\label{eqn:CreepCompleto}
+\end{align}
+
+\subsection{Test per la valutazione se il materiale è lineare}
+Le equazioni viste precedentemente evidenziano come il materiale si deformi in maniera lineare, ma il contributo totale è rappresentato da un primo contributo iniziale e poi la storia di deformazione del materiale.
+
+Per valutare la linearità della risposta viscoelastica si va a valutare solamente l'omogeneità della funzione.
+
+Per ipotesi immaginiamo un test di \eng{creep}. Allora per verificare la linearità si fruttano le curve \textbf{isocrone}. 
+Si considera un determinato tempo $\bar{t}$ al quale corrisponderà sia un certo carico (costante), sia una certa deformazione che si ottiene tramite le curve di deformazione al \eng{creep}. Si prendono quei valori e li si graficano in una coppia d'assi $\epsilon-\sigma$ come in figura \ref{fig:Isocrone}.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/Isocrone}
+\caption{Schematizzazione delle curve isocrone prese a partire da una prova di \eng{creep}}
+\label{fig:Isocrone}
+\end{figure}
+
+\paragraph{Osservazioni}
+\begin{itemize}
+\item Si sarebbe tentati di considerarle delle prove di trazione: ovviamente non lo sono, la modalità di realizzazione è completamente diversa da una mera prova di trazione.
+\item Siccome vale:
+\begin{equation}
+\epsilon(t) = \sigma_iD(t) \rightarrow \epsilon(\bar{t}) = \sigma_iD(t)
+\end{equation}
+In più \begin{equation}
+\frac{\sigma_i}{\epsilon(\bar{t})} = \frac{1}{D(\bar{t})}
+\end{equation}
+evidenziando come la funzione di effettivamente lineare. Dunque, rappresentabile tramite semirette.
+\item Inoltre, come approssimazione ingegneristica, le isocrone ottenute tramite \eng{creep} o come rilassamento siano le stesse. In realtà non è propriamente vero.
+\end{itemize}
+
+Come si vede dal grafico \ref{fig:Isocrone}, effettivamente le isocrone non sono propriamente lineari: per deformazioni/sforzi molto alti ci si rende conto del comportamento meno che lineare.
+Allora, di solito, si considera che ad una deformazione del $1\% \div 1.5\%$ se le isocrone sono approssimativamente rettilinee, allora il materiale ha comportamento viscoelastico lineare.
+
+Nel caso si vogliano le isocrone a partire da una prova di rilassamento:
+\begin{equation}
+\begin{split}
+\sigma(t) &= \epsilon_iE(t) \rightarrow \sigma(\bar{t}) = \epsilon_iE(\bar{t})\\
+\frac{\sigma(\bar{t})}{\epsilon_i} &= E(\bar{t}) = cost.
+\end{split}
+\end{equation}
+
+\section{Prova di trazione per materiali viscoelastici lineari}
+Si impone una deformazione a velocità costante, si misura lo sforzo: $\epsilon(t) = \alpha t$.
+In cui $\alpha$ è la \textbf{velocità di deformazione} imposta.
+ricordando che:
+\begin{equation}
+\begin{split}
+\sigma(t) &= E(t)\epsilon_0 + \int_0^t{E(t-s)*\dot{\epsilon}(s)\,ds}\\
+&=E(t)\epsilon_0 + \int_0^t{E(t-s)*\alpha\,ds} =E(t)\epsilon_0 + \alpha \int_0^t{E(t-s)\,ds}\\
+&\Rightarrow \underbrace{\left[t-s = \tau\right]}_{\textup{Cambio variabile}} \Rightarrow\\
+&=E(t)\epsilon_0 + \alpha \int_t^0{E(\tau)\,(-d\tau)} = E(t)\epsilon_0 + \alpha \int_0^t{E(\tau)\,d\tau}\\
+&= E(t)\epsilon_0 + \alpha \int_0^t{E(s)\,ds}\\
+\sigma &= \sigma(t) \rightarrow \sigma = \sigma(\epsilon)
+\end{split}
+\end{equation}
+Dunque, per ottenere lo sforzo in funzione della deformazione:
+\begin{equation}
+\begin{split}
+\epsilon &= \alpha * t \rightarrow t = \epsilon/\alpha\\
+\sigma &= \sigma\left(\frac{\epsilon}{\alpha}\right)\\
+\sigma &= \alpha \int_0^t{E(s)\,ds}
+\end{split}
+\end{equation}
+Per sapere, indicativamente l'andamento dello sforzo:
+\begin{equation}
+\begin{split}
+\frac{d\sigma}{d\epsilon} = \alpha\frac{d\int}{dE} = \alpha \frac{d\int}{d\frac{\epsilon}{\alpha}}*\frac{d\frac{\epsilon}{\alpha}}{dE}
+\end{split}
+\end{equation}
+Per un materiale viscoelastico lineare presenta un grafico sforzo-deformazione crescente lineare non rettilineo, molto simile alle isocrone senza che lo sia.
+la curva di può parametrizzare si $\alpha$ che, in un certo senso, rappresenta il tempo nel caso delle isocrone. In realtà, aumentando la velocità di deformazione il materiale presenta un comportamento più rigido.
+\begin{equation}
+E_y = \frac{d\sigma}{d\epsilon}\Big|_{\epsilon = 0} = E(0)
+\end{equation}
+Ci dice che la rigidezza rimane sempre la stessa al variare della velocità do deformazione.
+\begin{equation}
+\begin{split}
+E_y &= \frac{\bar{\sigma}}{\bar{\epsilon}} = \frac{1}{\bar{\epsilon}}\int_0^{\bar{\epsilon}/\alpha}{E(s)\,ds}\\
+&= \int_0^{\bar{\epsilon}/\alpha}{E(s)\,ds} - E(\bar{\epsilon}/\alpha) * \bar{\epsilon}/\alpha
+\end{split}
+\end{equation}
+
+Materiali che sono viscoelastici hanno un comportamento intermedio tra quello di un fluido e quello di un solido. Il comportamento è tipico delle plastiche allo stato solido.
+
+\section{Fluidi e solidi viscoelastici}
