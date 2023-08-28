@@ -318,3 +318,114 @@ E_y &= \frac{\bar{\sigma}}{\bar{\epsilon}} = \frac{1}{\bar{\epsilon}}\int_0^{\ba
 Materiali che sono viscoelastici hanno un comportamento intermedio tra quello di un fluido e quello di un solido. Il comportamento è tipico delle plastiche allo stato solido.
 
 \section{Fluidi e solidi viscoelastici}
+Un fluido viscoelastico ha un modulo di rilassamento pari a 0. Per cui dato uno sforzo, il fluido andrà a deformazione permanente.
+Un solido viscoelastico, al contrario, ha modulo di rilassamento finale strettamente positivo.
+
+$D_0$ è legato all'elasticità istantanea che si verifica per tempi relativamente brevi. Se il materiale è un solido viscoelastico, la risposta sarà vincolata ad un asintoto orizzontale.
+Se invece è un fluido visco elastico, la sua risposta non è limitata, per cui la cedevolezza di \eng{creep} non è limitata superiormente.
+
+%************************************************
+\chapter{Legame tra modulo di rilassamento e cedevolezza di \eng{creep}}%
+\label{chp:LegameCedevolezzaCreep}
+%************************************************
+\section{Prova di \eng{creep}}
+Da un punto di vista dimensionale sono l'uno il reciproco dell'altro.
+\begin{equation}
+\sigma(t) = E(t)\epsilon_0 + \int_0^t{E(t-s)*\dot{\epsilon}(s)\,ds}
+\end{equation}
+Questa vale anche nel caso della prova di \eng{creep}: lo sforzo sarà costante:
+\begin{equation}
+\sigma(t) = \bar{\sigma} \qquad \epsilon(t) = \bar{\sigma} D(t)
+\end{equation}
+Dunque:
+\begin{equation}
+\begin{split}
+\bar{\sigma} &= E(t) * \bar{\sigma} * D(0) + \int_0^t{E(t-s)\bar{\sigma}\dot{D}(s)\,ds}\\
+1 &= E(t) * D(0) + \int_0^t{E(t-s)\dot{s}\,ds}
+\end{split}
+\end{equation}
+Eventuali approssimazioni:
+\begin{equation}
+t \rightarrow 0
+\end{equation}
+Allora:
+\begin{equation}
+1 = E(0) * D(0) \rightarrow E(0) = \frac{1}{D(0)}
+\end{equation}
+Il comportamento di questo materiale è elastico: prevale la componente conservativa che non quella dissipativa. per tempi molto piccoli.
+Ipotizzando un tempo generico, allora: $E(t-s) > E(t)$ perché la funzione modulo di rilassamento è una funzione decrescente.
+\begin{equation}
+\begin{split}
+1 &= E(t)D(0) + \int_0^t{E(t-s)\dot{D}(s)\,ds}\\
+1 &> E(t)D(0) + \int_0^t{E(t)\dot{D}(s)\,ds}\\
+&= E(t)D(0) + E(t)[D(t)-D(0)] = E(t) * D(t) \rightarrow D(t) \leq \frac{1}{E(t)}
+\end{split}
+\end{equation}
+Tale conferma anche la condizione precedente, infatti per tempi prossimi a 0 si ha una maggior componente elastica che no dissipativa.
+
+Ora ipotizzando che: $\epsilon(t) = \alpha t$ allora:
+\begin{equation}
+\begin{split}
+\alpha t &= D(t) * 0 + \int_0^t{D(t-s)*\alpha*E(s)\,ds}\\
+t &= \int_0^t{D(t-s)E(s)\,ds}
+\end{split}
+\end{equation}
+Siccome $D(t-s) \leq D(t)$ perché è una funzione crescente come si vede in figura \ref{fig:Creep}
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/Creep}
+\caption{Approssimazione dell'andamento del \eng{creep} per un materiale viscoelastico}
+\label{fig:Creep}
+\end{figure}
+Allora resta valido:
+\begin{equation}
+t = \int_0^t{D(t-s)E(s)\,ds} \leq \int_0^t{D(t)E(s)\,ds} = D(t)\int_0^t{E(s)\,ds}
+\end{equation}
+Da cui
+\begin{equation}
+D(t) \geq \frac{t}{\int_0^t{E(s)\,ds}}
+\end{equation}
+Lo si può anche scrivere come:
+\begin{equation}
+D(t) \geq \frac{1}{\underbrace{\frac{1}{t}\int_0^t{E(s)\,ds}}_{\textup{è un valore medio}}}
+\end{equation}
+Dunque:
+\begin{equation}
+\begin{split}
+\frac{1}{\frac{1}{t}\int_0^t{E(s)\,ds}} \leq D(t) \leq \frac{1}{E(t)}\\
+\frac{1}{\bar{E}} \leq D(t) \leq \frac{1}{E(t)}
+\end{split}
+\end{equation}
+Per cui possiamo dire che 
+\begin{equation}
+D(t) \approx \frac{1}{E(t)}
+\end{equation}
+
+Considerando ora $t \rightarrow \infty$: se il materiale è un solido viscoelastico, allora il materiale presenta un asintoto diverso da zero:
+\begin{equation}
+\exists D_{\infty} < \infty \quad \exists E_{\infty} \neq 0
+\end{equation}
+Ricordando:
+\begin{equation}
+\frac{1}{\frac{1}{t}\int_0^t{E(s)\,ds}} \leq D(t) \leq \frac{1}{E(t)}
+\end{equation}
+Portandolo verso tempi molto lunghi possiamo scrivere che:
+\begin{equation}
+\frac{\int_0^t{E(s)\,ds}}{t} \, \overrightarrow{t \rightarrow \infty} \, \frac{E(t)}{1}\rightarrow E_{\infty}
+\end{equation}
+Allora:
+\begin{equation}
+1 \leq D_{\infty} \leq \frac{1}{E_{\infty}}
+\end{equation}
+
+\paragraph{Riassumendo}
+Per tempi piccoli il materiale si comporta come se fosse completamente elastico, in quanto cedevolezza e modulo di rilassamento sono l'uno il reciproco dell'altro.
+Per tempi intermedi di sforzo ha comportamento viscoelastico.
+Per tempi molto più lunghi il materiale si comporterà nuovamente a carattere elastico
+\begin{description}
+\item[Tempi brevi] \textbf{Comportamento elastico}
+\item[Tempi intermedi] \textbf{Comportamento viscoelastico} ovvero ha componente sia elastica che dissipativa.
+\item[Tempi lunghi] \textbf{Comportamento elastico}
+\end{description}
+
+\section{Prova di rilassamento}
