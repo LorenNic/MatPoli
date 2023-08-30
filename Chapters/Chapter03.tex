@@ -429,3 +429,185 @@ Per tempi molto più lunghi il materiale si comporterà nuovamente a carattere e
 \end{description}
 
 \section{Prova di rilassamento}
+Idealmente saremmo in grado di deformare istantaneamente il materiale, evidentemente ciò non è possibile perché il materiale tende a comportarsi in maniera diversa.
+Dunque bisogna utilizzare una rampa di deformazione, da cui si stima il modulo di rilassamento, capendo quanto si sta sbagliando e come.
+Allora:
+\begin{equation}
+\epsilon(t)=%
+\begin{cases}
+\frac{\bar{\epsilon}}{t}t &0<t<\bar{t}\\
+\bar{\epsilon} &t>\bar{t}
+\end{cases}
+\label{eqn:ProvaRilassamento}
+\end{equation}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Profilo della deformazione}\label{fig:ProfiloDeformazione}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/ProfiloDeformazione}}\quad
+\subfloat[][\emph{Profilo dello sforzo conseguente}\label{fig:ProfiloSforzo}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/ProfiloSforzo}}	
+\caption{Prova di rilassamento}
+\label{fig:ProvaRilassamento}
+\end{figure}
+Conviene separare i due momenti come evidenziato dall'equazione \eqref{eqn:ProvaRilassamento}.
+
+\begin{description}
+\item[$0<t<\bar{t}$]
+\begin{equation}
+\begin{split}
+\epsilon(t)&=\frac{\bar{\epsilon}}{\bar{t}}t \quad \dot{\epsilon}=\frac{\bar{\epsilon}}{\bar{t}}\\
+\sigma(t)&=\frac{\bar{\epsilon}}{\bar{t}}\int_0^t{E(s)\,ds}\\
+\bar{\sigma}(t)&=\sigma(\bar{t})=\frac{\bar{\epsilon}}{\bar{t}}\int_0^{\bar{t}}{E(s)\,ds}
+\end{split}
+\end{equation}
+Il risultato di questo integrale è quello della figura \ref{fig:tMinBar}
+\item[$t>\bar{t}$]
+\begin{equation}
+\begin{split}
+\epsilon(t)&=\bar{\epsilon} \quad \dot{\epsilon}(t)=0\\
+\sigma(t)&=E(t)\epsilon_0 + \int_0^t{E(t-s)\dot{\epsilon}(s)\,ds}\\
+&=\int_0^{\bar{t}}{E(t-s)\dot{\epsilon}(s)\,ds} + \int_{\bar{t}}^t{E(t-s)\dot{\epsilon}(s)\,ds}\\
+\sigma(t)&=\int_0^{\bar{t}}{E(t-s)\,ds} \quad\overrightarrow{\tau = t-s}\quad \frac{\bar{\epsilon}}{\bar{t}}\int_t^{t-\bar{t}}{E(\tau)\,(-d\tau)}\\
+&= \frac{\bar{\epsilon}}{\bar{t}}\int_{t-\bar{t}}^t{E(s)\,ds}
+\end{split}
+\end{equation}
+Il risultato di questo risultato è \ref{fig:tMagBar}.
+\item[$t=\bar{t}$]
+\begin{equation}
+\begin{split}
+\sigma^+(t) &= \frac{\bar{\epsilon}}{\bar{t}}\int_0^{\bar{t}}{E(s)\,ds}\\
+\frac{d\sigma}{dt}&=\frac{\bar{\epsilon}}{\bar{t}}(E(t)-E(t-\bar{t}))<0\\
+\frac{d^2\sigma}{dt^2}&=\frac{\bar{\epsilon}}{\bar{t}}(\dot{E}(t)-\dot{E}(t-\bar{t})\geq 0\\
+\bar{E}(t)&= \frac{\sigma(t)}{\bar{\epsilon}} \quad \leftrightarrow \quad E(t)\\
+\bar{E}&=\frac{\sigma(t)}{\bar{\epsilon}} = \frac{1}{\bar{\epsilon}}\frac{\bar{\epsilon}}{\bar{t}}\int_{t-\bar{t}}^t{E(s)\,ds}\\
+&=\frac{1}{\bar{t}}\int_{t-\bar{t}}^t{E(s)\,ds}\lesseqgtr E(t)\bar{t}\\
+F(t)&\rightarrow \bar{E}(t)-E(t) = \frac{1}{\bar{t}}\int_{t-\bar{t}}^t{E(s)\,ds} - E(t)\\
+\frac{dF}{dt} &= \frac{1}{\bar{t}}\left(E(t)-E(t-\bar{t})\right)-\dot{E}(t)<0
+\end{split}
+\end{equation}
+In questo p[unto si vuole dimostrare la continuità della funzione sforzo e si valuta il successivo andamento della continuità come nella figura \ref{fig:tMagBar}.
+Inoltre, viene dimostrata dalla figura \ref{fig:ValutazioneEccesso} che l'approssimazione che stiamo seguendo è per eccesso.
+In più si osserva che l'errore si assottiglia man mano che si va avanti col tempo, come si vede in figura \ref{fig:ValutazioneErrore}.
+Mentre, la figura. \ref{fig:DimostrazioneIntegrali} si fa notare dal punto di vista geometrico il significato dell'ultima riga.
+\end{description}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Andamento dello sforzo per $0<t<\bar{t}$}\label{fig:tMinBar}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/tMinBar}}\quad
+\subfloat[][\emph{Andamento dello sforzo per $t>\bar{t}$}\label{fig:tMagBar}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/tMagBar}}\\
+\subfloat[][\emph{Valutazione dell'errore commesso per via della natura della prova}\label{fig:ValutazioneErrore}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/ValutazioneErrore}}\quad
+\subfloat[][\emph{Dimostrazione dell'errore per eccesso}\label{fig:ValutazioneEccesso}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/ValutazioneEccesso}}\\
+\subfloat[][\emph{Dimostrazione geometrica degli integrali}\label{fig:DimostrazioneIntegrali}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/DimostrazioneIntegrale}}	
+\caption{Prova di rilassamento reale}
+\label{fig:ProvaRilassamento}		
+\end{figure}
+
+La prova di rilassamento con rampa, commette un errore per eccesso per via della natura della prova. Per tempi sufficientemente lunghi si abbassa l'effetto dell'errore.
+Quando si considerano tempi ben più grandi di quello della rampa (di solito dura qualche secondo) la differenza tra \textbf{stima del modulo di rilassamento} e \textbf{modulo di rilassamento} non è così evidente.
+Per avere dei dati per una durata maggiore, si usa alzare la temperatura del materiale. In questo modo si simula il comportamento di ore per una prova di qualche minuto.
+Nel caso si vogliano informazioni su anni di esercizio, questi vengono interpolati dalle varie prove.
+
+%************************************************
+\chapter{Modelli dei fluidi viscoelastici}\label{chp:ModelliFluidi}
+%************************************************
+I modelli descritti in letteratura sono una combinazione di elementi \textbf{elastici} e \textbf{dissipativi}.
+La viscoelasticità è un comportamento misto, parzialmente elastico e parzialmente dissipativo.
+Dunque:
+\begin{quote}
+\emph{Quando vale il modulo di rilassamento $E(t)$ e il modulo di cedevolezza al \eng{creep} $D(t)$?}
+\end{quote}
+
+Allora conviene considerare i due elementi fondamentali:
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Parametrizzazione come molla per effetti elastici}\label{fig:Molla}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/Molla}}\quad
+\subfloat[][\emph{Parametrizzazione come smorzatore per gli effetti dissipativi}\label{fig:Dissipatore}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/Dissipatore}}	
+\caption{Elementi di modellazione dei fluidi viscoelastici}
+\label{fig:FluidiViscoelastici}	
+\end{figure}
+
+Tra l'altro si vuole ricordare che:
+\begin{equation}
+\begin{split}
+\sigma = \eta \dot{\epsilon} &\textup{Sforzo normale}\\
+\tau = \eta \dot{\gamma} &\textup{Sforzo di taglio}
+\end{split}
+\end{equation}
+
+\section{Fluido di Maxwell}
+Rappresentato in figura \ref{fig:FluidoMaxwell}.
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/FluidoMaxwell}
+\caption{Schematizzazione del fluido di Maxwell}
+\label{fig:FluidoMaxwell}
+\end{figure}
+
+\begin{equation}
+\sigma = \sigma_1 = \sigma_2
+\end{equation}
+Lo sforzo su, rispettivamente, molla e smorzatore.
+Mentre la deformazione è:
+\begin{equation}
+\epsilon = \epsilon_1 + \epsilon_2
+\end{equation}
+Siccome:
+\begin{equation}
+\sigma_1 = E*\epsilon_1 \qquad \sigma_2=\eta \dot{\epsilon}_2
+\end{equation}
+Da cui:
+\begin{equation}
+\dot{\epsilon} = \dot{\epsilon}_1 + \dot{\epsilon}_2 = \frac{\dot{\sigma}_1}{E} + \frac{\sigma_2}{\eta} = \frac{\dot{\sigma}}{E} + \frac{\sigma}{\eta}
+\end{equation}
+
+Dunque:
+\begin{equation}
+\epsilon = \bar{\epsilon} \rightarrow%
+\begin{cases}
+\frac{\dot{\sigma}}{E}+\frac{\sigma}{\eta} = 0\\
+\sigma_0 = E \cdot \bar{\epsilon}
+\end{cases}
+\end{equation}
+con le seguenti condizioni iniziali:
+\begin{equation}
+\begin{split}
+t&=0\\
+\sigma &= E \cdot \bar{\epsilon}
+\end{split}
+\end{equation}
+Risolvendo il sistema di equazioni differenziali:
+\begin{equation}
+\begin{split}
+\frac{d\sigma}{dt} &+ \frac{E}{\eta} \sigma = 0\\
+\frac{d\sigma}{dt} &= -\frac{E}{\eta} \sigma \Rightarrow \int{\frac{d\sigma}{\sigma}} = \int{-\frac{E}{t}t}\\
+\ln(\sigma)&= -\frac{E}{\eta}t + K \Rightarrow \sigma = e^{-\frac{E}{\eta}t+K}\\
+\sigma &= C e^{-\frac{E}{\eta}t}\\
+\sigma(0) &= C = E\bar{\epsilon}\\
+\sigma(t) &= E\bar{\epsilon}e^{-\frac{E}{\eta}t}\\
+E&= \frac{\sigma(t)}{\bar{\epsilon}}=Ee^{-\frac{E}{\eta}t}
+\end{split}
+\end{equation}
+Dove:
+\begin{equation}
+\tau_r = \frac{\eta}{E} := \textup{ Tempo di rilassamento}
+\end{equation}
+Da cui infine:
+\begin{equation}
+E=E_0 e^{-\frac{t}{\tau_r}}
+\end{equation}
+Il quale comportamento è rappresentato dalla figura \ref{fig:RilassamentoMaxwell}
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/RilassamentoMaxwell}
+\caption{Andamento del fluido di Maxwell in termini di rilassamento}
+\label{fig:RilassamentoMaxwell}
+\end{figure}
