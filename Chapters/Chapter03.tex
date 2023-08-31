@@ -611,3 +611,117 @@ Il quale comportamento è rappresentato dalla figura \ref{fig:RilassamentoMaxwel
 \caption{Andamento del fluido di Maxwell in termini di rilassamento}
 \label{fig:RilassamentoMaxwell}
 \end{figure}
+
+Grazie a questi modelli si riesce a capire come funziona anche senza fare calcoli.
+Se si tira la molla in serie con un dissipatore, si allunga la molla, ma mano a mano che passa il tempo, tutto il carico preso dalla molla verrà rilassato dal dissipatore viscoso che inizierà a muoversi finché la tensione rimanente verrà rilassata completamente.
+La storia di carico è moto prevedibile per via della semplicità del materiale.
+\begin{equation}
+E(t) = E_0 e^{-\frac{t}{\tau_r}}
+\end{equation}
+Valutiamo il comportamento al \eng{creep}.
+\subsection{Prova di \eng{creep}}
+Ricordiamo:
+\begin{equation}
+\dot{\epsilon} = \frac{\dot{\sigma}}{E} + \frac{\sigma}{\eta}, \quad \sigma = \bar{\sigma} \quad \forall t > 0
+\end{equation}
+La condizione iniziale:
+\begin{equation}
+\dot{\epsilon} = \frac{0}{E} + \frac{\bar{\sigma}}{\eta} = \frac{\bar{\sigma}}{\eta} \Rightarrow \epsilon(0)=\frac{\bar{\epsilon}}{E}
+\end{equation}
+Risolvendo l'equazione differenziale:
+\begin{equation}
+\epsilon(t) = \frac{\bar{\sigma}}{\eta}t + C \rightarrow \epsilon(0) = \frac{\bar{\sigma}}{E} = C \rightarrow \epsilon(t) = \frac{\bar{\sigma}}{\eta}t + \frac{\bar{\sigma}}{E}
+\end{equation}
+Siccome
+\begin{equation}
+D(t) = \frac{\epsilon(t)}{\bar{\sigma}} = \frac{t}{\eta} + \frac{1}{E}
+\end{equation}
+Si dimostra un fluido viscoelastico perché la deformazione non è limitata e la cedevolezza iniziale ha un valore iniziale diverso da zero..
+Infatti, il materiale, eccitato istantaneamente, ha comportamento elastico.
+
+Il fluido di Maxwell è un modello che approssima molto bene il comportamento dei fluidi. Quando il materiale ha comportamento governato dalla viscoelasticità.
+Nella realtà si utilizza questo modello, opportunamente riadattato.
+Non va assolutamente usato per materiali polimerici allo stato solido.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Caratterizzazione del rilassamento del fluido in funzione del rilassamento}\label{fig:TempoRilassamento}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/TempoRilassamento}}\quad	
+\subfloat[][\emph{Comportamento al \eng{creep}}\label{fig:ComportamentoCreep}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/ComportamentoCreep}}	
+\caption{Comportamenti del fluido di Maxwell}
+\label{fig:ComportamentoMaxwell}
+\end{figure}
+
+\section{Modello di Kelvin-Voigt}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Modello di \eng{Kelvin-Voigt}}\label{fig:KelvinVoigt}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/KelvinVoigt}}\quad
+\subfloat[][\emph{Descrizione del modello}\label{def:KelvinVoigt}]%
+{%
+\begin{minipage}[b]{0.4\textwidth}
+\begin{description}
+\item[$E$] Modulo di Young della molla.
+\item[$\eta$] Viscosità elemento dissipativo.
+\end{description}
+\end{minipage}%
+}		
+\caption{Modello di \eng{Kelvin-Voigt}}
+\label{des:KelvinVoigt}
+\end{figure}
+
+La deformazione dell'elemento deve essere uguale per i due rami di molla e smorzatore.
+Lo sforzo totale sarà pari alla somma degli sforzi dei due.
+\begin{equation}
+\begin{split}
+\sigma = \sigma_1 + \sigma_2\\
+\sigma_1 = E \epsilon_1, \quad \sigma_2 = \eta \dot{\epsilon}_2
+\end{split}
+\end{equation}
+Ne deriva:
+\begin{equation}
+\sigma = E \epsilon + \eta \dot{\epsilon}
+\end{equation}
+\subsection{Prova di \eng{creep}}
+\begin{equation}
+\sigma = \bar{\sigma} \quad \forall t > 0
+\end{equation}
+Da cui:
+\begin{equation}
+\eta \dot{\epsilon} + E \epsilon = \bar{\sigma} \Rightarrow \dot{\epsilon} + \frac{E}{\eta}\epsilon = \frac{\bar{\sigma}}{\eta}
+\end{equation}
+Da cui la condizione iniziale per $\epsilon(0) = 0$
+Il comportamento in questo caso se si applica un carico istantaneo si dovrebbe avere una deformazione della sola molla.
+Siccome i due elementi sono in parallelo, prevale che: essendo lo smorzatore infinitamente rigido, allora la deformazione sarà nulla.
+
+\begin{equation}
+\begin{cases}
+ \dot{\epsilon} + \frac{E}{\eta}\epsilon = \frac{\bar{\sigma}}{\eta} \rightarrow \epsilon(t) = \epsilon_h(t) + \epsilon_p(t)\\
+\epsilon_p=\frac{\bar{\sigma}}{E}
+\end{cases}
+\end{equation}
+Come si vede, l'equazione differenziale è non omogenea, dunque va calcolata:
+\begin{equation}
+\begin{split}
+\dot{\epsilon}_h &+ \frac{E}{\eta}\epsilon_h = 0 \rightarrow \epsilon_h = K e^{-\frac{E}{\eta}t}\\
+\epsilon(t) &= K e^{-\frac{E}{\eta}t}+\frac{\bar{\sigma}}{E} \rightarrow \epsilon(0) = K + \frac{\bar{\sigma}}{E} = 0 \rightarrow K = -\frac{\bar{\sigma}}{E}\\
+\epsilon(t) &= -\frac{\bar{\sigma}}{E}e^{\frac{E}{\eta}t}+\frac{\bar{\sigma}}{E} = \frac{\bar{\sigma}}{E}\left(1-e^{-\frac{E}{\eta}t}\right)\\
+D(t) &= \frac{\epsilon(t)}{\bar{\sigma}} = \frac{1}{E}\left(1-e^{-\frac{E}{\eta}t}\right) = D_{\infty}\left(1-e^{-\frac{t}{\tau_c}}\right)
+\end{split}
+\end{equation}
+Dove, $\tau_c = \frac{\eta}{E}$ è il tempo di ritardo.
+
+È un solido viscoelastico perché la cedevolezza è superiormente limitata.
+Il materiale è istantaneamente rigido: risponde alla sollecitazione istantanea in maniera rigida.
+Si osserva che però il modello è patologico perché:
+per il comportamento a rilassamento: $\epsilon(t) = \bar{\epsilon}$ allora,
+\begin{equation}
+\sigma = E\epsilon + \eta \dot{\epsilon} = E \bar{\epsilon}
+\end{equation}
+Da cui:
+\begin{equation}
+E(t) = \frac{\sigma(t)}{\bar{\epsilon}} = E
+\end{equation}
+Non è accettabile che il modello di rilassamento resti costante.
