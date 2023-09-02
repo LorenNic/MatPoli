@@ -725,3 +725,124 @@ Da cui:
 E(t) = \frac{\sigma(t)}{\bar{\epsilon}} = E
 \end{equation}
 Non è accettabile che il modello di rilassamento resti costante.
+
+\section{Modello \eng{Zener}, solido a tre parametri}
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Modello Zener}\label{fig:ModelloZener}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/Zener}}\quad
+\subfloat[][\emph{Parametri modello Zener}\label{prm:Zener}]%
+{%
+\begin{minipage}[b]{0.4\textwidth}
+\begin{equation}
+\begin{split}
+\sigma_1 = E_1\epsilon_1 \quad &\epsilon_2 = \epsilon_3 = \epsilon_{23}\\
+\sigma_2 = E \epsilon_2 \quad &\epsilon = \epsilon_1 + \epsilon_{23}\\
+\sigma_3 = \eta_3 \dot{\epsilon}_3 \quad &
+\end{split}
+\end{equation}
+\end{minipage}%
+}
+\caption{Modello e parametri del fluido Zener}
+\label{def:Zener}		
+\end{figure}
+
+Da cui lo sforzo può esser descritto come:
+\begin{equation}
+\sigma = \sigma = \sigma_2 + \sigma_3
+\end{equation}
+Allora:
+\begin{equation}
+\begin{split}
+\dot{\epsilon} &= \dot{\epsilon}_1 + \dot{\epsilon}_3 = \frac{\dot{\sigma}_1}{E_1} + \frac{\sigma_3}{\eta_3} = \frac{\dot{\sigma}}{E_1} + \frac{\sigma - \sigma_2}{\eta_3} = \frac{\dot{\sigma}}{E_1} + \frac{\sigma}{\eta_3} - \frac{E_2 \epsilon_2}{\eta_3}\\
+&= \frac{\dot{\sigma}}{E_1} + \frac{\sigma}{\eta_3} - \frac{E_2}{\eta_3}(\epsilon - \epsilon_1) = \frac{\dot{\sigma}}{E_1} + \frac{\sigma}{\eta_3} - \frac{E_2}{\eta_3}\epsilon + \frac{E_2}{\eta_3}\frac{\sigma_1}{E_1}\\
+&= \frac{\dot{\sigma}}{E_1} + \frac{\sigma}{\eta_3} - \frac{E_2\epsilon}{\eta_3} + \frac{E_2}{\eta_3}\frac{\sigma}{E_1}\\
+\frac{\dot{\sigma}}{E} &+ \frac{1}{\eta_3}\left(1 + \frac{E_2}{E_1}\right)\sigma = \dot{\epsilon} + \frac{E_2}{\eta_3}\epsilon
+\end{split}
+\end{equation}
+
+\subsection{Prova di \eng{creep}}
+\begin{equation}
+\dot{\epsilon} + \frac{E_2}{\eta_3}\epsilon = \frac{1}{\eta_3}\left(1+\frac{E_2}{E_1}\right)\bar{\sigma}
+\end{equation}
+Da cui la condizione iniziale $\epsilon(0) = \frac{\bar{\sigma}}{E_1}$
+Resta un'equazione differenziale del primo ordine non omogenea, al solito la soluzione sarà combinazione della soluzione dell'omogenea e una soluzione particolare.
+\begin{equation}
+\begin{split}
+\epsilon_p(t) &= cost = \frac{E_2}{\eta_3}\epsilon_p = \frac{1}{\eta_3}\left(1+\frac{E_2}{E_1}\right)\bar{\sigma}\\
+\epsilon_p &= \left(\frac{1}{E_2} + \frac{1}{E_1}\right)\bar{\sigma}\\
+\epsilon_h(t) &= K e^{-\frac{E_2}{\eta_3}t}\\
+\epsilon(t) &= K e^{-\frac{E_2}{\eta_3}t} + \left(\frac{1}{E_2} + \frac{1}{E_1}\right)\bar{\sigma}\\
+\epsilon(0) &= K + \left(\frac{1}{E_2} + \frac{1}{E_1}\right)\bar{\sigma} = \frac{\bar{\sigma}}{E_1} \Rightarrow K = -\frac{\bar{\sigma}}{E_2}\\
+\epsilon(t) &= -\frac{\bar{\epsilon}}{E_2}e^{-\frac{E_2}{\eta_3}t} + \left(\frac{1}{E_2} + \frac{1}{E_1}\right)\bar{\sigma}\\
+\epsilon(t) &= \frac{1}{E_1}\bar{\epsilon} + \frac{\bar{\sigma}}{E_2}\left(1-e^{-\frac{E_2}{\eta_3}t}\right)
+\end{split}
+\end{equation}
+E:
+\begin{equation}
+D(t) = \frac{\epsilon(t)}{\bar{\sigma}} = \frac{1}{E_1} + \frac{1}{E_2}\left(1-e^{-\frac{E_2}{\eta_3}t}\right)
+\end{equation}
+Resta valido che:
+\begin{equation}
+\begin{split}
+t \rightarrow 0 \quad &D(0) = \frac{1}{E_1}\\
+t \rightarrow \infty \quad &D(\infty) = \frac{1}{E_1} + \frac{1}{E_2}\\
+D(t) &= D_0 + (D_{\infty} - D_0) \left(1 - e^{-\frac{t}{\tau_c}}\right)
+\end{split}
+\end{equation}
+Con $\tau_c = \frac{\eta_3}{E_2}$ tempo di ritardo della cedevolezza.
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Funzione di cedevolezza in funzione del tempo per il modello di \eng{Zener}}\label{fig:CedevolezzaZener}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/CedevolezzaZener}}	\quad
+\subfloat[][\emph{Modulo di rilassamento per il modello \eng{Zener}}\label{fig:RilassamentoZener}]%
+{\includegraphics[width = 0.4\textwidth]{gfx/RilassamentoZener}}	
+\caption{Modello \eng{Zener}}
+\label{fig:ModelloZener}
+\end{figure}
+
+Il materiale è un solido viscoelastico perché la cedevolezza di \eng{creep} è superiormente limitata.
+
+Si nota negli altri comportamenti come se fosse elastico. La parte dissipativa appare lontano dai limite. in un certo senso, dipende dal ritardo elastico: se $\eta_3\downarrow$ allora il materiale sarà più a comportamento elastico: se $\eta_3\uparrow$ il materiale risulterà più dissipativo.
+
+\subsection{Prova di rilassamento}
+Allora imponiamo $\epsilon = \bar{\epsilon}$.
+\begin{equation}
+\begin{cases}
+\frac{\dot{\sigma}}{E_1} + \frac{1}{\eta_3}\left(1 + \frac{E_2}{E_1}\right)\sigma = \frac{E_2}{\eta_3}\bar{\epsilon}\\
+\textup{Condizione iniziale: } \sigma(0) = E_1\bar{\epsilon}\\
+\end{cases}
+\end{equation}
+La soluzione dell'equazione differenziale:
+\begin{equation}
+\begin{split}
+\sigma(t) &= \sigma_h(t) + \sigma_p(t)\\
+\sigma_p(t) &= \sigma_p \rightarrow \sigma_p = \frac{E_1 E_2}{E_1+E_2}\bar{\epsilon}\\
+\sigma_h(t) &= \frac{\dot{\sigma}}{E_1} + \frac{1}{\eta_3}\left(1+\frac{E_2}{E_1}\right)\sigma = 0\\
+&= \dot{\sigma} + \frac{1}{\eta_3}\left(E_1 + E_2\right)\sigma = 0\\
+&= K e^{-\frac{E_1+E_2}{\eta_3}t}\\
+\sigma(t) &= Ke^{-\frac{E_1+E_2}{\eta_3}t} + \frac{E_1E_2}{E_1+E_2}\bar{\epsilon}\\
+\sigma(0) &= K + \frac{E_1E-2}{E_1 + E_2}\bar{\epsilon} = E_1\bar{\epsilon}\\
+&\Rightarrow K = E_1\bar{\epsilon}-\frac{E_1E_2}{E_1+E_2}\bar{\epsilon} = \frac{E_1^2}{E_1+E_2}\bar{\epsilon}\\
+\sigma(t) &= \frac{E_1^2}{E_1+E_2}\bar{\epsilon}e^{-\frac{E_1+E_2}{\eta_3}t}+\frac{E_1E_2}{E_1+E_2}\bar{\epsilon}
+\end{split}
+\end{equation}
+Da cui:
+\begin{equation}
+E(t) = \frac{\sigma(t)}{\bar{\epsilon}} = \frac{E_1^2}{E_1+E_2}e^{-\frac{E_1+E_2}{\eta_3}t}+\frac{E_1E_2}{E_1+E_2}\bar{\epsilon}
+\end{equation}
+Ai limiti:
+\begin{equation}
+\begin{split}
+t \rightarrow 0 \quad &E_0 = \frac{E_1E_2}{E_1+E_2}+\frac{E_1^2}{E_1+E_2} = E_1\\
+t \rightarrow \infty \quad &E_{\infty} = \frac{E_1E_2}{E_1+E_2}\\
+E(t) &= E_{\infty} + (E_0 - E_{\infty})e^{-\frac{t}{\tau_r}}
+\end{split}
+\end{equation}
+Con $\tau_r = \frac{\eta_3}{E_1+E_2}$ tempo di rilassamento.
+
+Si cedevolezza che modulo sono funzioni esponenziali, in entrambi i casi limitati e non arrivano ne a zero che infinito.
+
+Il modello \eng{Zener} può avere un'altra conformazione con lo stesso risultato: non è esattamente lo stesso, la forma della risposta sarà la stessa, ma i parametri saranno utilizzati diversamente.

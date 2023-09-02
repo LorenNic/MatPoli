@@ -40,23 +40,26 @@
 \contentsline {figure}{\numberline {9.3}{\ignorespaces Andamento del fluido di Maxwell in termini di rilassamento\relax }}{53}{figure.caption.57}%
 \contentsline {figure}{\numberline {9.4}{\ignorespaces Comportamenti del fluido di Maxwell\relax }}{54}{figure.caption.58}%
 \contentsline {figure}{\numberline {9.5}{\ignorespaces Modello di \foreignlanguage {american}{\em Kelvin-Voigt}\relax }}{54}{figure.caption.59}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Andamento dello sforzo di taglio per diversi fluidi\relax }}{60}{figure.caption.60}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Comportamento di un fluido polimerico\relax }}{60}{figure.caption.61}%
-\contentsline {figure}{\numberline {10.3}{\ignorespaces Comportamento dei fluidi con effetto di rigonfiamento dell'estruso\relax }}{62}{figure.caption.62}%
-\contentsline {figure}{\numberline {10.4}{\ignorespaces Rappresentazione del comportamento sotto l'effetto plastico\relax }}{63}{figure.caption.63}%
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Caratteristica della viscosità in funzione del tempo\relax }}{63}{figure.caption.64}%
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Schematizzazione del flusso di un fluido al interno di un tubo rigido\relax }}{64}{figure.caption.65}%
-\contentsline {figure}{\numberline {10.7}{\ignorespaces Profili di velocità per diversi fluidi\relax }}{67}{figure.caption.66}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Modello e parametri del fluido Zener\relax }}{56}{figure.caption.60}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Modello \foreignlanguage {american}{\em Zener}\relax }}{57}{figure.caption.61}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Funzionamento di un viscosimetro\relax }}{72}{figure.caption.67}%
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Schematizzazione dei test eseguiti tramite sistema \ac {PK}\relax }}{73}{figure.caption.68}%
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Schema del rotore per uno strumento piatto piatto\relax }}{74}{figure.caption.69}%
-\contentsline {figure}{\numberline {12.4}{\ignorespaces Indicazioni dei parametri del sistema per la misura capillare\relax }}{76}{figure.caption.70}%
-\contentsline {figure}{\numberline {12.5}{\ignorespaces Descrizione del viscosimetro capillare con le correzioni per i fluidi non newtoniani\relax }}{78}{figure.caption.71}%
-\contentsline {figure}{\numberline {12.6}{\ignorespaces Descrizione del fattore di Rabinowitch ottenuto sperimentalmente\relax }}{80}{figure.caption.72}%
-\contentsline {figure}{\numberline {12.7}{\ignorespaces Rette di Bagley\relax }}{81}{figure.caption.73}%
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Andamento dello sforzo di taglio per diversi fluidi\relax }}{66}{figure.caption.62}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Comportamento di un fluido polimerico\relax }}{66}{figure.caption.63}%
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Comportamento dei fluidi con effetto di rigonfiamento dell'estruso\relax }}{68}{figure.caption.64}%
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Rappresentazione del comportamento sotto l'effetto plastico\relax }}{69}{figure.caption.65}%
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Caratteristica della viscosità in funzione del tempo\relax }}{69}{figure.caption.66}%
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Schematizzazione del flusso di un fluido al interno di un tubo rigido\relax }}{70}{figure.caption.67}%
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Profili di velocità per diversi fluidi\relax }}{73}{figure.caption.68}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {13.1}{\ignorespaces Funzionamento di un viscosimetro\relax }}{78}{figure.caption.69}%
+\contentsline {figure}{\numberline {13.2}{\ignorespaces Schematizzazione dei test eseguiti tramite sistema \ac {PK}\relax }}{79}{figure.caption.70}%
+\contentsline {figure}{\numberline {13.3}{\ignorespaces Schema del rotore per uno strumento piatto piatto\relax }}{80}{figure.caption.71}%
+\contentsline {figure}{\numberline {13.4}{\ignorespaces Indicazioni dei parametri del sistema per la misura capillare\relax }}{82}{figure.caption.72}%
+\contentsline {figure}{\numberline {13.5}{\ignorespaces Descrizione del viscosimetro capillare con le correzioni per i fluidi non newtoniani\relax }}{84}{figure.caption.73}%
+\contentsline {figure}{\numberline {13.6}{\ignorespaces Descrizione del fattore di Rabinowitch ottenuto sperimentalmente\relax }}{86}{figure.caption.74}%
+\contentsline {figure}{\numberline {13.7}{\ignorespaces Rette di Bagley\relax }}{87}{figure.caption.75}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

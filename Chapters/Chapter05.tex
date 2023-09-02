@@ -1,0 +1,39 @@
+%************************************************
+\chapter{Prove dinamico-meccaniche}\label{chp:DinamicoMeccaniche}
+%************************************************
+Consistono nell'imporre al materiale una storia di deformazione periodica nel tempo.
+Ad esempio:
+\begin{equation}
+\epsilon(t) = \bar{\epsilon}\sin(\omega t)
+\end{equation}
+Assomiglia ad una prova di fatica per i metalli, ma ha tutt'altro significato.
+
+Bastano alcuni minuti di sollecitazione a $\epsilon(t)$ per ottenere i dati caratteristici del materiale. Inoltre, in questo caso si controlla la deformazione e il materiale non si rompe.
+
+I dati che si ottengono sono:
+\begin{equation}
+\begin{split}
+\sigma(t) &= \epsilon(0)E(t) + \int_0^t{E(t-\tau)\dot{\epsilon}(s)\,ds}\\
+E(t) &= E_{\infty} + \Delta E(t)
+\end{split}
+\end{equation}
+Se il materiale è fluido viscoelastico allora $E_{\infty} = 0$, altrimenti $E_{\infty} > 0$.
+Mente $\Delta E(t) \underrightarrow{t \rightarrow \infty} 0$.
+Allora:
+\begin{equation}
+\begin{split}
+\sigma(t) &= \epsilon(0)(E_{\infty} + \Delta E(t)) + \int_0^t{(E_{\infty} + \Delta E(t-s)) \dot{\epsilon}(s)\,ds}\\
+&= \epsilon(0)E_{\infty} + \epsilon(0)\Delta E(t) + \int_0^t{E_{\infty}\dot{\epsilon}(s)\,ds} +  \int_0^t{\Delta E(t-s) \dot{\epsilon}(s)\,ds}\\
+&= \epsilon(0)E_{\infty} + \epsilon(0)\Delta E(t) + E_{\infty}(\epsilon(t) - \epsilon(0)) + \int_t^0{\Delta E(\tau) \dot{\epsilon}(t-\tau)\,-d\tau}\\
+&= \epsilon(0)\Delta E(t) + E_{\infty}\epsilon(t) + \int_0^t{\Delta E(s) \dot{\epsilon}(t-s)\,ds}\\
+\end{split}
+\end{equation}
+Imponendo che $\epsilon(t) = \bar{\epsilon}\sin(\omega t)$ allora:
+\begin{equation}
+\begin{split}
+\sigma(t) &= E_{\infty} \bar{\epsilon}\sin(\omega t) + \int_0^t{\Delta E(s)\omega\bar{\epsilon}\cos(\omega(t-s))\,ds}\\
+&= E_{\infty} \bar{\epsilon}\sin(\omega t) + \omega\bar{\epsilon}\int_0^t{\Delta E(s) \left[\cos(\omega t)\cos(\omega s) + \sin(\omega t)\sin(\omega s)\right]\,ds}\\
+&= E_{\infty} \bar{\epsilon}\sin(\omega t) + \omega\bar{\epsilon}\int_0^t{\Delta E(s) \cos(\omega t)\cos(\omega s)\,ds} + \omega\bar{\epsilon}\int_0^t{\Delta E(s)\sin(\omega t)\sin(\omega s)\,ds}\\
+&= E_{\infty} \bar{\epsilon}\sin(\omega t) + \omega\bar{\epsilon}\cos(\omega t)\int_0^t{\Delta E(s) \cos(\omega s)\,ds} + \omega\bar{\epsilon}\sin(\omega t)\int_0^t{\Delta E(s)\sin(\omega s)\,ds}\\
+\end{split}
+\end{equation}
