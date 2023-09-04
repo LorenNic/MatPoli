@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  2 SEP 2023 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  4 SEP 2023 19:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1631,9 +1631,10 @@ LaTeX Warning: Label `fig:ProvaRilassamento' multiply defined.
 
 LaTeX Warning: Label `fig:ModelloZener' multiply defined.
 
-) (./Chapters/Chapter05.aux) (./Chapters/Chapter04.aux)
-(./Chapters/Chapter0A.aux) (./FrontBackmatter/Bibliography.aux)
-(./FrontBackmatter/Declaration.aux) (./FrontBackmatter/Colophon.aux))
+) (./Chapters/Chapter05.aux) (./Chapters/Chapter06.aux)
+(./Chapters/Chapter04.aux) (./Chapters/Chapter0A.aux)
+(./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux)
+(./FrontBackmatter/Colophon.aux))
 \openout1 = `MatPoli.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -1945,7 +1946,12 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 
 
 
-])
+]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' aliased to
+(Font)              `T1/Roboto-LF/regular/sc' on input line 110.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/sc' will be
+(Font)              scaled to size 10.0pt on input line 110.
+ [6])
 \tf@toc=\write6
 \openout6 = `MatPoli.toc'.
 
@@ -1954,11 +1960,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 1: chapter
 1: chapter
 1: section
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' aliased to
-(Font)              `T1/Roboto-LF/regular/sc' on input line 18.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 18.
-[6]
+[7]
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
  (./MatPoli.lof
@@ -1990,42 +1992,53 @@ Package acronym Info: Label `acro:PLA' newly defined as it shall be overridden
 although it is yet undefined on input line 14.
 Package acronym Info: Label `acro:MFI' newly defined as it shall be overridden
 although it is yet undefined on input line 18.
-[7
+[8
 
 ]
-Overfull \hbox (23.73804pt too wide) in paragraph at lines 52--52
+Overfull \hbox (2.32619pt too wide) in paragraph at lines 49--49
+ [][] []\T1/Roboto-LF/regular/n/10.95 Confronto tra i dati sper-i-men-tali (in 
+blu), e il mod- 
+ []
+
+Package acronym Info: Label `acro:WLF' newly defined as it shall be overridden
+although it is yet undefined on input line 54.
+Package acronym Info: Label `acro:DMTA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 55.
+
+Overfull \hbox (23.73804pt too wide) in paragraph at lines 65--65
  [][] []\T1/Roboto-LF/regular/n/10.95 Rappresentazione del com-por-ta-mento sot
 to l'effetto 
  []
 
 
-Overfull \hbox (1.7289pt too wide) in paragraph at lines 53--53
+Overfull \hbox (1.7289pt too wide) in paragraph at lines 66--66
  [][] []\T1/Roboto-LF/regular/n/10.95 Caratteristica della vis-cosità in fun-zi
 one del tempo []  
  []
 
 Package acronym Info: Label `acro:PK' newly defined as it shall be overridden
-although it is yet undefined on input line 59.
+although it is yet undefined on input line 72.
 
-Overfull \hbox (11.45334pt too wide) in paragraph at lines 61--61
+Overfull \hbox (11.45334pt too wide) in paragraph at lines 74--74
  [][] []\T1/Roboto-LF/regular/n/10.95 Indicazioni dei parametri del sis-tema pe
 r la misura 
  []
 
 
-Overfull \hbox (5.01797pt too wide) in paragraph at lines 62--62
+Overfull \hbox (5.01797pt too wide) in paragraph at lines 75--75
  [][] []\T1/Roboto-LF/regular/n/10.95 Descrizione del vis-cosimetro cap-il-lare
  con le cor- 
  []
 
-)
+[9])
 \tf@lof=\write7
 \openout7 = `MatPoli.lof'.
 
 Package tocbasic Info: character protrusion at lot deactivated on input line 42
 .
  (./MatPoli.lot
-Overfull \hbox (10.8434pt too wide) in paragraph at lines 18--18
+Overfull \hbox (10.8434pt too wide) in paragraph at lines 20--20
  [][] []\T1/Roboto-LF/regular/n/10.95 Distribuzione della me-dia dei pesi molec
 o-lari delle 
  []
@@ -2034,7 +2047,7 @@ o-lari delle
 \tf@lot=\write8
 \openout8 = `MatPoli.lot'.
 
- [8]) [9] [10
+ [10]) [11] [12
 
 
 
@@ -2058,7 +2071,7 @@ chapter 1.
 
 ]
 chapter 2.
-<gfx/Plastica.png, id=439, 667.293pt x 118.041pt>
+<gfx/Plastica.png, id=510, 667.293pt x 118.041pt>
 File: gfx/Plastica.png Graphic file (type png)
 <use gfx/Plastica.png>
 Package pdftex.def Info: gfx/Plastica.png  used on input line 15.
@@ -2102,7 +2115,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
 (Font)              `T1/Roboto-LF/regular/n' on input line 101.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
 (Font)              scaled to size 6.0pt on input line 101.
-<gfx/PMMeccanica.png, id=466, 369.7815pt x 243.91125pt>
+<gfx/PMMeccanica.png, id=535, 369.7815pt x 243.91125pt>
 File: gfx/PMMeccanica.png Graphic file (type png)
 <use gfx/PMMeccanica.png>
 Package pdftex.def Info: gfx/PMMeccanica.png  used on input line 114.
@@ -2128,7 +2141,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--114
 [][]|\T1/Roboto-LF/regular/it/9 An-da-mento delle carat-ter-is-
  []
 
-<gfx/ViscPM.png, id=469, 420.97275pt x 263.18324pt>
+<gfx/ViscPM.png, id=538, 420.97275pt x 263.18324pt>
 File: gfx/ViscPM.png Graphic file (type png)
 <use gfx/ViscPM.png>
 Package pdftex.def Info: gfx/ViscPM.png  used on input line 116.
@@ -2236,7 +2249,7 @@ Overfull \hbox (4.84753pt too wide) in paragraph at lines 4--6
 
 Package acronym Info: Label `acro:PMM' newly defined as it shall be overridden
 although it is yet undefined on input line 30.
-<gfx/PM.png, id=541, 444.15938pt x 314.67563pt>
+<gfx/PM.png, id=610, 444.15938pt x 314.67563pt>
 File: gfx/PM.png Graphic file (type png)
 <use gfx/PM.png>
 Package pdftex.def Info: gfx/PM.png  used on input line 36.
@@ -2279,7 +2292,7 @@ eco-lare medio nu-merico
  []
 
 [16 <./gfx/PM.png>]
-<gfx/MFI.png, id=566, 243.91125pt x 413.545pt>
+<gfx/MFI.png, id=635, 243.91125pt x 413.545pt>
 File: gfx/MFI.png Graphic file (type png)
 <use gfx/MFI.png>
 Package pdftex.def Info: gfx/MFI.png  used on input line 105.
@@ -2291,7 +2304,7 @@ in gen-erale non bisognerebbe
  []
 
 [17]
-<gfx/ViscSpec.png, id=579, 398.08725pt x 267.399pt>
+<gfx/ViscSpec.png, id=648, 398.08725pt x 267.399pt>
 File: gfx/ViscSpec.png Graphic file (type png)
 <use gfx/ViscSpec.png>
 Package pdftex.def Info: gfx/ViscSpec.png  used on input line 133.
@@ -2332,7 +2345,7 @@ Overfull \hbox (13.30518pt too wide) in paragraph at lines 184--187
 -por-tanti. Ad-dirit-tura troppo
  []
 
-<gfx/Cristallinita.png, id=602, 532.389pt x 315.579pt>
+<gfx/Cristallinita.png, id=671, 532.389pt x 315.579pt>
 File: gfx/Cristallinita.png Graphic file (type png)
 <use gfx/Cristallinita.png>
 Package pdftex.def Info: gfx/Cristallinita.png  used on input line 192.
@@ -2427,7 +2440,7 @@ Overfull \hbox (1.09827pt too wide) in paragraph at lines 279--281
 te cristallino verso la tem-
  []
 
-<gfx/Dilatometria.png, id=636, 635.976pt x 356.532pt>
+<gfx/Dilatometria.png, id=704, 635.976pt x 356.532pt>
 File: gfx/Dilatometria.png Graphic file (type png)
 <use gfx/Dilatometria.png>
 Package pdftex.def Info: gfx/Dilatometria.png  used on input line 290.
@@ -2441,7 +2454,7 @@ a $\U/zeur/m/n/10.95 T[]$ \T1/Roboto-LF/regular/n/10.95 non è un val-ore esatto
 .
  []
 
-<gfx/DSC.png, id=646, 500.46976pt x 349.305pt>
+<gfx/DSC.png, id=716, 500.46976pt x 349.305pt>
 File: gfx/DSC.png Graphic file (type png)
 <use gfx/DSC.png>
 Package pdftex.def Info: gfx/DSC.png  used on input line 324.
@@ -2475,22 +2488,25 @@ although it is yet undefined on input line 383.
 
 
 
-] [31] [32]
+] [31
+
+
+] [32]
 \openout2 = `Chapters/Chapter03.aux'.
 
  (./Chapters/Chapter03.tex
 chapter 6.
-<gfx/Tg.png, id=691, 354.72525pt x 313.17pt>
+<gfx/Tg.png, id=760, 354.72525pt x 313.17pt>
 File: gfx/Tg.png Graphic file (type png)
 <use gfx/Tg.png>
 Package pdftex.def Info: gfx/Tg.png  used on input line 13.
 (pdftex.def)             Requested size: 336.0pt x 296.64009pt.
-<gfx/VolSpec.png, id=692, 541.42274pt x 394.47375pt>
+<gfx/VolSpec.png, id=761, 541.42274pt x 394.47375pt>
 File: gfx/VolSpec.png Graphic file (type png)
 <use gfx/VolSpec.png>
 Package pdftex.def Info: gfx/VolSpec.png  used on input line 24.
 (pdftex.def)             Requested size: 336.0pt x 244.81195pt.
-<gfx/TgTm.png, id=694, 454.69875pt x 330.63525pt>
+<gfx/TgTm.png, id=763, 454.69875pt x 330.63525pt>
 File: gfx/TgTm.png Graphic file (type png)
 <use gfx/TgTm.png>
 Package pdftex.def Info: gfx/TgTm.png  used on input line 40.
@@ -2508,6 +2524,8 @@ in-vece è ten-den-zial-mente
  []
 
 [33
+
+
 
 
 
@@ -2535,7 +2553,7 @@ Overfull \hbox (7.89482pt too wide) in paragraph at lines 79--82
 c-qua con-tenuta nell'umidità
  []
 
-<gfx/Umidita.png, id=714, 550.4565pt x 372.1905pt>
+<gfx/Umidita.png, id=782, 550.4565pt x 372.1905pt>
 File: gfx/Umidita.png Graphic file (type png)
 <use gfx/Umidita.png>
 Package pdftex.def Info: gfx/Umidita.png  used on input line 85.
@@ -2577,7 +2595,7 @@ Overfull \hbox (31.10744pt too wide) in paragraph at lines 161--163
 /regular/n/10.95 Viene im-posta una de-for-mazione costante
  []
 
-<gfx/RilassamentoE.png, id=735, 369.7815pt x 216.20775pt>
+<gfx/RilassamentoE.png, id=804, 369.7815pt x 216.20775pt>
 File: gfx/RilassamentoE.png Graphic file (type png)
 <use gfx/RilassamentoE.png>
 Package pdftex.def Info: gfx/RilassamentoE.png  used on input line 171.
@@ -2587,7 +2605,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--171
 [][]|\T1/Roboto-LF/regular/it/9 Im-po-sizione della de-for-
  []
 
-<gfx/RilassamentoS.png, id=736, 359.54324pt x 204.16275pt>
+<gfx/RilassamentoS.png, id=805, 359.54324pt x 204.16275pt>
 File: gfx/RilassamentoS.png Graphic file (type png)
 <use gfx/RilassamentoS.png>
 Package pdftex.def Info: gfx/RilassamentoS.png  used on input line 173.
@@ -2597,7 +2615,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--173
 [][]|\T1/Roboto-LF/regular/it/9 Fenomeno del ri-las-sa-mento
  []
 
-<gfx/CreepS.png, id=737, 378.213pt x 215.00325pt>
+<gfx/CreepS.png, id=806, 378.213pt x 215.00325pt>
 File: gfx/CreepS.png Graphic file (type png)
 <use gfx/CreepS.png>
 Package pdftex.def Info: gfx/CreepS.png  used on input line 175.
@@ -2607,7 +2625,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--175
 [][]|\T1/Roboto-LF/regular/it/9 Im-po-sizione dello sforzo
  []
 
-<gfx/CreepE.png, id=738, 359.54324pt x 204.16275pt>
+<gfx/CreepE.png, id=807, 359.54324pt x 204.16275pt>
 File: gfx/CreepE.png Graphic file (type png)
 <use gfx/CreepE.png>
 Package pdftex.def Info: gfx/CreepE.png  used on input line 177.
@@ -2638,7 +2656,7 @@ Overfull \hbox (5.37648pt too wide) in paragraph at lines 226--227
 è fun-zione del tempo.
  []
 
-<gfx/Isocrone.png, id=764, 519.1395pt x 304.13625pt>
+<gfx/Isocrone.png, id=833, 519.1395pt x 304.13625pt>
 File: gfx/Isocrone.png Graphic file (type png)
 <use gfx/Isocrone.png>
 Package pdftex.def Info: gfx/Isocrone.png  used on input line 247.
@@ -2684,7 +2702,7 @@ Overfull \hbox (8.2933pt too wide) in paragraph at lines 363--365
 
 
 ]
-<gfx/Creep.png, id=810, 393.8715pt x 308.352pt>
+<gfx/Creep.png, id=878, 393.8715pt x 308.352pt>
 File: gfx/Creep.png Graphic file (type png)
 <use gfx/Creep.png>
 Package pdftex.def Info: gfx/Creep.png  used on input line 376.
@@ -2694,12 +2712,12 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/scit' aliased to
 LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/scit' will be
 (Font)              scaled to size 10.0pt on input line 411.
  [46 <./gfx/Creep.png>]
-<gfx/ProfiloDeformazione.png, id=821, 392.21532pt x 322.20375pt>
+<gfx/ProfiloDeformazione.png, id=889, 392.21532pt x 322.20375pt>
 File: gfx/ProfiloDeformazione.png Graphic file (type png)
 <use gfx/ProfiloDeformazione.png>
 Package pdftex.def Info: gfx/ProfiloDeformazione.png  used on input line 447.
 (pdftex.def)             Requested size: 134.39795pt x 110.40819pt.
-<gfx/ProfiloSforzo.png, id=822, 392.21532pt x 292.84406pt>
+<gfx/ProfiloSforzo.png, id=890, 392.21532pt x 292.84406pt>
 File: gfx/ProfiloSforzo.png Graphic file (type png)
 <use gfx/ProfiloSforzo.png>
 Package pdftex.def Info: gfx/ProfiloSforzo.png  used on input line 449.
@@ -2710,7 +2728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--449
  []
 
 [47] [48 <./gfx/ProfiloDeformazione.png> <./gfx/ProfiloSforzo.png>]
-<gfx/tMinBar.png, id=850, 387.69844pt x 315.42844pt>
+<gfx/tMinBar.png, id=918, 387.69844pt x 315.42844pt>
 File: gfx/tMinBar.png Graphic file (type png)
 <use gfx/tMinBar.png>
 Package pdftex.def Info: gfx/tMinBar.png  used on input line 498.
@@ -2720,12 +2738,12 @@ Underfull \hbox (badness 5939) in paragraph at lines 498--498
 [][]|\T1/Roboto-LF/regular/it/9 An-da-mento dello sforzo per
  []
 
-<gfx/tMagBar.png, id=851, 387.69844pt x 315.42844pt>
+<gfx/tMagBar.png, id=919, 387.69844pt x 315.42844pt>
 File: gfx/tMagBar.png Graphic file (type png)
 <use gfx/tMagBar.png>
 Package pdftex.def Info: gfx/tMagBar.png  used on input line 500.
 (pdftex.def)             Requested size: 134.39795pt x 109.34753pt.
-<gfx/ValutazioneErrore.png, id=852, 415.5525pt x 334.24875pt>
+<gfx/ValutazioneErrore.png, id=920, 415.5525pt x 334.24875pt>
 File: gfx/ValutazioneErrore.png Graphic file (type png)
 <use gfx/ValutazioneErrore.png>
 Package pdftex.def Info: gfx/ValutazioneErrore.png  used on input line 502.
@@ -2740,7 +2758,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \T1/Roboto-LF/regular/it/9 commesso per via della
  []
 
-<gfx/ValutazioneEccesso.png, id=853, 387.69844pt x 315.42844pt>
+<gfx/ValutazioneEccesso.png, id=921, 387.69844pt x 315.42844pt>
 File: gfx/ValutazioneEccesso.png Graphic file (type png)
 <use gfx/ValutazioneEccesso.png>
 Package pdftex.def Info: gfx/ValutazioneEccesso.png  used on input line 504.
@@ -2750,7 +2768,7 @@ Underfull \hbox (badness 6445) in paragraph at lines 504--504
 [][]|\T1/Roboto-LF/regular/it/9 Di-mostrazione dell'errore per
  []
 
-<gfx/DimostrazioneIntegrale.png, id=854, 424.58624pt x 318.43968pt>
+<gfx/DimostrazioneIntegrale.png, id=922, 424.58624pt x 318.43968pt>
 File: gfx/DimostrazioneIntegrale.png Graphic file (type png)
 <use gfx/DimostrazioneIntegrale.png>
 Package pdftex.def Info: gfx/DimostrazioneIntegrale.png  used on input line 506
@@ -2770,12 +2788,12 @@ Overfull \hbox (3.45462pt too wide) in paragraph at lines 511--515
 [49] [50 <./gfx/tMinBar.png> <./gfx/tMagBar.png> <./gfx/ValutazioneErrore.png> 
 <./gfx/ValutazioneEccesso.png> <./gfx/DimostrazioneIntegrale.png>]
 chapter 9.
-<gfx/Molla.png, id=866, 237.88875pt x 170.13562pt>
+<gfx/Molla.png, id=936, 237.88875pt x 170.13562pt>
 File: gfx/Molla.png Graphic file (type png)
 <use gfx/Molla.png>
 Package pdftex.def Info: gfx/Molla.png  used on input line 531.
 (pdftex.def)             Requested size: 134.39795pt x 96.12419pt.
-<gfx/Dissipatore.png, id=867, 178.41656pt x 192.72pt>
+<gfx/Dissipatore.png, id=937, 178.41656pt x 192.72pt>
 File: gfx/Dissipatore.png Graphic file (type png)
 <use gfx/Dissipatore.png>
 Package pdftex.def Info: gfx/Dissipatore.png  used on input line 533.
@@ -2790,7 +2808,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 533--533
 \T1/Roboto-LF/regular/it/9 smorza-tore per gli ef-fetti
  []
 
-<gfx/FluidoMaxwell.png, id=869, 423.83344pt x 81.30376pt>
+<gfx/FluidoMaxwell.png, id=939, 423.83344pt x 81.30376pt>
 File: gfx/FluidoMaxwell.png Graphic file (type png)
 <use gfx/FluidoMaxwell.png>
 Package pdftex.def Info: gfx/FluidoMaxwell.png  used on input line 550.
@@ -2805,13 +2823,13 @@ tore. Men-tre la de-for-mazione
 
 
 ]
-<gfx/RilassamentoMaxwell.png, id=882, 383.18156pt x 315.42844pt>
+<gfx/RilassamentoMaxwell.png, id=951, 383.18156pt x 315.42844pt>
 File: gfx/RilassamentoMaxwell.png Graphic file (type png)
 <use gfx/RilassamentoMaxwell.png>
 Package pdftex.def Info: gfx/RilassamentoMaxwell.png  used on input line 610.
 (pdftex.def)             Requested size: 168.0pt x 138.29318pt.
  [52 <./gfx/Molla.png> <./gfx/Dissipatore.png> <./gfx/FluidoMaxwell.png>]
-<gfx/TempoRilassamento.png, id=893, 385.44pt x 296.60812pt>
+<gfx/TempoRilassamento.png, id=962, 385.44pt x 296.60812pt>
 File: gfx/TempoRilassamento.png Graphic file (type png)
 <use gfx/TempoRilassamento.png>
 Package pdftex.def Info: gfx/TempoRilassamento.png  used on input line 649.
@@ -2821,13 +2839,13 @@ Underfull \hbox (badness 7326) in paragraph at lines 649--649
 [][]|\T1/Roboto-LF/regular/it/9 Carat-ter-iz-zazione del ri-las-sa-
  []
 
-<gfx/ComportamentoCreep.png, id=894, 385.44pt x 297.36093pt>
+<gfx/ComportamentoCreep.png, id=963, 385.44pt x 297.36093pt>
 File: gfx/ComportamentoCreep.png Graphic file (type png)
 <use gfx/ComportamentoCreep.png>
 Package pdftex.def Info: gfx/ComportamentoCreep.png  used on input line 651.
 (pdftex.def)             Requested size: 134.39795pt x 103.68312pt.
 [53 <./gfx/RilassamentoMaxwell.png>]
-<gfx/KelvinVoigt.png, id=904, 288.3272pt x 188.95593pt>
+<gfx/KelvinVoigt.png, id=973, 288.3272pt x 188.95593pt>
 File: gfx/KelvinVoigt.png Graphic file (type png)
 <use gfx/KelvinVoigt.png>
 Package pdftex.def Info: gfx/KelvinVoigt.png  used on input line 661.
@@ -2839,28 +2857,23 @@ Underfull \hbox (badness 3872) in paragraph at lines 670--670
 
 [54 <./gfx/TempoRilassamento.png> <./gfx/ComportamentoCreep.png> <./gfx/KelvinV
 oigt.png>]
-<gfx/Zener.png, id=917, 339.51843pt x 188.95593pt>
+<gfx/Zener.png, id=985, 339.51843pt x 188.95593pt>
 File: gfx/Zener.png Graphic file (type png)
 <use gfx/Zener.png>
 Package pdftex.def Info: gfx/Zener.png  used on input line 734.
 (pdftex.def)             Requested size: 134.39795pt x 74.79678pt.
  [55] [56 <./gfx/Zener.png>]
-<gfx/CedevolezzaZener.png, id=939, 341.02406pt x 276.28218pt>
+<gfx/CedevolezzaZener.png, id=1008, 341.02406pt x 276.28218pt>
 File: gfx/CedevolezzaZener.png Graphic file (type png)
 <use gfx/CedevolezzaZener.png>
 Package pdftex.def Info: gfx/CedevolezzaZener.png  used on input line 799.
 (pdftex.def)             Requested size: 134.39795pt x 108.88364pt.
-<gfx/RilassamentoZener.png, id=940, 334.24875pt x 265.74281pt>
+<gfx/RilassamentoZener.png, id=1009, 334.24875pt x 265.74281pt>
 File: gfx/RilassamentoZener.png Graphic file (type png)
 <use gfx/RilassamentoZener.png>
 Package pdftex.def Info: gfx/RilassamentoZener.png  used on input line 801.
 (pdftex.def)             Requested size: 134.39795pt x 106.85481pt.
- [57 <./gfx/CedevolezzaZener.png> <./gfx/RilassamentoZener.png>]) [58] [59
-
-
-
-
-] [60]
+ [57 <./gfx/CedevolezzaZener.png> <./gfx/RilassamentoZener.png>]) [58]
 \openout2 = `Chapters/Chapter05.aux'.
 
  (./Chapters/Chapter05.tex
@@ -2876,90 +2889,262 @@ Overfull \hbox (17.1501pt too wide) detected at line 43
  $[][]$  
  []
 
-[61
+[59
 
 
 
-]
-Overfull \hbox (76.207pt too wide) detected at line 53
- $\U/zeur/m/n/10.95 ^^[\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 t\U/zeus/m/n/10.95 
-© ½ [] []$  
- []
 
-[62]
-<gfx/ComponenteConservativa.png, id=980, 314.97675pt x 245.718pt>
+
+
+
+] [60]
+<gfx/ComponenteConservativa.png, id=1041, 314.97675pt x 245.718pt>
 File: gfx/ComponenteConservativa.png Graphic file (type png)
 <use gfx/ComponenteConservativa.png>
-Package pdftex.def Info: gfx/ComponenteConservativa.png  used on input line 85.
+Package pdftex.def Info: gfx/ComponenteConservativa.png  used on input line 88.
 
 (pdftex.def)             Requested size: 134.39795pt x 104.84682pt.
-<gfx/ComponenteDissipativa.png, id=981, 353.52075pt x 277.035pt>
+<gfx/ComponenteDissipativa.png, id=1042, 353.52075pt x 277.035pt>
 File: gfx/ComponenteDissipativa.png Graphic file (type png)
 <use gfx/ComponenteDissipativa.png>
-Package pdftex.def Info: gfx/ComponenteDissipativa.png  used on input line 87.
+Package pdftex.def Info: gfx/ComponenteDissipativa.png  used on input line 90.
 (pdftex.def)             Requested size: 134.39795pt x 105.32089pt.
-<gfx/Combinazione.png, id=982, 439.6425pt x 357.13425pt>
+<gfx/Combinazione.png, id=1043, 439.6425pt x 357.13425pt>
 File: gfx/Combinazione.png Graphic file (type png)
 <use gfx/Combinazione.png>
-Package pdftex.def Info: gfx/Combinazione.png  used on input line 89.
+Package pdftex.def Info: gfx/Combinazione.png  used on input line 92.
 (pdftex.def)             Requested size: 168.0pt x 136.4699pt.
 
-Overfull \hbox (3.49727pt too wide) in paragraph at lines 94--95
+Overfull \hbox (3.49727pt too wide) in paragraph at lines 97--98
 []\T1/Roboto-LF/regular/n/10.95 Dalla figura [][]10.1[][], si os-serva che le c
 om-po-nenti hanno com-por-ta-mento
  []
 
 
-Overfull \hbox (24.28375pt too wide) in paragraph at lines 96--97
+Overfull \hbox (24.28375pt too wide) in paragraph at lines 99--100
 []\T1/Roboto-LF/regular/n/10.95 ha un an-da-mento cres-cente al crescere
  []
 
 
-Overfull \hbox (1.97246pt too wide) in paragraph at lines 97--98
+Overfull \hbox (1.97246pt too wide) in paragraph at lines 100--101
 []\T1/Roboto-LF/regular/n/10.95 ha un an-da-mento a cam-pana, dunque
  []
 
 
-Overfull \hbox (1.16609pt too wide) in paragraph at lines 97--98
+Overfull \hbox (1.16609pt too wide) in paragraph at lines 100--101
 \T1/Roboto-LF/regular/n/10.95 per basse e alte fre-quenza tende a zero, ha un p
 icco per fre-quenze
  []
 
 
-Overfull \hbox (8.70143pt too wide) detected at line 118
+Overfull \hbox (8.70143pt too wide) detected at line 121
  $[][]$  
  []
 
-[63 <./gfx/ComponenteConservativa.png> <./gfx/ComponenteDissipativa.png> <./gfx
+[61 <./gfx/ComponenteConservativa.png> <./gfx/ComponenteDissipativa.png> <./gfx
 /Combinazione.png>]
-<gfx/Conservativa3Param.png, id=994, 346.896pt x 265.59225pt>
+<gfx/Conservativa3Param.png, id=1055, 346.896pt x 265.59225pt>
 File: gfx/Conservativa3Param.png Graphic file (type png)
 <use gfx/Conservativa3Param.png>
-Package pdftex.def Info: gfx/Conservativa3Param.png  used on input line 138.
+Package pdftex.def Info: gfx/Conservativa3Param.png  used on input line 141.
 (pdftex.def)             Requested size: 134.39795pt x 102.8997pt.
-<gfx/Dissipativa3Param.png, id=995, 343.88475pt x 283.65974pt>
+<gfx/Dissipativa3Param.png, id=1056, 343.88475pt x 283.65974pt>
 File: gfx/Dissipativa3Param.png Graphic file (type png)
 <use gfx/Dissipativa3Param.png>
-Package pdftex.def Info: gfx/Dissipativa3Param.png  used on input line 140.
+Package pdftex.def Info: gfx/Dissipativa3Param.png  used on input line 143.
 (pdftex.def)             Requested size: 134.39795pt x 110.86058pt.
-) [64 <./gfx/Conservativa3Param.png> <./gfx/Dissipativa3Param.png>]
-Overfull \hbox (1.80588pt too wide) in paragraph at lines 96--96
+ [62 <./gfx/Conservativa3Param.png> <./gfx/Dissipativa3Param.png>]
+<gfx/FattorePerdita.png, id=1067, 301.72725pt x 272.81924pt>
+File: gfx/FattorePerdita.png Graphic file (type png)
+<use gfx/FattorePerdita.png>
+Package pdftex.def Info: gfx/FattorePerdita.png  used on input line 158.
+(pdftex.def)             Requested size: 168.0pt x 151.90768pt.
+<gfx/ConfSperimentale.png, id=1069, 355.3275pt x 283.0575pt>
+File: gfx/ConfSperimentale.png Graphic file (type png)
+<use gfx/ConfSperimentale.png>
+Package pdftex.def Info: gfx/ConfSperimentale.png  used on input line 176.
+(pdftex.def)             Requested size: 168.0pt x 133.83174pt.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/it' aliased to
+(Font)              `T1/Roboto-LF/bold/it' on input line 195.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 9.0pt on input line 195.
+ [63 <./gfx/FattorePerdita.png>]
+<gfx/ZenerMod.png, id=1077, 500.46976pt x 344.487pt>
+File: gfx/ZenerMod.png Graphic file (type png)
+<use gfx/ZenerMod.png>
+Package pdftex.def Info: gfx/ZenerMod.png  used on input line 202.
+(pdftex.def)             Requested size: 168.0pt x 115.64171pt.
+
+Overfull \hbox (22.00046pt too wide) in paragraph at lines 210--211
+[]\T1/Roboto-LF/regular/n/10.95 Sempre un mod-ello a quat-tro parametri. 
+ []
+
+[64 <./gfx/ConfSperimentale.png> <./gfx/ZenerMod.png>]
+chapter 11.
+<gfx/SovrapposizioneTT.png, id=1083, 573.94424pt x 344.487pt>
+File: gfx/SovrapposizioneTT.png Graphic file (type png)
+<use gfx/SovrapposizioneTT.png>
+Package pdftex.def Info: gfx/SovrapposizioneTT.png  used on input line 221.
+(pdftex.def)             Requested size: 336.0pt x 201.66862pt.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/b/it' aliased to
+(Font)              `T1/Roboto-LF/bold/it' on input line 232.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/it' will be
+(Font)              scaled to size 10.95pt on input line 232.
+<gfx/Shift.png, id=1085, 311.9655pt x 262.581pt>
+File: gfx/Shift.png Graphic file (type png)
+<use gfx/Shift.png>
+Package pdftex.def Info: gfx/Shift.png  used on input line 253.
+(pdftex.def)             Requested size: 168.0pt x 141.40697pt.
+[65
+
+
+] [66 <./gfx/SovrapposizioneTT.png> <./gfx/Shift.png>]
+<gfx/WLF.png, id=1102, 517.33275pt x 339.06676pt>
+File: gfx/WLF.png Graphic file (type png)
+<use gfx/WLF.png>
+Package pdftex.def Info: gfx/WLF.png  used on input line 291.
+(pdftex.def)             Requested size: 168.0pt x 110.10742pt.
+<gfx/DMTA.png, id=1109, 345.08925pt x 327.624pt>
+File: gfx/DMTA.png Graphic file (type png)
+<use gfx/DMTA.png>
+Package pdftex.def Info: gfx/DMTA.png  used on input line 310.
+(pdftex.def)             Requested size: 168.0pt x 159.49733pt.
+) [67 <./gfx/WLF.png>] [68 <./gfx/DMTA.png>] [69
+
+
+
+
+
+
+] [70]
+\openout2 = `Chapters/Chapter06.aux'.
+
+ (./Chapters/Chapter06.tex
+chapter 12.
+<gfx/Elasticita.png, id=1129, 358.941pt x 116.23425pt>
+File: gfx/Elasticita.png Graphic file (type png)
+<use gfx/Elasticita.png>
+Package pdftex.def Info: gfx/Elasticita.png  used on input line 10.
+(pdftex.def)             Requested size: 168.0pt x 54.40129pt.
+<gfx/1Termodinamica.png, id=1130, 610.6815pt x 363.759pt>
+File: gfx/1Termodinamica.png Graphic file (type png)
+<use gfx/1Termodinamica.png>
+Package pdftex.def Info: gfx/1Termodinamica.png  used on input line 22.
+(pdftex.def)             Requested size: 336.0pt x 200.14577pt.
+[71
+
+
+
+
+
+ <./gfx/Elasticita.png>]
+Overfull \hbox (13.26534pt too wide) in paragraph at lines 70--73
+\T1/Roboto-LF/regular/n/10.95 min-i-miz-zazione dell'energia ma una mas-simiz-z
+azione dell'entropia: tende
+ []
+
+[72 <./gfx/1Termodinamica.png>]
+Overfull \hbox (7.19618pt too wide) in paragraph at lines 120--122
+\T1/Roboto-LF/regular/n/10.95 fig-u-razione $\U/zeur/m/n/10.95 1$\T1/Roboto-LF/
+regular/n/10.95 . Al calare della lunghezza (per via delle ro-tazioni dei legam
+i)
+ []
+
+[73]
+<gfx/Configurazioni.png, id=1158, 398.6895pt x 254.1495pt>
+File: gfx/Configurazioni.png Graphic file (type png)
+<use gfx/Configurazioni.png>
+Package pdftex.def Info: gfx/Configurazioni.png  used on input line 135.
+(pdftex.def)             Requested size: 134.39795pt x 85.67287pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]|\T1/Roboto-LF/regular/it/9 An-da-mento delle con-fig-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+\T1/Roboto-LF/regular/it/9 u-razioni in fun-zione della
+ []
+
+
+Underfull \hbox (badness 7944) in paragraph at lines 135--135
+\T1/Roboto-LF/regular/it/9 lunghezza del vet-tore testa-
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 144--144
+[]$\U/zeus/m/n/10.95 k[]k ! \U/zeuex/m/n/10.95 ™$\T1/Roboto-LF/regular/n/10.95 
+, al-lora
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 144--144
+\T1/Roboto-LF/regular/n/10.95 è: le macro-molecole
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\T1/Roboto-LF/regular/n/10.95 hanno lunghezza
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 144--144
+[]\T1/Roboto-LF/regular/n/10.95 Non è detto che le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\T1/Roboto-LF/regular/n/10.95 macro-molecole si
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+\T1/Roboto-LF/regular/n/10.95 dis-tribuis-cano con
+ []
+
+
+Overfull \hbox (9.18607pt too wide) in paragraph at lines 159--161
+\U/zeus/m/n/10.95 k[] ^^@ []k$ \T1/Roboto-LF/regular/n/10.95 per via dell'allun
+gamento delle macro-molecole per l'imposizione
+ []
+
+[74 <./gfx/Configurazioni.png>]
+Overfull \hbox (12.00658pt too wide) in paragraph at lines 175--177
+\T1/Roboto-LF/regular/n/10.95 molecole. Di fatti è come se la rigidezza fosse d
+i-ret-ta-mente pro-porzionale
+ []
+
+
+Overfull \hbox (33.94911pt too wide) in paragraph at lines 179--182
+[] []\T1/Roboto-LF/m/sc/10.95/80ls forza di richi-amo di orig-ine en-trop-ica (
+non en-er-get-ica)[] \T1/Roboto-LF/regular/n/10.95 Tirando,
+ []
+
+<gfx/ComportamentoElastomeri.png, id=1171, 472.76625pt x 321.6015pt>
+File: gfx/ComportamentoElastomeri.png Graphic file (type png)
+<use gfx/ComportamentoElastomeri.png>
+Package pdftex.def Info: gfx/ComportamentoElastomeri.png  used on input line 19
+2.
+(pdftex.def)             Requested size: 168.0pt x 114.28464pt.
+) [75 <./gfx/ComportamentoElastomeri.png>] [76
+
+
+
+
+]
+Overfull \hbox (1.80588pt too wide) in paragraph at lines 98--98
 []\T1/Roboto-LF/regular/n/10.95 Parte delle lezioni svolte dalla pro-fes-soress
 a Valentina Maz-
  []
 
-[65
+[77
 
 
-
-
-
-
-] [66]
+] [78]
 \openout2 = `Chapters/Chapter04.aux'.
 
  (./Chapters/Chapter04.tex
-chapter 11.
+chapter 13.
 
 Overfull \hbox (3.28836pt too wide) in paragraph at lines 4--6
 \T1/Roboto-LF/regular/n/10.95 I ma-te-ri-ali polimerici non possiedono com-por-
@@ -2978,19 +3163,21 @@ Overfull \hbox (1.84055pt too wide) in paragraph at lines 34--37
 -ità di de-for-mazione $[]$. Per-
  []
 
-[67
+[79
+
+
 
 
 
 ]
-<gfx/TaglioNonNewt.png, id=1027, 1093.08376pt x 390.258pt>
+<gfx/TaglioNonNewt.png, id=1206, 1093.08376pt x 390.258pt>
 File: gfx/TaglioNonNewt.png Graphic file (type png)
 <use gfx/TaglioNonNewt.png>
 Package pdftex.def Info: gfx/TaglioNonNewt.png  used on input line 55.
 (pdftex.def)             Requested size: 336.0pt x 119.96043pt.
 
-Overfull \hbox (1.37909pt too wide) in paragraph at lines 60--64
-[]\T1/Roboto-LF/regular/n/10.95 Dal grafico [][]11.1[][] si può de-durre che: a
+Overfull \hbox (2.76974pt too wide) in paragraph at lines 60--64
+[]\T1/Roboto-LF/regular/n/10.95 Dal grafico [][]13.1[][] si può de-durre che: a
 ll'aumentare dello sforzo di taglio
  []
 
@@ -3000,17 +3187,17 @@ Overfull \hbox (11.69554pt too wide) in paragraph at lines 60--64
  hanno com-por-ta-mento pseudo-
  []
 
-<gfx/PseudoPlastico.png, id=1030, 624.53325pt x 301.125pt>
+<gfx/PseudoPlastico.png, id=1209, 624.53325pt x 301.125pt>
 File: gfx/PseudoPlastico.png Graphic file (type png)
 <use gfx/PseudoPlastico.png>
 Package pdftex.def Info: gfx/PseudoPlastico.png  used on input line 70.
 (pdftex.def)             Requested size: 235.19897pt x 113.39944pt.
-[68 <./gfx/TaglioNonNewt.png> <./gfx/PseudoPlastico.png>]
+[80 <./gfx/TaglioNonNewt.png> <./gfx/PseudoPlastico.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 118--127
 
  []
 
-[69]
+[81]
 Overfull \hbox (13.40695pt too wide) in paragraph at lines 137--140
 \T1/Roboto-LF/regular/n/10.95 con-feren-ziale provo-cato dall'aderenza. A liv-e
 llo cir-con-feren-ziale, le catene
@@ -3022,7 +3209,7 @@ Overfull \hbox (7.92111pt too wide) in paragraph at lines 137--140
 e. Cre-ando così aderenza.
  []
 
-<gfx/Barus.png, id=1050, 569.7285pt x 184.2885pt>
+<gfx/Barus.png, id=1227, 569.7285pt x 184.2885pt>
 File: gfx/Barus.png Graphic file (type png)
 <use gfx/Barus.png>
 Package pdftex.def Info: gfx/Barus.png  used on input line 148.
@@ -3032,7 +3219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--148
 [][]|\T1/Roboto-LF/regular/it/9 Ef-fetto di rigon-fi-a-mento
  []
 
-<gfx/ElasticitÃ .png, id=1051, 693.792pt x 257.16075pt>
+<gfx/ElasticitÃ .png, id=1228, 693.792pt x 257.16075pt>
 File: gfx/ElasticitÃ .png Graphic file (type png)
 <use gfx/ElasticitÃ .png>
 Package pdftex.def Info: gfx/ElasticitÃ .png  used on input line 150.
@@ -3048,13 +3235,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
 gon-fi-a-mento
  []
 
-[70 <./gfx/Barus.png> <./gfx/ElasticitÃ .png>]
-<gfx/EffettoPlastico.png, id=1064, 456.5055pt x 299.9205pt>
+[82 <./gfx/Barus.png> <./gfx/ElasticitÃ .png>]
+<gfx/EffettoPlastico.png, id=1241, 456.5055pt x 299.9205pt>
 File: gfx/EffettoPlastico.png Graphic file (type png)
 <use gfx/EffettoPlastico.png>
 Package pdftex.def Info: gfx/EffettoPlastico.png  used on input line 179.
 (pdftex.def)             Requested size: 201.60205pt x 132.45052pt.
-<gfx/Tissotropia.png, id=1065, 579.96675pt x 271.61475pt>
+<gfx/Tissotropia.png, id=1242, 579.96675pt x 271.61475pt>
 File: gfx/Tissotropia.png Graphic file (type png)
 <use gfx/Tissotropia.png>
 Package pdftex.def Info: gfx/Tissotropia.png  used on input line 187.
@@ -3065,28 +3252,28 @@ Overfull \hbox (2.8257pt too wide) in paragraph at lines 194--195
 cono
  []
 
-<gfx/FlussoTubo.png, id=1066, 525.76425pt x 259.56975pt>
+<gfx/FlussoTubo.png, id=1243, 525.76425pt x 259.56975pt>
 File: gfx/FlussoTubo.png Graphic file (type png)
 <use gfx/FlussoTubo.png>
 Package pdftex.def Info: gfx/FlussoTubo.png  used on input line 200.
 (pdftex.def)             Requested size: 336.0pt x 165.88641pt.
-[71 <./gfx/EffettoPlastico.png> <./gfx/Tissotropia.png>] [72 <./gfx/FlussoTubo.
-png>] [73]
-<gfx/SpeedProfile.png, id=1091, 349.90726pt x 240.29774pt>
+[83 <./gfx/EffettoPlastico.png> <./gfx/Tissotropia.png>] [84 <./gfx/FlussoTubo.
+png>] [85]
+<gfx/SpeedProfile.png, id=1270, 349.90726pt x 240.29774pt>
 File: gfx/SpeedProfile.png Graphic file (type png)
 <use gfx/SpeedProfile.png>
 Package pdftex.def Info: gfx/SpeedProfile.png  used on input line 317.
 (pdftex.def)             Requested size: 336.0pt x 230.74553pt.
- [74]
+ [86]
 Overfull \hbox (42.6691pt too wide) in paragraph at lines 333--340
 [] 
  []
 
-[75 <./gfx/SpeedProfile.png>] [76
+[87 <./gfx/SpeedProfile.png>] [88
 
 
 ]
-chapter 12.
+chapter 14.
 
 Overfull \hbox (5.16042pt too wide) in paragraph at lines 344--347
 \T1/Roboto-LF/regular/n/10.95 sforzo. I flu-idi ide-ali, liq-uidi o gas-sosi ch
@@ -3099,21 +3286,21 @@ Overfull \hbox (2.28189pt too wide) in paragraph at lines 366--368
 i-ente di ve-loc-ità che definisce
  []
 
-[77]
+[89]
 Overfull \hbox (0.30652pt too wide) in paragraph at lines 370--375
 \T1/Roboto-LF/regular/n/10.95 celle al-lun-gate sospese nel liq-uido si ori-en-
 tano nella di-rezione del moto.
  []
 
-[78]
-chapter 13.
+[90]
+chapter 15.
 
 Overfull \hbox (14.62689pt too wide) in paragraph at lines 381--385
 \T1/Roboto-LF/regular/n/10.95 di vis-cosimetri as-so-luti es-trema-mente ver-sa
 -tili. Nel mer-cato se ne trovano
  []
 
-[79
+[91
 
 
 ]
@@ -3122,7 +3309,7 @@ Overfull \hbox (10.96504pt too wide) in paragraph at lines 398--400
  mosso con ve-loc-ità costante. 
  []
 
-<gfx/Viscosimetro.png, id=1129, 274.02374pt x 269.20575pt>
+<gfx/Viscosimetro.png, id=1307, 274.02374pt x 269.20575pt>
 File: gfx/Viscosimetro.png Graphic file (type png)
 <use gfx/Viscosimetro.png>
 Package pdftex.def Info: gfx/Viscosimetro.png  used on input line 404.
@@ -3138,7 +3325,7 @@ Overfull \hbox (10.63239pt too wide) in paragraph at lines 435--436
  nell'uso dei sis-temi di misura
  []
 
-[80 <./gfx/Viscosimetro.png>]
+[92 <./gfx/Viscosimetro.png>]
 Overfull \hbox (5.44643pt too wide) in paragraph at lines 438--439
 \T1/Roboto-LF/regular/n/10.95 e questo può ac-cadere prima an-cora dell'inizio 
 della prova, quando
@@ -3150,7 +3337,7 @@ Overfull \hbox (3.18748pt too wide) in paragraph at lines 440--443
  del cam-pi-one verso
  []
 
-<gfx/PK.png, id=1143, 567.3195pt x 398.6895pt>
+<gfx/PK.png, id=1321, 567.3195pt x 398.6895pt>
 File: gfx/PK.png Graphic file (type png)
 <use gfx/PK.png>
 Package pdftex.def Info: gfx/PK.png  used on input line 448.
@@ -3160,37 +3347,37 @@ Underfull \hbox (badness 4739) in paragraph at lines 448--448
 [][]|\T1/Roboto-LF/regular/it/9 Fun-zion-a-mento del cono (1),
  []
 
-<gfx/PK_graph.png, id=1144, 410.7345pt x 338.4645pt>
+<gfx/PK_graph.png, id=1322, 410.7345pt x 338.4645pt>
 File: gfx/PK_graph.png Graphic file (type png)
 <use gfx/PK_graph.png>
 Package pdftex.def Info: gfx/PK_graph.png  used on input line 450.
 (pdftex.def)             Requested size: 134.39795pt x 110.75368pt.
-[81 <./gfx/PK.png> <./gfx/PK_graph.png>]
-<gfx/PiattoPiatto.png, id=1154, 286.671pt x 195.73125pt>
+[93 <./gfx/PK.png> <./gfx/PK_graph.png>]
+<gfx/PiattoPiatto.png, id=1331, 286.671pt x 195.73125pt>
 File: gfx/PiattoPiatto.png Graphic file (type png)
 <use gfx/PiattoPiatto.png>
 Package pdftex.def Info: gfx/PiattoPiatto.png  used on input line 477.
 (pdftex.def)             Requested size: 168.0pt x 114.70987pt.
- [82 <./gfx/PiattoPiatto.png>]
+ [94 <./gfx/PiattoPiatto.png>]
 Overfull \hbox (8.25703pt too wide) in paragraph at lines 532--538
 \T1/Roboto-LF/regular/n/10.95 sec-ondo ve-loc-ità im-postata e, con-tem-po-rane
 a-mente, ad in-ter-valli presta-
  []
 
-[83]
-<gfx/Capillare.png, id=1184, 454.69875pt x 195.73125pt>
+[95]
+<gfx/Capillare.png, id=1361, 454.69875pt x 195.73125pt>
 File: gfx/Capillare.png Graphic file (type png)
 <use gfx/Capillare.png>
 Package pdftex.def Info: gfx/Capillare.png  used on input line 548.
 (pdftex.def)             Requested size: 336.0pt x 144.63873pt.
- [84 <./gfx/Capillare.png>]
-<gfx/CorrezioneCapillare.png, id=1194, 478.78876pt x 243.91125pt>
+ [96 <./gfx/Capillare.png>]
+<gfx/CorrezioneCapillare.png, id=1372, 478.78876pt x 243.91125pt>
 File: gfx/CorrezioneCapillare.png Graphic file (type png)
 <use gfx/CorrezioneCapillare.png>
 Package pdftex.def Info: gfx/CorrezioneCapillare.png  used on input line 617.
 (pdftex.def)             Requested size: 168.0pt x 85.58235pt.
- [85] [86 <./gfx/CorrezioneCapillare.png>]
-<gfx/CorrezioneDoppioLog.png, id=1220, 400.49625pt x 278.2395pt>
+ [97] [98 <./gfx/CorrezioneCapillare.png>]
+<gfx/CorrezioneDoppioLog.png, id=1399, 400.49625pt x 278.2395pt>
 File: gfx/CorrezioneDoppioLog.png Graphic file (type png)
 <use gfx/CorrezioneDoppioLog.png>
 Package pdftex.def Info: gfx/CorrezioneDoppioLog.png  used on input line 710.
@@ -3201,28 +3388,28 @@ Underfull \hbox (badness 1701) in paragraph at lines 711--711
 tenuto sper-i-men-tal-
  []
 
-[87]
+[99]
 Overfull \hbox (0.28339pt too wide) in paragraph at lines 730--736
 \T1/Roboto-LF/regular/n/10.95 in-trodotta la cor-rezione di \T1/Roboto-LF/regul
 ar/it/10.95 Bagley\T1/Roboto-LF/regular/n/10.95 . Si tratta di va-l-utare le pe
 rdite di carico
  []
 
-<gfx/Bagley.png, id=1238, 459.51675pt x 277.035pt>
+<gfx/Bagley.png, id=1415, 459.51675pt x 277.035pt>
 File: gfx/Bagley.png Graphic file (type png)
 <use gfx/Bagley.png>
 Package pdftex.def Info: gfx/Bagley.png  used on input line 739.
 (pdftex.def)             Requested size: 235.19897pt x 141.79747pt.
-[88 <./gfx/CorrezioneDoppioLog.png>]) [89 <./gfx/Bagley.png>] [90
+[100 <./gfx/CorrezioneDoppioLog.png>]) [101 <./gfx/Bagley.png>] [102
 
 
 
 
-] [91
+] [103
 
 
 ]
-[92]
+[104]
 \openout2 = `Chapters/Chapter0A.aux'.
 
  (./Chapters/Chapter0A.tex
@@ -3239,27 +3426,63 @@ Underfull \hbox (badness 6910) in paragraph at lines 11--11
 i delle frazioni
  []
 
-[93
+[105
 
 
 
-] [94]
+] [106]
 chapter b.
-[95
+<gfx/Esercizio1_E.png, id=1460, 303.534pt x 246.9225pt>
+File: gfx/Esercizio1_E.png Graphic file (type png)
+<use gfx/Esercizio1_E.png>
+Package pdftex.def Info: gfx/Esercizio1_E.png  used on input line 76.
+(pdftex.def)             Requested size: 134.39795pt x 109.33194pt.
+<gfx/Esercizio1_eps.png, id=1461, 404.10976pt x 313.77225pt>
+File: gfx/Esercizio1_eps.png Graphic file (type png)
+<use gfx/Esercizio1_eps.png>
+Package pdftex.def Info: gfx/Esercizio1_eps.png  used on input line 78.
+(pdftex.def)             Requested size: 134.39795pt x 104.35428pt.
+
+Overfull \hbox (4.26633pt too wide) in paragraph at lines 93--95
+[]\T1/Roboto-LF/regular/n/10.95 In questo caso bisogna con-sid-er-are che c'è i
+l ri-las-sa-mento
+ []
+
+<gfx/Risultato1.png, id=1462, 456.5055pt x 308.352pt>
+File: gfx/Risultato1.png Graphic file (type png)
+<use gfx/Risultato1.png>
+Package pdftex.def Info: gfx/Risultato1.png  used on input line 110.
+(pdftex.def)             Requested size: 336.0pt x 226.95358pt.
+File: gfx/Esercizio1_E.png Graphic file (type png)
+<use gfx/Esercizio1_E.png>
+Package pdftex.def Info: gfx/Esercizio1_E.png  used on input line 121.
+(pdftex.def)             Requested size: 134.39795pt x 109.33194pt.
+<gfx/Esercizio2_eps.png, id=1463, 405.9165pt x 286.06876pt>
+File: gfx/Esercizio2_eps.png Graphic file (type png)
+<use gfx/Esercizio2_eps.png>
+Package pdftex.def Info: gfx/Esercizio2_eps.png  used on input line 123.
+(pdftex.def)             Requested size: 134.39795pt x 94.71725pt.
+[107
+
+
+ <./gfx/Esercizio1_E.png> <./gfx/Esercizio1_eps.png>] [108 <./gfx/Risultato1.pn
+g> <./gfx/Esercizio2_eps.png>] [109] [110
 
 
 ]
-<gfx/Periodic_table2017.pdf, id=1286, 646.42302pt x 357.69937pt>
+chapter c.
+[111]
+<gfx/Periodic_table2017.pdf, id=1498, 646.42302pt x 357.69937pt>
 File: gfx/Periodic_table2017.pdf Graphic file (type pdf)
 <use gfx/Periodic_table2017.pdf>
-Package pdftex.def Info: gfx/Periodic_table2017.pdf  used on input line 72.
+Package pdftex.def Info: gfx/Periodic_table2017.pdf  used on input line 153.
 (pdftex.def)             Requested size: 646.42145pt x 357.69849pt.
 )
-Overfull \hbox (32.64848pt too wide) in paragraph at lines 72--105
+Overfull \hbox (32.64848pt too wide) in paragraph at lines 153--107
 [][] 
  []
 
-[96 <./gfx/Periodic_table2017.pdf>]
+[112 <./gfx/Periodic_table2017.pdf>]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex)
@@ -3268,7 +3491,7 @@ LaTeX Warning: Empty bibliography on input line 12.
 
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
-(./FrontBackmatter/Declaration.tex) [97
+(./FrontBackmatter/Declaration.tex) [113
 
 
 
@@ -3281,7 +3504,7 @@ LaTeX Warning: Empty bibliography on input line 12.
 
 
 
-] [98
+] [114
 
 
 
@@ -3313,16 +3536,16 @@ egular/it/10.95 The El-e-ments of Ty-po-graphic Style\T1/Roboto-LF/regular/n/10
 .95 ''. \T1/cmtt/m/n/10.95 classicthesis
  []
 
-) [99
+) [115
 
 {c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 (./MatPoli.aux (./FrontBackmatter/DirtyTitlepage.aux)
 (./FrontBackmatter/Titlepage.aux) (./FrontBackmatter/Titleback.aux)
 (./FrontBackmatter/Contents.aux) (./Chapters/Chapter01.aux)
 (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux) (./Chapters/Chapter05.aux
-) (./Chapters/Chapter04.aux) (./Chapters/Chapter0A.aux)
-(./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux)
-(./FrontBackmatter/Colophon.aux))
+) (./Chapters/Chapter06.aux) (./Chapters/Chapter04.aux)
+(./Chapters/Chapter0A.aux) (./FrontBackmatter/Bibliography.aux)
+(./FrontBackmatter/Declaration.aux) (./FrontBackmatter/Colophon.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -3580,6 +3803,18 @@ gfx/ComponenteDissipativa.png
 gfx/Combinazione.png
 gfx/Conservativa3Param.png
 gfx/Dissipativa3Param.png
+gfx/FattorePerdita.png
+gfx/ConfSperimentale.png
+gfx/ZenerMod.png
+gfx/SovrapposizioneTT.png
+gfx/Shift.png
+ gfx/WLF.png
+gfx/DMTA.png
+Chapters/Chapter06.tex
+gfx/Elasticita.png
+gfx/1Termodinamica.png
+gfx/Configurazioni.png
+gfx/ComportamentoElastomeri.png
 Chapters/Chapter04.tex
 gfx/TaglioNonNewt.png
 gfx/PseudoPlastico.png
@@ -3598,6 +3833,11 @@ gfx/CorrezioneCapillare.png
 gfx/CorrezioneDoppioLog.png
 gfx/Bagley.png
 Chapters/Chapter0A.tex
+gfx/Esercizio1_E.png
+gfx/Esercizio1_eps.png
+gfx/Risultato1.png
+gfx/Esercizio1_E.png
+gfx/Esercizio2_eps.png
 gfx/Periodic_table2017.pdf
 FrontBackmatter/Bibliography.tex
 FrontBackmatter/Declaration.tex
@@ -3614,37 +3854,39 @@ Package logreq Info: Writing requests to 'MatPoli.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51865 strings out of 475188
- 1064862 string characters out of 5767805
- 2021348 words of memory out of 5000000
- 71670 multiletter control sequences out of 15000+600000
- 803993 words of font info for 272 fonts, out of 8000000 for 9000
+ 52277 strings out of 475188
+ 1073278 string characters out of 5767805
+ 2026498 words of memory out of 5000000
+ 71970 multiletter control sequences out of 15000+600000
+ 821203 words of font info for 291 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,23n,139p,10902b,2975s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb><c:/tex
-live/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb><c:/texlive/20
-23/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb><c:/texlive/2023/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb>
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c:/te
-xlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb><c:/texlive/2
-023/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/te
-xmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-di
-st/fonts/type1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/font
-s/type1/public/amsfonts/euler/eusm10.pfb><c:/texlive/2023/texmf-dist/fonts/type
-1/public/amsfonts/euler/eusm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/publi
-c/fpl/fplrc8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbo
-ls/msam10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.
-pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive
-/2023/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on MatPoli.pdf (109 pages, 1739089 bytes).
+live/2023/texmf-dist/fonts/type1/google/roboto/Roboto-BoldItalic.pfb><c:/texliv
+e/2023/texmf-dist/fonts/type1/google/roboto/Roboto-Italic.pfb><c:/texlive/2023/
+texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb><c:/texlive/2023/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmss17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmssbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/euex10.pfb><c:
+/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb><c:/texli
+ve/2023/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb><c:/texlive/2023
+/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb><c:/texlive/2023/texmf
+-dist/fonts/type1/public/amsfonts/euler/eurb7.pfb><c:/texlive/2023/texmf-dist/f
+onts/type1/public/amsfonts/euler/eurm10.pfb><c:/texlive/2023/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eurm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/pu
+blic/amsfonts/euler/eusm10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/a
+msfonts/euler/eusm7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/fpl/fplr
+c8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/te
+xlive/2023/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><c:/texlive/2023/texm
+f-dist/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on MatPoli.pdf (127 pages, 2082724 bytes).
 PDF statistics:
- 1794 PDF objects out of 2073 (max. 8388607)
- 1549 compressed objects within 16 object streams
- 545 named destinations out of 1000 (max. 500000)
- 54220 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 2064 PDF objects out of 2073 (max. 8388607)
+ 1778 compressed objects within 18 object streams
+ 632 named destinations out of 1000 (max. 500000)
+ 56431 words of extra memory for PDF output out of 61914 (max. 10000000)
 

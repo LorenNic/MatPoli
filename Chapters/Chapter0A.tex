@@ -63,7 +63,88 @@ In fine:
 \end{equation}
 
 
+%************************************************
+\chapter{Esercizi sulla viscoelasticità lineare}\label{chp:VisElastLineare}
+%************************************************
+\section{Esercizio}
+$E = E(t)$ come in figura \ref{fig:Esercizio1} e storia di deformazione.
+Se ne calcoli lo sforzo.
 
+\begin{figure}
+\centering
+\subfloat[][\emph{Andamento rilassamento}\label{fig:Esercizio1_E}]
+{\includegraphics[width = 0.4\textwidth]{gfx/Esercizio1_E}}\quad
+\subfloat[][\emph{Storia deformazione}\label{fig:Esercizio1_eps}]
+{\includegraphics[width = 0.4\textwidth]{gfx/Esercizio1_eps}}
+\caption{Esercizio 1 viscoelasticità lineare}
+\label{fig:Esercizio1}
+\end{figure}
+
+Si nota che la funzione $\epsilon(t)$ è lineare a tratti, per cui suddivideremo in intervalli dove è lineare.
+\begin{description}
+\item[$0 < t < t_1$] allora:
+\begin{equation}
+\begin{cases}
+\epsilon(t) &= \epsilon_0 \quad \forall t \in [0;t_1)\\
+\sigma(t) &= \epsilon_0 E(t)
+\end{cases}
+\end{equation}
+\item[$t_1 < t < t_2$]
+In questo caso bisogna considerare che c'è il rilassamento della deformazione precedente più lo sforzo della nuova deformazione.
+Da cui:
+\begin{equation}
+\sigma = \epsilon_0E(t) + (\epsilon_1 - \epsilon_0)E(t) = [\epsilon_0 + \epsilon_1 - \epsilon_0]E(t)???
+\end{equation}
+Non è corretto infatti è erronea la sovrapposizione degli effetti:
+\begin{equation}
+\sigma = \epsilon_0E(t) + (\epsilon_1 - \epsilon_0)E(t-t_1)
+\end{equation}
+\item[$t>t_2$] per lo stesso ragionamento precedente:
+\begin{equation}
+\sigma = \epsilon_0E(t) + (\epsilon_1 - \epsilon_0)E(t-t_1) + (\epsilon_2 - \epsilon_1)E(t - t_2)
+\end{equation}
+\end{description}
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/Risultato1}
+\caption{Risultato dell'esercizio 1}
+\label{fig:Risultato1}
+\end{figure}
+
+\section{Esercizio}
+Confronto di due storie di deformazione differenti:
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Andamento rilassamento}\label{fig:Esercizio2_E}]
+{\includegraphics[width = 0.4\textwidth]{gfx/Esercizio1_E}}\quad
+\subfloat[][\emph{Storie di deformazione}\label{fig:Esercizio2_eps}]
+{\includegraphics[width = 0.4\textwidth]{gfx/Esercizio2_eps}}
+\caption{Andamenti per il confronto delle due storie di deformazione}
+\label{fig:Esercizio2}
+\end{figure}
+
+allora:
+\begin{description}
+\item[Storia rossa \ref{fig:Esercizio2_eps}] $\epsilon = \bar{\epsilon} \Rightarrow \sigma(t_2) = \bar{\epsilon}E(t_2)$
+\item[Storia azzurra \ref{fig:Esercizio2_eps}] in questo caso:
+\begin{equation}
+\sigma(t_2) =%
+\begin{cases}
+\frac{\bar{\epsilon}}{2} &0<t<t_1\\
+\bar{\epsilon} &t_1<t<t_2
+\end{cases}
+\end{equation}
+\end{description}
+Ne caso della seconda storia, osserviamo l'andamento dello sforzo:
+\begin{equation}
+\sigma(t_2) = \frac{\bar{\epsilon}}{2}E(t_2) + [\bar{\epsilon} - \frac{\bar{\epsilon}}{2}]E(t_2 - t_1)
+\end{equation}
+Ne risulta che siccome $t_2 > t_2-t_1$ e siccome la deformazione è una funzione decrescente: $E(t_2)< E(t_2-t_1)$.
+Dunque lo sforzo conseguente la storia rossa è minore di quella azzurra.
+
+\section{Esercizio}
 
 %************************************************
 \chapter{Tavola periodica}\label{chp:Tavolaperiodica}

@@ -49,7 +49,10 @@ Sarebbe la storia di deformazione è sinusoidale, non è detto che la storia di 
 \end{split}
 \end{equation}
 \begin{equation}
-\sigma(t) = \bar{\epsilon}\left\lbrace\underbrace{\left[E_{\infty} + \omega\int_0^t{\Delta E(s)\sin(\omega s)\,ds}\right]}_{E'(\omega)}\sin(\omega t) + \underbrace{\left[\omega\int_0^t{\Delta E(s)\cos(\omega s)\,ds}\right]}_{E"(\omega)}\cos(\omega t)\right\rbrace
+\begin{split}
+\sigma(t) &= \bar{\epsilon}\underbrace{\left[E_{\infty} + \omega\int_0^t{\Delta E(s)\sin(\omega s)\,ds}\right]}_{E'(\omega)}\sin(\omega t) +\\
+&+\bar{\epsilon}\underbrace{\left[\omega\int_0^t{\Delta E(s)\cos(\omega s)\,ds}\right]}_{E"(\omega)}\cos(\omega t)
+\end{split}
 \end{equation}
 Da cui:
 \begin{equation}
@@ -142,3 +145,169 @@ E"(\omega) &= \omega\int_0^{\infty}{(E_0-E_{\infty})e^{-\frac{t}{\tau_r}}\cos(\o
 \label{fig:3Param}
 \end{figure}
 Il tempo di rilassamento è tale per cui il materiale posto a deformazione a frequenze pari all'inverso del tempo di rilassamento. presenta la massima dissipazione.
+Inoltre si può definire il modulo complesso come:
+\begin{equation}
+E^*(\omega) = \sqrt{(E')^2+(E")^2}
+\end{equation}
+
+Analizzando il comportamento del fattore di perdita, come in figura \ref{fig:FattorePerdite}, si osserva che il comportamento assomiglia a quello di $E"$.
+Infatti dipende dal fatto che il materiale ha comportamento elastico a bassa ed alta frequenza: mentre, a frequenze intermedie subentra la componente dissipativa.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/FattorePerdita}
+\caption{Andamento del fattore di perdita per il modello \eng{Zener}}
+\label{fig:FattorePerdite}
+\end{figure}
+
+Tra l'altro il picco si trova in corrispondenza di $\omega_{max}$ definito come:
+\begin{equation}
+\omega_{max} = \sqrt{\frac{1}{\tau_r\tau_c}}
+\end{equation}
+
+Sebbene il modello di \eng{Zenere} rappresenti bene i due comportamenti: nella realtà non è perfettamente rappresentativo di materiali viscoelastici.
+
+\paragraph{Confronto coi dati sperimentali}
+Il modello non riesce a raggiungere i valori ottenuti da una prova sperimentale. Funzionano qualitativamente ma non numericamente.
+Alla figura \ref{fig:ConfSperimentale} viene rappresentato il confronto tra i dati ottenuti dalla prova sperimentale e il modello di \eng{Zener}.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/ConfSperimentale}
+\caption{Confronto tra i dati sperimentali (in blu), e il modello di \eng{Zener}(in nero)}
+\label{fig:ConfSperimentale}
+\end{figure}
+
+\begin{quote}
+\emph{Si può correggere?}
+\end{quote}
+Considerando che il materiale rappresenta un comportamento dissipativo per un certo range di frequenze allora: mettendo in serie più modelli con tempo di rilassamento diverso:
+
+\begin{equation}
+\begin{split}
+E(t) &= E_{\infty} + (E_0-E_{\infty})e^{-\frac{t}{\tau_r}}\\
+E(t) &= E_{\infty} + K_1e^{-\frac{t}{\tau_{r_1}}} + K_2e^{-\frac{t}{\tau_{r_2}}} + \dots + K_Ne^{-\frac{t}{\tau_{r_N}}}\\
+&= E_{\infty} + \sum_{i=1}^N{K_ie^{-\frac{t}{\tau_{r_i}}}}
+\end{split}
+\end{equation}
+
+Il modello di \eng{Zener} corretto presenta uno spettro discreto di tempi di rilassamento. Uno per ogni elemento aggiuntivo inserito.\\
+\graffito{\textbf{N.B.} Per ogni elemento aggiunto si introducono nuove variabili che devono essere ottenute sperimentalmente.}
+
+In letteratura sono state sviluppati dei modelli adatti solo per rappresentare numericamente il comportamento dei dati sperimentali.
+\textbf{Non fanno riferimento ad alcun sistema fisico}.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/ZenerMod}
+\caption{Modello di \eng{Zener} modificato per adattarsi ai dati sperimentali}
+\label{fig:ZenerMod}
+\end{figure}
+
+\paragraph{Altri modelli}
+\begin{description}
+\item[$E(t) = E_{\infty} + \frac{E_0 - E_{\infty}}{\left(+\frac{t}{\tau_r}\right)^2}$] usata perché allarga il punto di massimo.
+\item[$E(t) = E_{\infty} + \left(E_0 - E_{\infty}\right)e^{-\left(\frac{t}{\tau_r}\right)^\alpha}$] Sempre un modello a quattro parametri.
+\item[$E(t) = E_{\infty}\left(1+\int_{t_1}^{t_2}{\frac{c}{\tau}e^{-\frac{t}{\tau}}\,d\tau}\right)$] Spettro continuo di tempi di rilassamento.
+\end{description}
+
+%************************************************
+\chapter{Sovrapposizione tempo-temperatura}\label{chp:SovrapposizioneTT}
+%************************************************
+Ogni materiale viscoelastico viene caratterizzato dall'aumento della temperatura non si ha un decadimento della curva di rilassamento, bensì si sposta verso sinistra.
+
+\begin{figure}
+\centering
+\includegraphics[width = \textwidth]{gfx/SovrapposizioneTT}
+\caption{Comportamento di un materiale viscoelastico in diverse condizioni di temperatura, $T_0$ può essere la temperatura ambientale}
+\label{fig:SovrapposizioneTT}
+\end{figure}
+
+Ciò è dovuto alla temperatura che aumentando dà più energia alle molecole, che saranno libere di svincolarsi tra loro più facilmente.
+Da cui possiamo analiticamente descrivere:
+\begin{equation}
+E(\log(t),T_1) = E(\log(t+\delta), T_0)
+\end{equation}
+Imponiamo che $\delta = \log(\phi(T_1,T_0))$.
+Allora definiamo la \textbf{funzione di \eng{shift}}:
+\begin{equation}
+a = a(T_1,T_0) = \frac{1}{\phi}
+\end{equation}
+Perciò:
+\begin{equation}
+\begin{split}
+E(\log(t),T_1) &= E(\log(\phi(t)),T_0)\\
+E(\log(t),T_1) &= E(\log(\frac{t}{a}),T_0)\\
+E(t,T_1) &= E(\frac{t}{a},T_0)
+\end{split}
+\end{equation}
+Questa è l'equazione di \textbf{sovrapposizione tempo-temperatura}.
+
+Quello che succede ad una temperatura più alta è esattamente ciò che succede ad una temperatura più bassa in maggior tempo.
+
+\paragraph{Funzione di \eng{shift}}
+La funzione di \eng{shift} è una funzione decrescente nella temperatura.
+Viene rappresentata in figura \ref{fig:Shift}.
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/Shift}
+\caption{Funzione di \eng{shift}}
+\label{fig:Shift}
+\end{figure}
+
+\begin{quote}
+\emph{$T_0$ viene presa come la temperatura ambiente?}
+\end{quote}
+Non per forza, ad esempio spesso viene usata come riferimento la temperatura di transizione vetrosa: $T_0=T_g$.
+Dunque, si può pensare di realizzare delle prove proprio alla temperatura $T_g$.
+Allora:
+\begin{equation}
+a(T,T_g) \Rightarrow \log(a) = \frac{-C_1(T-T_g)}{C_2 + T -T_g}
+\end{equation}
+Dove, $C_1$, $C_2$ sono costanti universali, comuni per tutti i polimeri.
+\begin{equation}
+C_1 = 17.4 \qquad C_2 = 51.6\unit{\kelvin}
+\end{equation}
+
+\section{Teoria di \eng{Williams-Landel-Ferry} (WLF)}
+Questa teoria si propone di determinare una funzione di \eng{shift} indipendentemente dal polimero che si sta analizzando.
+
+La teoria di \ac{WLF} funziona abbastanza bene per i materiali polimerici amorfi. 
+Meno bene per i materiali semi-cristallini allora bisogna determinare sperimentalmente le due costanti $C_1$, $C_2$.
+
+\begin{quote}
+\emph{Si può sfruttare la teoria \ac{WLF} per effettuare delle prove accelerate?}
+\end{quote}
+Si sfrutta la teoria per ottenere i pezzi mancanti per completare la curva alla temperatura di riferimento.
+Si effettuano diverse prove a temperatura più o meno alte. Poi si traslano i pezzi di curva in scala logaritmica per completare la \textbf{master curve}.
+Un esempio è quello della figura \ref{fig:WLF}.
+
+Variando la temperatura si può vedere ciò che succederebbe al materiale a tempo molto più lungo.
+Si possono effettuare delle prove sinusoidali dove si mantene costante la frequenza, ad esempio $1\unit{\hertz}$.
+Invece di modificare la frequenza, si modifica la temperatura.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/WLF}
+\caption{Costruzione della \eng{master curve} grazie alla teoria \ac{WLF}}
+\label{fig:WLF}
+\end{figure}
+
+\section{\eng{Dynamic-Mechanical Termic Analisys}}
+La \ac{DMTA} è un'analisi molto accurata per misurare la temperatura di transizione vetrosa. Vedi figura \ref{fig:DMTA}.
+In generale, durante la transizione vetrosa si ha un forte comportamento dissipativo da parte del materiale.
+Dunque, si guarda al punto di massimo assoluto nella componente dissipativa $E"$ a cui corrisponderà la temperatura di transizione vetrosa $T_g$.
+
+Nei materiali polimerici si fanno queste prove a materiale fluido.
+Per cui, non si eseguono delle vere e proprie prove di trazione.
+Piuttosto si considera un'equivalenza con degli sforzi torsionali e si impone una storia di sforzi in senso torsionale.
+
+La \ac{DMTA} si sfrutta in particolare per i polimeri semi-cristallini.
+Per gli amorfi si può stimare con la \ac{WLF} vista in precedenza.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/DMTA}
+\caption{Grafico uscente dalla \ac{DMTA}}
+\label{fig:DMTA}
+\end{figure}
