@@ -3,114 +3,129 @@
 \babel@toc {american}{}\relax 
 \contentsline {part}{\numberline {i}\spacedlowsmallcaps {Introduzione ai materiali polimerici}}{1}{part.1}%
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Morfologia dei materiali polimerici}}{3}{chapter.1}%
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Proprietà meccaniche dei polimeri}}{5}{chapter.2}%
-\contentsline {subsection}{\numberline {2.0.1}Vincolo geometrico}{5}{subsection.2.0.1}%
-\contentsline {subsection}{\numberline {2.0.2}Vincolo chimico}{6}{subsection.2.0.2}%
-\contentsline {subsection}{\numberline {2.0.3}Vincolo intermolecolare}{7}{subsection.2.0.3}%
-\contentsline {paragraph}{Incremento numero dei legami}{7}{Item.2}%
-\contentsline {paragraph}{Incremento qualità dei legami}{8}{figure.caption.19}%
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Classificazione dei polimeri}}{9}{chapter.3}%
-\contentsline {paragraph}{Poliaddizione}{10}{chapter.3}%
-\contentsline {paragraph}{Policondensazione}{10}{figure.caption.24}%
-\contentsline {paragraph}{Poliaddizione del PLA}{11}{figure.caption.25}%
-\contentsline {section}{\numberline {3.1}Omopolimeri e copolimeri}{11}{section.3.1}%
-\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Pesi molecolari}}{13}{part.2}%
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Peso molecolare medio}}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Peso molecolare medio numerico}{15}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Peso molecolare medio ponderale}{16}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Metodi di misura dei pesi molecolari}{16}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Melt Flow Index}{17}{subsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.1.1}Controllo qualità}{17}{subsubsection.4.3.1.1}%
-\contentsline {section}{\numberline {4.4}Peso molecolare medio in viscosità}{18}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}La GPC}{19}{subsection.4.4.1}%
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Cristallizzazione}}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Requisiti per la cristallizzazione}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Misure di cristallinità}{25}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Dilatometria}{25}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}DSC}{26}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Difrattometria a raggi X}{28}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}TGA}{28}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Spettroscopia in infrarosso in trasformata di Fourier}{29}{subsection.5.2.5}%
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Comportamenti termici e meccanici}}{31}{part.3}%
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Comportamento termico}}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Fattori che influenzano la transizione}{35}{section.6.1}%
-\contentsline {paragraph}{Mobilità della catena principale}{35}{section.6.1}%
-\contentsline {paragraph}{Sostituenti laterali}{36}{figure.caption.49}%
-\contentsline {paragraph}{Legami intermolecolari}{37}{figure.caption.51}%
-\contentsline {paragraph}{Peso molecolare}{37}{figure.caption.51}%
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Viscoelasticità}}{39}{chapter.7}%
-\contentsline {paragraph}{Rilassamento degli sforzi}{39}{equation.7.0.1}%
-\contentsline {paragraph}{Scorrimento viscoso (\foreignlanguage {american}{\em Creep})}{40}{subfigure.7.1.4}%
-\contentsline {section}{\numberline {7.1}Viscoelasticità lineare}{40}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Test per la valutazione se il materiale è lineare}{41}{subsection.7.1.1}%
-\contentsline {paragraph}{Osservazioni}{41}{figure.caption.53}%
-\contentsline {section}{\numberline {7.2}Prova di trazione per materiali viscoelastici lineari}{43}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Fluidi e solidi viscoelastici}{44}{section.7.3}%
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Legame tra modulo di rilassamento e cedevolezza di \foreignlanguage {american}{\em creep}}}{45}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Prova di \foreignlanguage {american}{\em creep}}{45}{section.8.1}%
-\contentsline {paragraph}{Riassumendo}{47}{equation.8.1.16}%
-\contentsline {section}{\numberline {8.2}Prova di rilassamento}{47}{section.8.2}%
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Modelli dei fluidi viscoelastici}}{51}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Fluido di Maxwell}{51}{section.9.1}%
-\contentsline {subsection}{\numberline {9.1.1}Prova di \foreignlanguage {american}{\em creep}}{53}{subsection.9.1.1}%
-\contentsline {section}{\numberline {9.2}Modello di Kelvin-Voigt}{54}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Prova di \foreignlanguage {american}{\em creep}}{54}{subsection.9.2.1}%
-\contentsline {section}{\numberline {9.3}Modello \foreignlanguage {american}{\em Zener}, solido a tre parametri}{55}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Prova di \foreignlanguage {american}{\em creep}}{56}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {9.3.2}Prova di rilassamento}{57}{subsection.9.3.2}%
-\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Prove dinamico-meccaniche}}{59}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Come viene realizzata la prova?}{61}{section.10.1}%
-\contentsline {paragraph}{Applicando al solido a tre parametri:}{62}{equation.10.1.10}%
-\contentsline {paragraph}{Confronto coi dati sperimentali}{63}{equation.10.1.14}%
-\contentsline {paragraph}{Altri modelli}{64}{figure.caption.68}%
-\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Sovrapposizione tempo-temperatura}}{65}{chapter.11}%
-\contentsline {paragraph}{Funzione di \foreignlanguage {american}{\em shift}}{65}{equation.11.0.3}%
-\contentsline {section}{\numberline {11.1}Teoria di \foreignlanguage {american}{\em Williams-Landel-Ferry} (WLF)}{67}{section.11.1}%
-\contentsline {section}{\numberline {11.2}\foreignlanguage {american}{\em Dynamic-Mechanical Termic Analisys}}{67}{section.11.2}%
-\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Cenni sugli elastomeri}}{69}{part.4}%
-\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {L'elasticità della gomma}}{71}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Cos'è l'elasticità?}{71}{section.12.1}%
-\contentsline {paragraph}{Primo principio della termodinamica}{71}{figure.caption.74}%
-\contentsline {paragraph}{Conservazione dell'energia}{73}{equation.12.1.7}%
-\contentsline {section}{\numberline {12.2}Definizione dello stato delle macromolecole}{73}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Ulteriori ragionamenti}{75}{section.12.3}%
-\contentsline {paragraph}{Forza di richiamo di origine entropica (non energetica)}{75}{equation.12.3.19}%
-\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Fluidi non newtoniani}}{77}{part.5}%
-\contentsline {chapter}{\numberline {13}\spacedlowsmallcaps {Fluidi non newtoniani}}{79}{chapter.13}%
-\contentsline {section}{\numberline {13.1}Condizioni di flusso}{79}{section.13.1}%
-\contentsline {section}{\numberline {13.2}Equazioni di modellazione dei materiali polimerici}{80}{section.13.2}%
-\contentsline {subsection}{\numberline {13.2.1}Legge di potenza}{80}{subsection.13.2.1}%
-\contentsline {subsection}{\numberline {13.2.2}Modello di Carreau-Yasuda}{81}{subsection.13.2.2}%
-\contentsline {subsection}{\numberline {13.2.3}Modello di Cross}{82}{subsection.13.2.3}%
-\contentsline {section}{\numberline {13.3}Effetti di sforzo normale e viscoelasticità}{82}{section.13.3}%
-\contentsline {subsection}{\numberline {13.3.1}Sforzo normale}{82}{subsection.13.3.1}%
-\contentsline {subsection}{\numberline {13.3.2}Viscoelasticità}{82}{subsection.13.3.2}%
-\contentsline {section}{\numberline {13.4}Effetti di plasticità}{83}{section.13.4}%
-\contentsline {section}{\numberline {13.5}Tissotropia}{83}{section.13.5}%
-\contentsline {section}{\numberline {13.6}Flusso di un fluido non newtoniano}{84}{section.13.6}%
-\contentsline {chapter}{\numberline {14}\spacedlowsmallcaps {Reologia (o Reometria)}}{89}{chapter.14}%
-\contentsline {section}{\numberline {14.1}La legge della viscosità}{89}{section.14.1}%
-\contentsline {subsection}{\numberline {14.1.1}La legge di Newton}{89}{subsection.14.1.1}%
-\contentsline {paragraph}{Lo sforzo di taglio}{89}{equation.14.1.1}%
-\contentsline {section}{\numberline {14.2}Le curve di flusso e di viscosità}{90}{section.14.2}%
-\contentsline {section}{\numberline {14.3}Fluidi pseudo-plastici}{90}{section.14.3}%
-\contentsline {chapter}{\numberline {15}\spacedlowsmallcaps {Misure di Viscosità}}{91}{chapter.15}%
-\contentsline {section}{\numberline {15.1}Viscosimetri rotazionali}{91}{section.15.1}%
-\contentsline {section}{\numberline {15.2}Viscosimetro di Couette}{91}{section.15.2}%
-\contentsline {section}{\numberline {15.3}Reometro Piatto-Cono}{92}{section.15.3}%
-\contentsline {section}{\numberline {15.4}Reometro Piatto-Piatto}{94}{section.15.4}%
-\contentsline {section}{\numberline {15.5}Viscosimetro capillare}{95}{section.15.5}%
-\contentsline {paragraph}{Melt Flow Index}{97}{Item.16}%
-\contentsline {subsection}{\numberline {15.5.1}Correzione di Rabinowitsch}{97}{subsection.15.5.1}%
-\contentsline {subsection}{\numberline {15.5.2}Correzione di Mooney}{98}{subsection.15.5.2}%
-\contentsline {subsection}{\numberline {15.5.3}Correzione di Bagley}{100}{subsection.15.5.3}%
-\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{103}{part.6}%
-\contentsline {chapter}{\numberline {a}\spacedlowsmallcaps {Esercizi Peso molecolare}}{105}{appendix.A}%
-\contentsline {chapter}{\numberline {b}\spacedlowsmallcaps {Esercizi sulla viscoelasticità lineare}}{107}{appendix.B}%
-\contentsline {section}{\numberline {b.1}Esercizio}{107}{section.B.1}%
-\contentsline {section}{\numberline {b.2}Esercizio}{108}{section.B.2}%
-\contentsline {section}{\numberline {b.3}Esercizio}{109}{section.B.3}%
-\contentsline {chapter}{\numberline {c}\spacedlowsmallcaps {Tavola periodica}}{111}{appendix.C}%
+\contentsline {section}{\numberline {1.1}Legami atomici}{3}{section.1.1}%
+\contentsline {paragraph}{Legame ionico}{3}{section.1.1}%
+\contentsline {paragraph}{Legame covalente}{3}{section.1.1}%
+\contentsline {paragraph}{Legame metallico}{3}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Legame covalente}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Legami deboli}{5}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Idrocarburi}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Alcani}{6}{subsection.1.2.1}%
+\contentsline {paragraph}{Polietilene}{6}{figure.caption.15}%
+\contentsline {subsection}{\numberline {1.2.2}Alcheni}{7}{subsection.1.2.2}%
+\contentsline {paragraph}{Composti aromatici}{7}{figure.caption.18}%
+\contentsline {subsection}{\numberline {1.2.3}Alchimi}{9}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Dieni}{9}{subsection.1.2.4}%
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Proprietà meccaniche dei polimeri}}{11}{chapter.2}%
+\contentsline {subsection}{\numberline {2.0.1}Vincolo geometrico}{11}{subsection.2.0.1}%
+\contentsline {subsection}{\numberline {2.0.2}Vincolo chimico}{12}{subsection.2.0.2}%
+\contentsline {subsection}{\numberline {2.0.3}Vincolo intermolecolare}{13}{subsection.2.0.3}%
+\contentsline {paragraph}{Incremento numero dei legami}{13}{Item.2}%
+\contentsline {paragraph}{Incremento qualità dei legami}{14}{figure.caption.25}%
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Classificazione dei polimeri}}{15}{chapter.3}%
+\contentsline {paragraph}{Poliaddizione}{16}{chapter.3}%
+\contentsline {paragraph}{Policondensazione}{16}{figure.caption.29}%
+\contentsline {paragraph}{Poliaddizione del PLA}{17}{figure.caption.30}%
+\contentsline {section}{\numberline {3.1}Omopolimeri e copolimeri}{17}{section.3.1}%
+\contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Pesi molecolari}}{19}{part.2}%
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Peso molecolare medio}}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Peso molecolare medio numerico}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Peso molecolare medio ponderale}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Metodi di misura dei pesi molecolari}{22}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Melt Flow Index}{23}{subsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1.1}Controllo qualità}{23}{subsubsection.4.3.1.1}%
+\contentsline {section}{\numberline {4.4}Peso molecolare medio in viscosità}{24}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}La GPC}{25}{subsection.4.4.1}%
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Cristallizzazione}}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Requisiti per la cristallizzazione}{29}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Misure di cristallinità}{31}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Dilatometria}{31}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}DSC}{32}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Difrattometria a raggi X}{34}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}TGA}{34}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Spettroscopia in infrarosso in trasformata di Fourier}{35}{subsection.5.2.5}%
+\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Comportamenti termici e meccanici}}{37}{part.3}%
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Comportamento termico}}{39}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fattori che influenzano la transizione}{41}{section.6.1}%
+\contentsline {paragraph}{Mobilità della catena principale}{41}{section.6.1}%
+\contentsline {paragraph}{Sostituenti laterali}{42}{figure.caption.54}%
+\contentsline {paragraph}{Legami intermolecolari}{43}{figure.caption.56}%
+\contentsline {paragraph}{Peso molecolare}{43}{figure.caption.56}%
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Viscoelasticità}}{45}{chapter.7}%
+\contentsline {paragraph}{Rilassamento degli sforzi}{45}{equation.7.0.1}%
+\contentsline {paragraph}{Scorrimento viscoso (\foreignlanguage {american}{\em Creep})}{46}{subfigure.7.1.4}%
+\contentsline {section}{\numberline {7.1}Viscoelasticità lineare}{46}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Test per la valutazione se il materiale è lineare}{47}{subsection.7.1.1}%
+\contentsline {paragraph}{Osservazioni}{47}{figure.caption.58}%
+\contentsline {section}{\numberline {7.2}Prova di trazione per materiali viscoelastici lineari}{49}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Fluidi e solidi viscoelastici}{50}{section.7.3}%
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Legame tra modulo di rilassamento e cedevolezza di \foreignlanguage {american}{\em creep}}}{51}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Prova di \foreignlanguage {american}{\em creep}}{51}{section.8.1}%
+\contentsline {paragraph}{Riassumendo}{53}{equation.8.1.16}%
+\contentsline {section}{\numberline {8.2}Prova di rilassamento}{53}{section.8.2}%
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Modelli dei fluidi viscoelastici}}{57}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Fluido di Maxwell}{57}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Prova di \foreignlanguage {american}{\em creep}}{59}{subsection.9.1.1}%
+\contentsline {section}{\numberline {9.2}Modello di Kelvin-Voigt}{60}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Prova di \foreignlanguage {american}{\em creep}}{60}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Modello \foreignlanguage {american}{\em Zener}, solido a tre parametri}{61}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Prova di \foreignlanguage {american}{\em creep}}{62}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Prova di rilassamento}{63}{subsection.9.3.2}%
+\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Prove dinamico-meccaniche}}{65}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Come viene realizzata la prova?}{67}{section.10.1}%
+\contentsline {paragraph}{Applicando al solido a tre parametri:}{68}{equation.10.1.10}%
+\contentsline {paragraph}{Confronto coi dati sperimentali}{69}{equation.10.1.14}%
+\contentsline {paragraph}{Altri modelli}{70}{figure.caption.73}%
+\contentsline {chapter}{\numberline {11}\spacedlowsmallcaps {Sovrapposizione tempo-temperatura}}{71}{chapter.11}%
+\contentsline {paragraph}{Funzione di \foreignlanguage {american}{\em shift}}{71}{equation.11.0.3}%
+\contentsline {section}{\numberline {11.1}Teoria di \foreignlanguage {american}{\em Williams-Landel-Ferry} (WLF)}{73}{section.11.1}%
+\contentsline {section}{\numberline {11.2}\foreignlanguage {american}{\em Dynamic-Mechanical Termic Analisys}}{73}{section.11.2}%
+\contentsline {part}{\numberline {iv}\spacedlowsmallcaps {Cenni sugli elastomeri}}{75}{part.4}%
+\contentsline {chapter}{\numberline {12}\spacedlowsmallcaps {L'elasticità della gomma}}{77}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Cos'è l'elasticità?}{77}{section.12.1}%
+\contentsline {paragraph}{Primo principio della termodinamica}{77}{figure.caption.79}%
+\contentsline {paragraph}{Conservazione dell'energia}{79}{equation.12.1.7}%
+\contentsline {section}{\numberline {12.2}Definizione dello stato delle macromolecole}{79}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Ulteriori ragionamenti}{81}{section.12.3}%
+\contentsline {paragraph}{Forza di richiamo di origine entropica (non energetica)}{81}{equation.12.3.19}%
+\contentsline {part}{\numberline {v}\spacedlowsmallcaps {Fluidi non newtoniani}}{83}{part.5}%
+\contentsline {chapter}{\numberline {13}\spacedlowsmallcaps {Fluidi non newtoniani}}{85}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Condizioni di flusso}{85}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Equazioni di modellazione dei materiali polimerici}{86}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Legge di potenza}{86}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Modello di Carreau-Yasuda}{87}{subsection.13.2.2}%
+\contentsline {subsection}{\numberline {13.2.3}Modello di Cross}{88}{subsection.13.2.3}%
+\contentsline {section}{\numberline {13.3}Effetti di sforzo normale e viscoelasticità}{88}{section.13.3}%
+\contentsline {subsection}{\numberline {13.3.1}Sforzo normale}{88}{subsection.13.3.1}%
+\contentsline {subsection}{\numberline {13.3.2}Viscoelasticità}{88}{subsection.13.3.2}%
+\contentsline {section}{\numberline {13.4}Effetti di plasticità}{89}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Tissotropia}{89}{section.13.5}%
+\contentsline {section}{\numberline {13.6}Flusso di un fluido non newtoniano}{90}{section.13.6}%
+\contentsline {chapter}{\numberline {14}\spacedlowsmallcaps {Reologia (o Reometria)}}{95}{chapter.14}%
+\contentsline {section}{\numberline {14.1}La legge della viscosità}{95}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}La legge di Newton}{95}{subsection.14.1.1}%
+\contentsline {paragraph}{Lo sforzo di taglio}{95}{equation.14.1.1}%
+\contentsline {section}{\numberline {14.2}Le curve di flusso e di viscosità}{96}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Fluidi pseudo-plastici}{96}{section.14.3}%
+\contentsline {chapter}{\numberline {15}\spacedlowsmallcaps {Misure di Viscosità}}{97}{chapter.15}%
+\contentsline {section}{\numberline {15.1}Viscosimetri rotazionali}{97}{section.15.1}%
+\contentsline {section}{\numberline {15.2}Viscosimetro di Couette}{97}{section.15.2}%
+\contentsline {section}{\numberline {15.3}Reometro Piatto-Cono}{98}{section.15.3}%
+\contentsline {section}{\numberline {15.4}Reometro Piatto-Piatto}{100}{section.15.4}%
+\contentsline {section}{\numberline {15.5}Viscosimetro capillare}{101}{section.15.5}%
+\contentsline {paragraph}{Melt Flow Index}{103}{Item.16}%
+\contentsline {subsection}{\numberline {15.5.1}Correzione di Rabinowitsch}{103}{subsection.15.5.1}%
+\contentsline {subsection}{\numberline {15.5.2}Correzione di Mooney}{104}{subsection.15.5.2}%
+\contentsline {subsection}{\numberline {15.5.3}Correzione di Bagley}{106}{subsection.15.5.3}%
+\contentsline {part}{\numberline {vi}\spacedlowsmallcaps {Appendix}}{109}{part.6}%
+\contentsline {chapter}{\numberline {a}\spacedlowsmallcaps {Esercizi Peso molecolare}}{111}{appendix.A}%
+\contentsline {chapter}{\numberline {b}\spacedlowsmallcaps {Esercizi sulla viscoelasticità lineare}}{113}{appendix.B}%
+\contentsline {section}{\numberline {b.1}Esercizio}{113}{section.B.1}%
+\contentsline {section}{\numberline {b.2}Esercizio}{114}{section.B.2}%
+\contentsline {paragraph}{Soluzione}{114}{figure.caption.99}%
+\contentsline {section}{\numberline {b.3}Esercizio}{115}{section.B.3}%
+\contentsline {paragraph}{Soluzione}{115}{figure.caption.100}%
+\contentsline {chapter}{\numberline {c}\spacedlowsmallcaps {Tavola periodica}}{119}{appendix.C}%
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{113}{dummy.5}%
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{121}{dummy.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

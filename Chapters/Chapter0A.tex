@@ -125,6 +125,7 @@ Confronto di due storie di deformazione differenti:
 \label{fig:Esercizio2}
 \end{figure}
 
+\paragraph{Soluzione}
 allora:
 \begin{description}
 \item[Storia rossa \ref{fig:Esercizio2_eps}] $\epsilon = \bar{\epsilon} \Rightarrow \sigma(t_2) = \bar{\epsilon}E(t_2)$
@@ -145,7 +146,87 @@ Ne risulta che siccome $t_2 > t_2-t_1$ e siccome la deformazione è una funzione
 Dunque lo sforzo conseguente la storia rossa è minore di quella azzurra.
 
 \section{Esercizio}
+Considerando un solido a tre parametri come in figura \ref{fig:Esercizio3_Fluido}.
+Con le differenti storie di deformazione \ref{fig:Esercizio3_eps1} e \ref{fig:Esercizio3_eps2}.
 
+\begin{figure}
+\centering
+\subfloat[][\emph{Solido a tre parametri}\label{fig:Esercizio3_Fluido}]
+{\includegraphics[width = 0.5\textwidth]{gfx/Esercizio3_Fluido}}\\
+\subfloat[][\emph{Prima storia di deformazione}\label{fig:Esercizio3_eps1}]
+{\includegraphics[width = 0.4\textwidth]{gfx/Esercizio3_eps1}}\quad
+\subfloat[][\emph{Seconda storia di deformazione}\label{fig:Esercizio3_eps2}]
+{\includegraphics[width = 0.4\textwidth]{gfx/Esercizio3_eps2}}
+\caption{Esercizio 3}
+\label{fig:Esercizio3}
+\end{figure}
+
+\paragraph{Soluzione}
+Allora:
+\begin{equation}
+\begin{split}
+\dot{\epsilon} &= \dot{\epsilon}_1 + \dot{\epsilon}_3 = \frac{\dot{\sigma}_2}{E_2} + \frac{\dot{\sigma}_3}{\eta_3}\\
+&=\frac{\dot{\sigma}}{E_2} - \frac{\dot{\sigma}_1}{E_2} + \frac{\sigma}{\eta_3} - \frac{\sigma_1}{\eta_3}\\
+&= \frac{\dot{\sigma}}{E_2} - \frac{E_1\dot{\epsilon}}{E_2} + \frac{\sigma}{\eta_3} - \frac{\sigma_1\epsilon}{\eta_3}\\
+\frac{\dot{\sigma}}{E_2} &+\frac{\sigma}{\eta_3} = \left(1 + \frac{E_1}{E_2}\right)\dot{\epsilon} + \frac{E_1}{\eta_3}\epsilon
+\end{split}
+\end{equation}
+
+Imponiamo la storia di deformazione \ref{fig:Esercizio3_eps1}:
+\begin{equation}
+\epsilon(t) = \frac{\bar{\epsilon}}{\bar{t}}t \qquad \dot{\epsilon} = \frac{\bar{\epsilon}}{\bar{t}}
+\end{equation}
+Applicandolo, all'equazione differenziale:
+\begin{equation}
+\begin{split}
+\frac{\dot{\sigma}}{E_2}&+\frac{\sigma}{\eta_3} = \left(1+\frac{E_1}{E_2}\right)\frac{\bar{\epsilon}}{\bar{t}} + \frac{E_1}{\eta_3}\frac{\bar{\epsilon}}{\bar{t}}t\\
+\sigma(t) &= \sigma_h + \sigma_p =%
+\begin{cases}
+\sigma_h(t) = C e^{-\frac{t}{\tau_r}} \quad \tau_r = \frac{\eta_3}{E_2}\\
+\sigma_p(t) = A+Bt
+\end{cases}
+\end{split}
+\end{equation}
+Affinché sia soluzione deve valere che l'equazione abbia soluzione nelle componenti omogenee e particolare.
+Dunque sostituiamo a $\sigma$, $\sigma_p$.
+\begin{equation}
+\begin{split}
+\frac{B}{E_2} &+ \frac{A}{\eta_3} + \frac{B}{\eta_3}t = \left(1+\frac{E_1}{E_2}\right)\frac{\bar{\epsilon}}{\bar{t}} + \frac{E_1}{\eta_3}\frac{\bar{\epsilon}}{\bar{t}}t\\
+&\begin{cases}
+B = E_1\frac{\bar{\epsilon}}{\bar{t}}\\
+A = \eta_3 \frac{\epsilon}{\bar{t}}
+\end{cases}\\
+\sigma(t) &= \eta_3 \frac{\bar{\epsilon}}{\bar{t}} + E_1\frac{\bar{\epsilon}}{\bar{t}}t + C e^{-\frac{t}{\tau_r}}\\
+t &= 0 \rightarrow 0 = \eta_3 \frac{\bar{\epsilon}}{\bar{t}} + C \Rightarrow C = -\eta_3\frac{\bar{\epsilon}}{\bar{t}}\\
+\sigma(t) &= E_1\frac{\bar{\epsilon}}{\bar{t}}t + \eta_3\frac{\bar{\epsilon}}{\bar{t}}\left(1 - e^{-\frac{t}{\tau_r}}\right) 
+\end{split}
+\end{equation}
+
+Il secondo tratto della storia di deformazione è costante, per cui vale:
+\begin{equation}
+\frac{\dot{\sigma}}{E_2} + \frac{\sigma}{\eta_3} = \frac{E_1}{\eta_3}\bar{\epsilon}
+\end{equation}
+Allora:
+\begin{equation}
+\sigma(t) = C e^{-\frac{t}{\tau_r}} + E_1\bar{\epsilon}
+\end{equation}
+In $t = \bar{t}$:
+\begin{equation}
+\begin{split}
+\sigma(t) &= E_1\bar{\epsilon} + \eta_3\frac{\bar{\epsilon}}{\bar{t}}\left(1 - e^{-\frac{\bar{t}}{\tau_r}}\right)\\
+\sigma(t) &= E_1\bar{\epsilon} + \eta_3\frac{\bar{\epsilon}}{\bar{t}}\left(e^{-\frac{t-\bar{t}}{\tau_r}} - e^{-\frac{t}{\tau_r}}\right)
+\end{split}
+\end{equation}
+La soluzione dovrebbe essere quella in figura \ref{fig:Soluzione3}.
+Per la storia di deformazione \ref{fig:Esercizio3_eps2}
+la soluzione sta nel considerare la discontinuità come $-(E_1 - E_2)\bar{\epsilon}$
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/Soluzione3}
+\caption{Soluzione dell'esercizio}
+\label{fig:Soluzione3}
+\end{figure}
 %************************************************
 \chapter{Tavola periodica}\label{chp:Tavolaperiodica}
 %************************************************
