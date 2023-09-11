@@ -1,10 +1,11 @@
 %*****************************************
-\chapter{Peso molecolare medio}\label{ch:PM}
+\chapter{Peso molecolare medio}\label{chp:PM}
 %*****************************************
 Per ottenere il peso molecolare di una molecola bisogna vedere la tavola periodica \ref{chp:Tavolaperiodica} a pagina \pageref{chp:Tavolaperiodica}.
 Ad esempio:
 
 \begin{figure}
+\centering
 \subfloat[][\emph{Molecola}\label{fig:Mol}]%
 {%
 \setchemfig{atom sep = 2em}%
@@ -12,7 +13,7 @@ Ad esempio:
 \polymerdelim[indice n]{op}{cl}}\quad
 \subfloat[][\emph{Peso molecolare}\label{fig:PMmol}]%
 {%
-\begin{minipage}[b]{0.4\textwidth}
+\begin{minipage}[t]{0.4\textwidth}
 \begin{equation}
 4*\underbrace{12}_{C} + 8*\underbrace{1}_{H} = 56\unit{\g/\mol}
 \end{equation}
@@ -77,50 +78,6 @@ Dalla definizione si osserva che vale $1$ quando il polimero è mono-disperso, p
 Il peso molecolare medio ponderale è sensibile alle variazioni di frazioni molecolare ad alto peso molecolare.
 Il peso molecolare medio numerico sensibile alle variazioni di frazioni molecolari a basso peso molecolare.
 
-\section{Metodi di misura dei pesi molecolari}
-Per la misura del peso molecolare di un campione, si scruta la dipendenza della viscosità dal peso molecolare. 
-se ne estrae, tramite prove di viscosità, un peso molecolare medio. 
-Si può ottenere un'ulteriore misura che permette non solo di valutare i pesi molecolari medi, consentendoci di ottenere direttamente la distribuzione dei pesi molecolari.
-
-Non si possono ricavare con delle misure dirette i pesi molecolari, infatti le misure si realizzano sulla viscosità. 
-Si parla di due tipi di viscosità: 
-\begin{itemize}
-\item viscosità a caldo, dove il materiale viene portato a fusione e ne misura la viscosità
-\item viscosità in soluzione, dove si scioglie il materiale in un solvente con viscosità nota e si misura quella del composto misto.
-\end{itemize}
-
-\subsection{Melt Flow Index}
-Il \ac{MFI} È una misura che viene realizzata attraverso lo stato fluido del materiale di test. Siccome c'è una relazione tra la pressione esercitata e la portata del materiale estruso , si può misurare la viscosità del materiale.
-
-Questo tipo di misura non è ottima in quanto i dati che se ne ottengono sono molto marginali e poco caratteristici. Oltre al fatto che sono molto sporchi per via dello strumento di misurazione.
-Nei fluidi polimerici la viscosità, vedi capitolo \ref{chp:MisureViscosità} a pagina \pageref{chp:MisureViscosità}, non può essere rappresentata solo dalla pressione e dalla temperatura. Dimostra che la misura è decisamente limitata nelle sue opportunità.
-
-In generale per un polimero che deve essere stampato ad iniezione la viscosità deve essere abbastanza bassa, dunque il peso molecolare basso e il grado di polemizzazione basso conseguentemente. Ci si aggira attorno a $10\div20\unit{MFI}$.
-Bisogna considerare che l'unità di misura per la misurazione \ac{MFI} è espressa come rapporto tra la massa ogni 10 minuti $\left[g/10\,min\right]$.
-
-Questo denota anche la natura della misura ovvero si fa fluire il materiale polimerico all'interno di un capillare, applicando una ben determinata pressione e misurandone la massa caduta su un piatto sotto il capillare. Esistono alcune normative che prevedono delle indicazioni su come viene eseguita questo tipo di prova.
-
-\begin{figure}
-\centering
-\includegraphics[width = 0.4\textwidth]{gfx/MFI}
-\caption{Schematizzazione misura \ac{MFI} \href{https://commons.wikimedia.org/w/index.php?curid=33527584}{by Miladfarhani - Own work, CC BY-SA 3.0}}
-\label{fig:MFI}
-\end{figure}
-
-Altre tipologie di produzione di materiali plastici chiedono un \ac{MFI} più alto oppure più basso a seconda della tecnologia utilizzata.
-
-Il produttore di materiali plastici sono obbligati a fornire le loro misure \ac{MFI} e qualche temperatura di processo caratteristica del polimero.
-
-Resta evidente come questo tipo di misura non dà alcuna idea sul peso molecolare, se ne dà solo un'indicazione.
-Questo indice viene spesso utilizzato come controllo qualità sia in ingresso che in uscita. Si usa anche per controllare se il processo di trasformazione è stato eseguito regolarmente.
-Questo perché variazioni di temperatura durante il processo di produzione possono causare dei cambiamenti nello stato dei polimeri comportando così una perdita di qualità nel prodotto. 
-
-\subsubsection{Controllo qualità}
-Per il controllo del processo produttivo: sappiamo che il riscaldamento e il raffreddamento del materiale fanno decadere le proprietà meccaniche di quest'ultimo accorciando le catene polimeriche. 
-Ciò vuol dire che col decadimento delle catene polimeriche calerà anche il peso molecolare medio , quindi anche la viscosità e per l'appunto le caratteristiche meccaniche. Allora aumenterà \ac{MFI} indicando appunto un erroneo processo di lavorazione.
-Stesso concetto che si utilizza quando si vuole aggiungere a della plastica vergine della plastica riciclata. In questo caso allora si parla di \textbf{rimacinaggio} ovvero il processo di recupero dei materiali plastici riciclati.
-Ovviamente il materiale che si riutilizza perderà di caratteristiche meccaniche in generale non bisognerebbe superare una percentuale del $20\%$ anche se in pratica si arriva anche al $50\%$.
-
 \section{Peso molecolare medio in viscosità}
 \begin{equation}
 \bar{M}_v
@@ -159,11 +116,64 @@ Siccome la viscosità intrinseca si riesce a misurare allora si può ottenere il
 Per la misurazione delle moli si può ottenere una stima tramite dei gruppi terminali se si sanno quali sono i gruppi terminali, mediante analisi chimiche, si possono stimare i numeri delle molecole partendo proprio dalla conta dei terminali.
 Per la misura del peso molecolare medio ponderale. Non esiste una misura precisa. Si possono fare delle prove di diffusività della luce: perché le molecole a più alto peso impediscono il passaggio della luce.
 
-\subsection{La GPC}
+%************************************************
+\chapter{Metodi di misura dei pesi molecolari}\label{chp:MisuraPM}
+%************************************************
+Per la misura del peso molecolare di un campione, si scruta la dipendenza della viscosità dal peso molecolare. 
+se ne estrae, tramite prove di viscosità, un peso molecolare medio. 
+Si può ottenere un'ulteriore misura che permette non solo di valutare i pesi molecolari medi, consentendoci di ottenere direttamente la distribuzione dei pesi molecolari.
+
+Non si possono ricavare con delle misure dirette i pesi molecolari, infatti le misure si realizzano sulla viscosità. 
+Si parla di due tipi di viscosità: 
+\begin{itemize}
+\item viscosità a caldo, dove il materiale viene portato a fusione e ne misura la viscosità
+\item viscosità in soluzione, dove si scioglie il materiale in un solvente con viscosità nota e si misura quella del composto misto.
+\end{itemize}
+
+\section{Melt Flow Index}
+Il \ac{MFI} È una misura che viene realizzata attraverso lo stato fluido del materiale di test. Siccome c'è una relazione tra la pressione esercitata e la portata del materiale estruso , si può misurare la viscosità del materiale.
+
+Questo tipo di misura non è ottima in quanto i dati che se ne ottengono sono molto marginali e poco caratteristici. Oltre al fatto che sono molto sporchi per via dello strumento di misurazione.
+Nei fluidi polimerici la viscosità, vedi capitolo \ref{chp:MisureViscosità} a pagina \pageref{chp:MisureViscosità}, non può essere rappresentata solo dalla pressione e dalla temperatura. Dimostra che la misura è decisamente limitata nelle sue opportunità.
+
+In generale per un polimero che deve essere stampato ad iniezione la viscosità deve essere abbastanza bassa, dunque il peso molecolare basso e il grado di polemizzazione basso conseguentemente. Ci si aggira attorno a $10\div20\unit{MFI}$.
+Bisogna considerare che l'unità di misura per la misurazione \ac{MFI} è espressa come rapporto tra la massa ogni 10 minuti $\left[g/10\,min\right]$.
+
+Questo denota anche la natura della misura ovvero si fa fluire il materiale polimerico all'interno di un capillare, applicando una ben determinata pressione e misurandone la massa caduta su un piatto sotto il capillare. Esistono alcune normative che prevedono delle indicazioni su come viene eseguita questo tipo di prova.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{gfx/MFI}
+\caption{Schematizzazione misura \ac{MFI} \href{https://commons.wikimedia.org/w/index.php?curid=33527584}{by Miladfarhani - Own work, CC BY-SA 3.0}}
+\label{fig:MFI}
+\end{figure}
+
+Altre tipologie di produzione di materiali plastici chiedono un \ac{MFI} più alto oppure più basso a seconda della tecnologia utilizzata.
+
+Il produttore di materiali plastici sono obbligati a fornire le loro misure \ac{MFI} e qualche temperatura di processo caratteristica del polimero.
+
+Resta evidente come questo tipo di misura non dà alcuna idea sul peso molecolare, se ne dà solo un'indicazione.
+Questo indice viene spesso utilizzato come controllo qualità sia in ingresso che in uscita. Si usa anche per controllare se il processo di trasformazione è stato eseguito regolarmente.
+Questo perché variazioni di temperatura durante il processo di produzione possono causare dei cambiamenti nello stato dei polimeri comportando così una perdita di qualità nel prodotto. 
+
+\subsubsection{Controllo qualità}
+Per il controllo del processo produttivo: sappiamo che il riscaldamento e il raffreddamento del materiale fanno decadere le proprietà meccaniche di quest'ultimo accorciando le catene polimeriche. 
+Ciò vuol dire che col decadimento delle catene polimeriche calerà anche il peso molecolare medio , quindi anche la viscosità e per l'appunto le caratteristiche meccaniche. Allora aumenterà \ac{MFI} indicando appunto un erroneo processo di lavorazione.
+Stesso concetto che si utilizza quando si vuole aggiungere a della plastica vergine della plastica riciclata. In questo caso allora si parla di \textbf{rimacinaggio} ovvero il processo di recupero dei materiali plastici riciclati.
+Ovviamente il materiale che si riutilizza perderà di caratteristiche meccaniche in generale non bisognerebbe superare una percentuale del $20\%$ anche se in pratica si arriva anche al $50\%$.
+
+\section{La GPC}
 La \ac{GPC} È una misura di tipo viscoso e non legato a pressione e temperatura come la precedente \ac{MFI}.
 Nella pratica si scioglie il polimero in un solvente, dopodiché la soluzione viene pompata in delle colonne di separazione. Nelle colonne di separazioni sono è presente nel gel con alcune sfere porose. Le sfere porose separeranno le molecole ad alto peso molecolare da quelle a basso peso molecolare.
 Dunque, le molecole a più alto peso molecolare percorreranno le colonne in minor tempo. Questo perché non entrano all'interno della porosità delle sfere contenute nel gel. Mentre le molecole a più basso peso molecolare vengono "intrappolate" all'interno delle sfere per cui impiegano molto più tempo a percorrere il gel.
-La misura Lega il tempo percorso della soluzione. Prima verranno le molecole ad alto peso molecolare e poi le molecole via via più piccole, andando così a descrivere una vera e propria distribuzione di pesi molecolari. 
+La misura lega il tempo percorso della soluzione. Prima verranno le molecole ad alto peso molecolare e poi le molecole via via più piccole, andando così a descrivere una vera e propria distribuzione di pesi molecolari.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/GPC}
+\caption{Funzionamento \ac{GPC} \cite{GPC:2023}}
+\label{fig:GPC1}
+\end{figure} 
 
 
 %************************************************
@@ -209,7 +219,7 @@ Nello specifico un materiale particolarmente disorganizzato: ovvero a basso cont
 Le parti amorfe non sono da eliminare infatti la presenza permette al materiale di risultare più tenace che non un materiale duro ma fragile in questo modo può sopportare determinati tipi di stress in maniera più agevole.
 Ciò vale solamente nel caso in cui le parti amorfe hanno un'interfaccia con le parti cristalline.
 
-I cristalli nello specifico presentano delle catene polimeriche particolarmente dritte ed organizzate questo è dovuto all'alta stabilità termodinamica. Dunque è più difficile che le molecole ruotino tra di loro. Siccome tra l'altro c'è una convenienza dal punto di vista energetico allora la zona cristallina risulta più rigida bloccando in maniera diritta le molecole.
+I cristalli, nello specifico, presentano delle catene polimeriche particolarmente dritte ed organizzate questo è dovuto all'alta stabilità termodinamica. Dunque è più difficile che le molecole ruotino tra di loro. Siccome tra l'altro c'è una convenienza dal punto di vista energetico allora la zona cristallina risulta più rigida bloccando in maniera diritta le molecole.
 
 Resta il fatto che essendo il materiale termoplastico se scaldato sufficientemente le reticolazioni possono essere sciolte 
 
@@ -328,7 +338,7 @@ Altro parametro che si può ottenere da questo tipo di misura è la temperatura 
 
 L'area di calore latente è in genere più grande dell'area di cristallizzazione forzata se si vuole sapere quanto fosse la cristallizzazione prima di questo processo, col materiale vetroso, basta fare la differenza tra le due aree.
 Questo permette di ottenere delle informazioni su come il materiale è stato prodotto: se il materiale presenta una cristallizzazione residua dopo il processo allora il raffreddamento non è stato eseguito correttamente e non ha cristallizzato a dovere.
-LA procedura consiste in due riscaldamenti:
+La procedura consiste in due riscaldamenti:
 \begin{enumerate}
 \item Nel primo riscaldamento si valuta la storia termica del materiale . Quindi si ha una misura di tipo tecnologico . Se si vede una cristallizzazione che si presenta durante la prova , ciò indica che il ciclo tecnologico non è stato effettuato correttamente . Poi si raffredda il materiale con la stessa velocità con cui lo si è scaldato per azzerare la sua storia termica.
 \item Nel secondo riscaldamento, si valutano le caratteristiche del materiale perché dopo il primo riscaldamento si è azzerata la storia termica: per cui si possono valutare le caratteristiche del materiale come se fosse "vergine". Se non si presenta più cristallizzazione allora vuol dire che il materiale ha subito una cristallizzazione forzata. Altrimenti è un materiale che cristallizza per motivi cinetici più che termodinamici.
@@ -344,7 +354,7 @@ C_p = \frac{dH}{dT} \rightarrow c_p = \frac{1}{M}\frac{dH}{dT}
 \end{equation}
 Quello che si vede dalla calorimetria non è altro che la variazione dl calore specifico in funzione della temperatura.
 
-Si osserva che il calore specifico quando attraversa la transizione vetrosa, aumenta con discontinuità. Resta più o meno invariato (aumenta leggermente) meò caso della fluidificazione del materiale.
+Si osserva che il calore specifico quando attraversa la transizione vetrosa, aumenta con discontinuità. Resta più o meno invariato (aumenta leggermente) nel caso della fluidificazione del materiale.
 
 Alcuni strumenti mostrano le termografie in funzione del calore assorbito o rilasciato. In genere si riconoscono perché hanno una dicitura \textbf{EXO} o \textbf{ENDO} per indicare cosa viene considerato come convenzione positiva.
 Di fatto, la termografia ha comunque lo stesso comportamento.
@@ -367,17 +377,17 @@ Ad esempio il Teflon ha una temperatura di degradazione più bassa di quella di 
 \subsection{Difrattometria a raggi X}
 Anche questa è una misura che serve per misurare il grado di cristallinità del materiale plastico.
 
-FUnziona tramite eirragiamento a raggi X: i cristalli del materiale rifletteranno le emissioni, per cui si può misurare la quantità di raggi deviati.
+Funziona tramite irraggiamento a raggi X: i cristalli del materiale rifletteranno le emissioni, per cui si può misurare la quantità di raggi deviati.
 Si ottiene uno spettro, in quanto non solo si misura la quantità di raggi deviati ma anche l'angolo di riflessione.
 Infatti, ogni cristallizzazione ha il suo tipico grado di riflessione.
 Quindi, con un'analisi abbastanza approfondita dello spetto dei raggi riflessi, non sono si valuta il grado di cristallizzazione, si valuta anche la qualità della cristallinità.
 
 \subsection{TGA}
-Si va amisurare il peso del materiale man mano che aumenta la temperatura.
+Si va a misurare il peso del materiale man mano che aumenta la temperatura.
 Sicuramente si perderà un quota parte di materiale (qualche $mg$).
 Si mette in un crogiolo, si misura il peso tramite una microbilancia. Come accade per la \ac{DSC} si impone una rampa di riscaldamento. In quensto caso si misura la perdita di peso.
 Una prima perdita, attorno ai $100\unit{\celsius}$ sarà per via dell'acqua contenuta nel materiale, nel caso questo sia idrofilo.
-Continuando con l'aumento della temperatura si avrà un completo decadimento delle molecoleche resteranno come residuo sul crogiolo.
+Continuando con l'aumento della temperatura si avrà un completo decadimento delle molecole che resteranno come residuo sul crogiolo.
 Eseguendo delle analisi chimiche sui residui, si possono capire quali fossero gli additivi all'interno del materiale.
 
 Esiste una versione più avanzata della \ac{TGA} detta \ac{DTGA}.

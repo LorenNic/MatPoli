@@ -16,5 +16,17 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}\enddatalist
+\datalist[entry]{nyt/global//global/global}
+  \entry{GPC:2023}{online}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{addendum}{Visitato il: 11/09/2023}
+    \field{title}{Gel Permeation Chromatography}
+    \verb{url}
+    \verb https://image5.slideserve.com/9566167/gel-permeation-chromatography-l
+    \verb .jpg
+    \endverb
+  \endentry
+\enddatalist
 \endinput

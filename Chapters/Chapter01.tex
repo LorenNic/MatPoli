@@ -490,30 +490,59 @@ Il PLDLA no, questo è il \ac{PLA} irregolare, di più bassa qualità.
 
 \section{Omopolimeri e copolimeri}
 La condizione di omopolimeri e copolimeri dipende dalla conformazione della catena principale del polimero.
-ipotizzando due monomeri $A$ e $B$ di una qualsiasi molecola, le possibili conformazioni sono quelli mostrati
+Ipotizzando due monomeri $A$ e $B$ di una qualsiasi molecola, le possibili conformazioni sono quelli mostrati alla figura \ref{fig:OmopolimeroCopolimero}.
 
 \begin{figure}
+\centering
+\subfloat[][\emph{Omopolimero}\label{fig:Omopolimero}]%
+{%
+\begin{minipage}[b]{0.5\textwidth}
+\centering
 \setchemfig{atom sep = 2em}
-\schemestart
-\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-A-A-A-[@{cl,.25}]}}{omopolimero}\polymerdelim[indice +n]{op}{cl}
-\schemestop
-\\\bigskip
-\schemestart
-\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-B-A-B-A-B-[@{cl,.25}]}}{copolimero alternato}\polymerdelim[indice +n]{op}{cl}
-\schemestop
-\\\bigskip
-\schemestart
-\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-B-B-B-[@{cl,.25}]}}{copolimero a blocchi}\polymerdelim[indice +n]{op}{cl}
-\schemestop
-\\\bigskip
-\schemestart
-\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-B(-[6]B(-[6]B-[6]))-[@{cl,.25}]}}{copolimero innestato}\polymerdelim[indice +n]{op}{cl}
-\schemestop
-\\\bigskip
-\schemestart
-\chemname{\chemfig{\vphantom{A}-[@{op,.75}]A-A-B-A-B-B-[@{cl,.25}]}}{copolimero random}
-\polymerdelim[indice +n]{op}{cl}
-\schemestop
+\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-A-A-A-[@{cl,.25}]}
+\polymerdelim[indice=n]{op}{cl}
+\end{minipage}%
+}\\
+\bigskip
+\subfloat[][\emph{Copolimero alternato}\label{fig:CopolimeroAlternato}]%
+{%
+\begin{minipage}[b]{0.5\textwidth}
+\centering
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{A}-[@{op,.75}]A-B-A-B-A-B-[@{cl,.25}]}
+\polymerdelim[indice=n]{op}{cl}
+\end{minipage}%
+}\\
+\bigskip
+\subfloat[][\emph{Copolimero a blocchi}\label{fig:CopolimeroBlocchi}]%
+{%
+\begin{minipage}[b]{0.5\textwidth}
+\centering
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-B-B-B-[@{cl,.25}]}
+\polymerdelim[indice=n]{op}{cl}
+\end{minipage}%
+}\\
+\bigskip
+\subfloat[][\emph{Copolimero innestato}\label{fig:CopolimeroInnestato}]%
+{%
+\begin{minipage}[b]{0.5\textwidth}
+\centering
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{A}-[@{op,.75}]A-A-A-B(-[6]B(-[6]B-[6]))-[@{cl,.25}]}
+\polymerdelim[indice=n]{op}{cl}
+\end{minipage}%
+}\\
+\bigskip
+\subfloat[][\emph{Copolimero random}\label{fig:CopolimeroRandom}]%
+{%
+\begin{minipage}[b]{0.5\textwidth}
+\centering
+\setchemfig{atom sep = 2em}
+\chemfig{\vphantom{A}-[@{op,.75}]A-A-B-A-B-B-[@{cl,.25}]}
+\polymerdelim[indice=n]{op}{cl}
+\end{minipage}%
+}
 \caption{Esempi di omopolimero e copolimero}
 \label{fig:OmopolimeroCopolimero}
 \end{figure}

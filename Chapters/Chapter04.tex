@@ -152,7 +152,7 @@ Vengono rappresentati nei grafici \ref{fig:RigonfiamentoEstruso}.
 \label{fig:RigonfiamentoEstruso}
 \end{figure}
 
-Si definisce che l'effetto di rigonfiamento:
+Si definisce che l'effetto di rigonfiamento tramite il \eng{Deborah Number}:
 \begin{equation}
 De = \frac{\tau_r}{\tau_p} = \frac{\text{Tempo di rilassamento}}{\text{Tempo caratteristico del processo}}
 \end{equation}
@@ -377,150 +377,6 @@ Per la maggior parte dei liquidi la diminuzione di $\eta$ al crescere di $D$ è 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Misure di Viscosità}\label{chp:MisureViscosità}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Viscosimetri rotazionali}
-Il principio di funzionamento dei viscosimetri rotazionali con sistema di misura a cilindri coassiali o a piatto cono consente la progettazione di viscosimetri assoluti estremamente versatili.
-Nel mercato se ne trovano molti, di vari modelli con alta varietà di prezzo.
-Si può pensare al sistema di misura a cilindri coassiali per i viscosimetri rotazionali come derivante dal modello a piatti paralleli di Newton, con la semplice incurvatura dei piatti in due cilindri, l'uno al interno dell'altro. Il campione di liquido riempe l'intercapedine anulare (in visosimetria molto spesso indicata come \eng{gap}) tra i due cilindri può essere sottoposto a taglio. Il moto deve essere laminare al fine di consentire la trattazione matematica del problema.
-Si può:
-\begin{itemize}
-\item Fissare $\tau$ e valutare $D(\dot{\gamma})$: Il cilindro interno, o esterno, impone un definito sforzo di taglio (o momento torcente) mentre l'altro è fermo.
-Si può misurare la velocità di rotazione o il gradiente di velocità risultante. Si basano su questo principio i viscosimetri tipo \eng{Krebs-Stormer}.
-\item Fissare $\dot{\gamma}$ e trovare $\tau$.
-Uno dei cilindro ruota a velocità costante, mentre l'altro è fermo. Si può misurare lo sforzo di taglio risultante o il momento torcente. La maggior parte dei viscosimetri in commercio sfruttano tale principio.
-\end{itemize}
-
-\section{Viscosimetro di Couette}
-In questo tipo, il cilindro ruota a velocità prefissata mentre la coppia viene misurata da quello interno, attraverso un elemento simile a quello descritto precedentemente (ad esempio una molla).
-I viscosimetri di \eng{Couette} sono più stabili di quelli \eng{Searie} per quanto riguarda le forze centrifughe. naturalmente le misure fatte con viscosimetri di tipo diverso danno gli stessi valori di viscosità assoluta per uno stesso fluido.
-Se i due viscosimetri sono equipaggiati con ciclindri coassiali di raggio poco diverso, cioè se l'intercapedine in cui sta il fluido è molto sottile, il gradiente $D$ è costante all'interno del fluido, così la viscosità del fluido stesso.
-\begin{equation}
-\dot{\gamma} = \frac{dv}{dh} = \frac{V}{H} \Rightarrow \tau = \eta \frac{V}{H}
-\end{equation}
-Per effettuare la misura, si inserisce un cilindro dentro l'altro. Fissato il cilindro esterno, mentre quello interno viene mosso con velocità costante.
-
-\begin{figure}
-\centering
-\subfloat[][\emph{Schema viscosimetro}\label{fig:Viscosimetro}]
-{\includegraphics[width = 0.4\textwidth]{gfx/Viscosimetro}}\quad
-\subfloat[][\emph{Relazioni calcolate dal viscosimetro}\label{txt:Viscosimetro}]{
-\begin{minipage}[b]{0.4\textwidth}
-\begin{align*}
-H &= R_o - R_i\\
-V &= \omega R_i\\
-\dot{\gamma} &= \frac{V}{H} = \frac{\omega R_i}{R_o - R_i}\\
-\end{align*}
-Per ottenere $\tau$ devo trovare il momento torcente:
-\begin{align*}
-M_{torc} &= \tau 2\pi R_i \cdot \underbrace{l \cdot r_i}_{\text{azione di }\tau} =\\
-&= \tau 2\pi \cdot l \cdot R_i^2\\
-\Rightarrow \tau &= \frac{M_{torc}}{2\pi l R_i^2} 
-\end{align*}
-\end{minipage}}
-\caption{Funzionamento di un viscosimetro}
-\label{exp:Viscosimetro}
-\end{figure}
-
-Siccome deve valere che $\eta = \tau / \dot{\gamma}$ se si vuole $\dot{\gamma}$ elevata, bisogna muovere il cilindro interno generando forze centrifughe.
-Tuttavia se si accelera troppo il fluido, esso sarà soggetto a instabilità.
-
-\section{Reometro Piatto-Cono}
-Nei sistemi di misura piatto-cono (detti \ac{PK}), il problema fondamentale risulta la pulizia.
-In certi casi, la pulizia del rotore e della campana dopo aver eseguito dei test è talmente complicata da far orientare la scelta sul sistema piatto-cono, assai più facile da pulire%
-\footnote{Soprattutto dopo aver fatto dei test su dei pigmenti}.
-alle volte vengono eseguite delle prove su dei campioni contenenti materiali preziosi (in campo dell'elettronica) ed è fondamentale che venga recuperato tutto il campione.
-In generale la quantità di campione richiesta per eseguire prove su \ac{PK} è molto inferiore rispetto al sistema a cilindri coassiali.
-per la maggior parte dei \ac{PK} sono sufficienti poche gocce di liquido.
-I sistemi di misura \ac{PK} trovano la loro principale applicazione nel campi degli alti gradienti di velocità.
-
-Vi sono però alcune importanti limitazioni nell'uso dei sistemi di misura \ac{PK}:
-\begin{itemize}
-\item L'angolo del cono (in genere si usano angoli variabili tra $0.3\unit{\degree} \div 1.0\unit{\degree}$) fa sì che l'intercapedine tra il piatto e cono varia da zero in punta al cono al valore massimo al raggio $R_o$. Le dispersioni con particelle, anche le più piccole possibili, non sono adatte per la zona vicina alla punta del cono.
-\item Le particelle vengno spinte dalla zona della punta verso l'esterno e questo può accadere prima ancora dell'inizio della prova, quando il piano viene avvicinato al cono fino al contatto. Durante la prova, si ha un flusso secondario di particelle in direzione radiale che si sovrappone al flusso principale (circolare). Influenzando negativamente il moto laminare. Una simile situazione tende a rendere ancora di più eterogenei i campioni, falsando la prova.
-\item Le particelle più grandi richiedono l'uso di angoli maggiori $1\unit{\degree} \div 3\unit{\degree}$ con conseguenti maggiori effetti negativi del flusso secondario sui risultati del test.
-\item I sistemi \ac{PK} sono influenzati dalle forze normali che sono il risultato della risposta elastica dei campioni viscoelastici soggetti a taglio.
-Queste forze normali possono trascinare elementi di volume fuori del gap angolare e farli arrampicare sul bordo esterno del cono, In tale situazione si ha spaccamento del campione verso la metà del gap angolare. Ciò è un problema che disturba fortemente la misura.
-Un'indicazione della presenza di questo inconveniente è il formarsi di una cresta sempre più grande sul bordo del cono. Spesso si arriva addirittura a vedere la spaccatura del campione guardando da vicino la rotazione del cono.
-\end{itemize} 
-
-\begin{figure}
-\centering
-\subfloat[][\emph{Funzionamento del cono (1), caso di separazione del campione (2)}\label{fig:PK}]
-{\includegraphics[width = 0.4\textwidth]{gfx/PK}}\quad
-\subfloat[][\emph{Grafico ottenuto dal test}\label{fig:PK_graph}]
-{\includegraphics[width = 0.4\textwidth]{gfx/PK_graph}}
-\caption{Schematizzazione dei test eseguiti tramite sistema \ac{PK}}
-\label{fig:TestPK}
-\end{figure}
-Allora i calcoli che permettono di ottenere una valutazione della viscosità diventano:
-\begin{align}
-v &= \omega r \frac{z}{\alpha r}\\
-&= \frac{\omega z}{\alpha}\\
-\Rightarrow \dot{\gamma} &= \frac{dv}{dz} = \frac{\omega}{\alpha}\: cost.
-\end{align}
-Dunque:
-\begin{equation}
-\tau = \eta \frac{\omega}{\alpha}
-\end{equation}
-\begin{align}
-M_t &= \int_0^R \tau 2\pi r^2 dr =\\
-&= 2\pi \eta \frac{\omega}{\alpha} \frac{R^3}{3}\\
-\Rightarrow \tau &= \frac{3 M_t}{2\pi R^3}
-\end{align}
-Da cui in fine si ottiene la viscosità sostituendo in
-\begin{equation}
-\eta = \frac{\tau}{\dot{\gamma}}
-\end{equation}
-
-\section{Reometro Piatto-Piatto}
-\begin{figure}
-\centering
-\includegraphics[width = 0.5\textwidth]{gfx/PiattoPiatto}
-\caption{Schema del rotore per uno strumento piatto piatto}
-\label{fig:PiattoPiatto}
-\end{figure}
-
-Nella figura \ref{fig:PiattoPiatto} viene rappresentato il rotore dello strumento per la misura della viscosità.
-La relazione che ci permetterà di ottenere la viscosità sarà:
-\begin{equation}
-v(r,z) = \omega r \frac{z}{H} =%
-\begin{cases}
-\omega r & se z = H\\
-0 & se z = 0
-\end{cases}
-\end{equation}
-Da cui allora:
-\begin{equation}
-\dot{\gamma} = \frac{dv}{dz} = \frac{\omega r}{H}
-\end{equation}
-\begin{equation}
-\dot{\gamma}_R = \frac{dv}{dz} = \frac{\omega R}{H}
-\end{equation}
-Calcoliamo il momento torcente
-\begin{equation}
-M_t = \int_0^R{\tau 2\pi r^2 dr}
-\end{equation}
-Ipotizzando che si sita analizzando un fluido newtoniano.
-\begin{equation}
-\eta \frac{\omega}{H} 2\pi \int_0^R{r^3 dr} =%
-2\pi \eta \frac{\omega}{H} \frac{R^4}{4}
-\end{equation}
-Da cui
-\begin{equation}
-\frac{\pi}{2} \eta \frac{\omega}{H} R^4
-\end{equation}
-Notiamo che
-\begin{equation}
-\frac{\pi}{2} \underbrace{\eta \frac{\omega R}{H}}_{\tau} R^3 = \frac{\pi}{2} \tau_R R^3
-\end{equation}
-Invertendo l'equazione di definizione del momento torcente:
-\begin{equation}
-\tau_R = \frac{M_t 2}{\pi R^3}
-\end{equation}
-Da cui finalmente si ottiene la densità, sempre ricordando che tutti questi ragionamenti valgono per un fluido newtoniano:
-\begin{equation}
-\eta = \frac{\tau_R}{\dot{\gamma}_R}
-\end{equation}
-
 \section{Viscosimetro capillare}
 L'utilità di questo tipo di misuratore, di fatto è la controparte del \ac{MFI}.
 In quanto in termini di:
@@ -579,7 +435,7 @@ Q = \frac{\Delta P \pi R^4}{8 \eta L} \Leftarrow%
 \frac{\pi R^3}{4 \eta} \frac{\overbrace{P R}^{\tau_{\omega}}}{2L}
 \end{equation}
 
-Dall'equazione dello sforzo di taglio alla parete $\tau_W$ è possibile calcolare lo sforzo di taglio alla parete:
+Dall'equazione dello sforzo di taglio alla parete $\tau_W$ è possibile calcolare la velocità di deformazione a parete:
 \begin{equation}
 \dot{\gamma}_W = \frac{\tau_W}{\eta} = \frac{\Delta P R}{2 L}
 \end{equation}
@@ -589,13 +445,12 @@ Sostituendo in questa, l'equazione di $\Delta P$ ricavabile dalla definizione de
 \end{equation}
 Quando il fluido ha comportamento non newtoniano, è necessario introdurre due correzioni:
 \begin{enumerate}
-\item Correzione di Rabinowitsch;
-\item Correzione di Bagley.
+\item Correzione di Bagley;
+\item Correzione di Rabinowitsch e Mooney.
 \end{enumerate}
 
 \paragraph{Melt Flow Index}
-Riprendendo ciò che era già stato visto al capitolo dedicato.
-%TODO aggiungere il riferimento al capitolo\eng{•}
+Riprendendo ciò che era già stato visto al capitolo dedicato \ref{chp:MisuraPM}.
 
 \begin{equation}
 \text{Portata} = \frac{\text{Pressione}}{A}
@@ -606,9 +461,9 @@ A = \frac{\pi D^2}{4}
 \end{equation}
 Si considera allora:
 \begin{description}
-\item[MFI alto] allora $\mu \downarrow$ con circa
+\item[MFI alto] allora $\eta \downarrow$ con circa
 $MFI \approx 25 \div 50 \unit{\g/10\min}$
-\item[MFI basso] allora $\mu \uparrow$ con circa
+\item[MFI basso] allora $\eta \uparrow$ con circa
 $MFI \approx 0.5 \div 5 \unit{\g/10\min}$
 \end{description}
 
@@ -618,14 +473,56 @@ $MFI \approx 0.5 \div 5 \unit{\g/10\min}$
 \caption{Descrizione del viscosimetro capillare con le correzioni per i fluidi non newtoniani}\label{fig:CorrezioneCapillare}
 \end{figure}
 
+\subsection{Correzione di Bagley}
+Come già visto, l'equazione dello sforzo di taglio è la seguente:
+\begin{equation}
+\tau_W = \frac{\Delta P R}{2L} \quad \tau_W =\frac{PR}{2L}
+\end{equation}
+Dove con $\Delta P$ sono le perdite di carico totali relative al processo di estrusione.
+Alla base di questa equazione, c'è l'ipotesi di poter trascurare i seguenti fenomeni:
+\begin{itemize}
+\item La possibilità di un non perfetto accoppiamento tra pistone matrice.
+\item Gli attriti derivanti dal moto nella camera.
+\item Le perdite di carico in ingresso, dovute al riarrangiamento del profilo di velocità che si ha all'entrata dell'ugello.
+Tale riarrangiamento è dovuto al restringimento del filetto fluido delle dimensioni della matrice a quelle del capillare.
+\item Altro contributo a tali perdite è il gradiente di pressione maggiore che si ha nella prima parte del capillare, derivante da un flusso non ancora perfettamente sviluppato.
+\end{itemize}
+
+Mentre i primi tre contributi sono senz'altro trascurabili, altrettanto non si può dire per gli ultimi due. Per tener conto di questi effetti, viene introdotta la correzione di \eng{Bagley}.
+Si tratta di valutare le perdite di carico totali per ugelli con diversi rapporti $L/R$ ad un determinato valore di gradiente di velocità.
+Riportando su un grafico \ref{fig:Bagley} i valori trovati, si estrapola il valore delle perdite di carico per $L/R = 0$%
+\footnote{Ovvero il punto di incontro della retta con l'asse delle ordinate},
+assumendo che questo coincida con la somma delle perdite di carico in entrata ed in uscita a quel determinato gradiente di velocità.
+L'operazione viene poi ripetuta per ogni gradiente di velocità, ottenendo così un vettore di perdite di carico.
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.7\textwidth]{gfx/Bagley}
+\caption{Rette di Bagley}
+\label{fig:Bagley}
+\end{figure}
+
+Allora il valore dello sforzo di taglio, imponendo che $L^* = \underbrace{e}_{incognita}R$
+\begin{equation}
+\tau_W = \frac{PR}{2(L + L^*)} = \frac{PR}{2(L + eR)}
+\end{equation}
+Le perdite saranno:
+\begin{equation}
+P = \frac{\tau_W 2(L + eR)}{R}
+\end{equation}
+Allora ne risulta
+\begin{equation}
+\dot{\gamma}_N = \frac{4Q}{\pi R^3}
+\end{equation}
+Ipotizzando  che $Q$ e $R$ siano costanti allora anche $\dot{\gamma}_N$ sarà costante.
+Dato che $\tau_W = \eta \cdot \dot{\gamma}_N$, allora anche $\tau_W$ sarà costante.
+
 \subsection{Correzione di Rabinowitsch}
+Per un fluido non newtoniano ci si aspetta che ci siano delle correzioni da aggiungere rispetto alla portata di un fluido newtoniano.
 \begin{equation}
 \dot{\gamma}_W = \frac{4 Q}{\pi R^3} + \ldots
 \end{equation}
 
-\subsection{Correzione di Mooney}
-Corregge lo scorrimento per adesione alle pareti che non veniva considerato nella correzione di Rabinowitsch.
-Per eseguire più velocemente nell'esecuzione della prova si può usare un lubrificante. Saranno però necessarie più misure per raggi diversi.
 Allora:
 \begin{equation}
 \dot{\gamma}_W  = \frac{4 Q}{\pi R^3} = \dot{\gamma}_N
@@ -668,13 +565,13 @@ Svolgendo l'integrale si arriva ad ottenere:
 Allora:
 \begin{equation}
 \begin{split}
-\frac{dQ}{d\tau_W} &= - \frac{3\pi R^3}{\tau_W^4} \frac{Q \tau_W^3}{\pi R^3} + \frac{\pi R^3}{\tau_w}\dot{\gamma}_W\\
+\frac{dQ}{d\tau_W} &= - \frac{3\pi R^3}{\tau_W^4} \frac{Q \tau_W^3}{\pi R^3} + \frac{\pi R^3}{\tau_W}\dot{\gamma}_W\\
 \frac{dQ}{d\tau_w} &= -\frac{3Q}{\tau_W} + \frac{\pi R^3}{\tau_W}\dot{\gamma}_W
 \end{split}
 \end{equation}
 Imponiamo la pre-moltiplicazione per $4/\pi R^3$ :
 \begin{equation}
-\frac{4}{\pi R^3}\frac{dQ}{d\tau_w} = \left[-\frac{3Q}{\tau_W}+\frac{\pi R^3}{\tau_w}\dot{\gamma}_W\right]\frac{4}{\pi R^3}
+\frac{4}{\pi R^3}\frac{dQ}{d\tau_w} = \left[-\frac{3Q}{\tau_W}+\frac{\pi R^3}{\tau_W}\dot{\gamma}_W\right]\frac{4}{\pi R^3}
 \end{equation}
 Inoltre
 \begin{equation}
@@ -712,46 +609,151 @@ Per definire correttamente il rapporto $\frac{d \ln\dot{\gamma}_N}{d\ln\tau_W}$ 
 \label{fig:CorrezioneDoppioLog}
 \end{figure}
 
-\subsection{Correzione di Bagley}
-COme già visto, l'equazione dello sforzo di taglio è la seguente:
-\begin{equation}
-\tau_W = \frac{\Delta P R}{2L} \quad \tau_W =\frac{PR}{2L}
-\end{equation}
-Dove con $\Delta P$ sono le perdite di carico totali relative al processo di estrusione.
-Alla base di questa equazione, c'è l'ipotesi di poter trascurare i seguenti fenomeni:
+\subsection{Correzione di Mooney}
+Corregge lo scorrimento per adesione alle pareti che non veniva considerato nella correzione di Rabinowitsch.
+Per eseguire più velocemente nell'esecuzione della prova si può usare un lubrificante. Saranno però necessarie più misure per raggi diversi.
+
+
+\section{Viscosimetri rotazionali}
+Il principio di funzionamento dei viscosimetri rotazionali con sistema di misura a cilindri coassiali o a piatto cono consente la progettazione di viscosimetri assoluti estremamente versatili.
+Nel mercato se ne trovano molti, di vari modelli con alta varietà di prezzo.
+Si può pensare al sistema di misura a cilindri coassiali per i viscosimetri rotazionali come derivante dal modello a piatti paralleli di Newton, con la semplice incurvatura dei piatti in due cilindri, l'uno al interno dell'altro. Il campione di liquido riempe l'intercapedine anulare (in visosimetria molto spesso indicata come \eng{gap}) tra i due cilindri può essere sottoposto a taglio. Il moto deve essere laminare al fine di consentire la trattazione matematica del problema.
+Si può:
 \begin{itemize}
-\item La possibilità di un non perfetto accoppiamento tra pistone matrice.
-\item Gli attriti derivanti dal moto nella camera.
-\item Le perdite di carico in ingresso, dovute al riarrangiamento del profilo di velocità che si ha all'entrata dell'ugello.
-Tale riarrangiamento è dovuto al restringimento del filetto fluido delle dimensioni della matrice a quelle del capillare.
-\item Altro contributo a tali perdite è il gradiente di pressione maggiore che si ha nella prima parte del capillare, derivante da un flusso non ancora perfettamente sviluppato.
+\item Fissare $\tau$ e valutare $D(\dot{\gamma})$: Il cilindro interno, o esterno, impone un definito sforzo di taglio (o momento torcente) mentre l'altro è fermo.
+Si può misurare la velocità di rotazione o il gradiente di velocità risultante. Si basano su questo principio i viscosimetri tipo \eng{Krebs-Stormer}.
+\item Fissare $\dot{\gamma}$ e trovare $\tau$.
+Uno dei cilindro ruota a velocità costante, mentre l'altro è fermo. Si può misurare lo sforzo di taglio risultante o il momento torcente. La maggior parte dei viscosimetri in commercio sfruttano tale principio.
 \end{itemize}
 
-Mentre i primi tre contributi sono senz'altro trascurabili, altrettanto non si può dire per gli ultimi due. Per tener conto di questi effetti, viene introdotta la correzione di \eng{Bagley}.
-Si tratta di valutare le perdite di carico totali per ugelli con diversi rapporti $L/R$ ad un determinato valore di gradiente di velocità.
-Riportando su un grafico \ref{fig:Bagley} i valori trovati, si estrapola il valore delle perdite di carico per $L/R = 0$%
-\footnote{Ovvero il punto di incontro della retta con l'asse delle ordinate},
-assumendo che questo coincida con la somma delle perdite di carico in entrata ed in uscita a quel determinato gradiente di velocità.
-L'operazione viene poi ripetuta per ogni gradiente di velocità, ottenendo così un vettore di perdite di carico.
+\subsection{Viscosimetro di Couette}
+In questo tipo, il cilindro ruota a velocità prefissata mentre la coppia viene misurata da quello interno, attraverso un elemento simile a quello descritto precedentemente (ad esempio una molla).
+I viscosimetri di \eng{Couette} sono più stabili di quelli \eng{Searie} per quanto riguarda le forze centrifughe. naturalmente le misure fatte con viscosimetri di tipo diverso danno gli stessi valori di viscosità assoluta per uno stesso fluido.
+Se i due viscosimetri sono equipaggiati con ciclindri coassiali di raggio poco diverso, cioè se l'intercapedine in cui sta il fluido è molto sottile, il gradiente $D$ è costante all'interno del fluido, così la viscosità del fluido stesso.
+\begin{equation}
+\dot{\gamma} = \frac{dv}{dh} = \frac{V}{H} \Rightarrow \tau = \eta \frac{V}{H}
+\end{equation}
+Per effettuare la misura, si inserisce un cilindro dentro l'altro. Fissato il cilindro esterno, mentre quello interno viene mosso con velocità costante.
 
 \begin{figure}
 \centering
-\includegraphics[width = 0.7\textwidth]{gfx/Bagley}
-\caption{Rette di Bagley}
-\label{fig:Bagley}
+\subfloat[][\emph{Schema viscosimetro}\label{fig:Viscosimetro}]
+{\includegraphics[width = 0.4\textwidth]{gfx/Viscosimetro}}\quad
+\subfloat[][\emph{Relazioni calcolate dal viscosimetro}\label{txt:Viscosimetro}]{
+\begin{minipage}[b]{0.4\textwidth}
+\begin{align*}
+H &= R_o - R_i\\
+V &= \omega R_i\\
+\dot{\gamma} &= \frac{V}{H} = \frac{\omega R_i}{R_o - R_i}\\
+\end{align*}
+Per ottenere $\tau$ devo trovare il momento torcente:
+\begin{align*}
+M_{torc} &= \tau 2\pi R_i \cdot \underbrace{l \cdot r_i}_{\text{azione di }\tau} =\\
+&= \tau 2\pi \cdot l \cdot R_i^2\\
+\Rightarrow \tau &= \frac{M_{torc}}{2\pi l R_i^2} 
+\end{align*}
+\end{minipage}}
+\caption{Funzionamento di un viscosimetro}
+\label{exp:Viscosimetro}
 \end{figure}
 
-Allora il valore dello sforzo di taglio:
+Siccome deve valere che $\eta = \tau / \dot{\gamma}$ se si vuole $\dot{\gamma}$ elevata, bisogna muovere il cilindro interno generando forze centrifughe.
+Tuttavia se si accelera troppo il fluido, esso sarà soggetto a instabilità.
+
+\subsection{Reometro Piatto-Cono}
+Nei sistemi di misura piatto-cono (detti \ac{PK}), il problema fondamentale risulta la pulizia.
+In certi casi, la pulizia del rotore e della campana dopo aver eseguito dei test è talmente complicata da far orientare la scelta sul sistema piatto-cono, assai più facile da pulire%
+\footnote{Soprattutto dopo aver fatto dei test su dei pigmenti}.
+alle volte vengono eseguite delle prove su dei campioni contenenti materiali preziosi (in campo dell'elettronica) ed è fondamentale che venga recuperato tutto il campione.
+In generale la quantità di campione richiesta per eseguire prove su \ac{PK} è molto inferiore rispetto al sistema a cilindri coassiali.
+per la maggior parte dei \ac{PK} sono sufficienti poche gocce di liquido.
+I sistemi di misura \ac{PK} trovano la loro principale applicazione nel campi degli alti gradienti di velocità.
+
+Vi sono però alcune importanti limitazioni nell'uso dei sistemi di misura \ac{PK}:
+\begin{itemize}
+\item L'angolo del cono (in genere si usano angoli variabili tra $0.3\unit{\degree} \div 1.0\unit{\degree}$) fa sì che l'intercapedine tra il piatto e cono varia da zero in punta al cono al valore massimo al raggio $R_o$. Le dispersioni con particelle, anche le più piccole possibili, non sono adatte per la zona vicina alla punta del cono.
+\item Le particelle vengno spinte dalla zona della punta verso l'esterno e questo può accadere prima ancora dell'inizio della prova, quando il piano viene avvicinato al cono fino al contatto. Durante la prova, si ha un flusso secondario di particelle in direzione radiale che si sovrappone al flusso principale (circolare). Influenzando negativamente il moto laminare. Una simile situazione tende a rendere ancora di più eterogenei i campioni, falsando la prova.
+\item Le particelle più grandi richiedono l'uso di angoli maggiori $1\unit{\degree} \div 3\unit{\degree}$ con conseguenti maggiori effetti negativi del flusso secondario sui risultati del test.
+\item I sistemi \ac{PK} sono influenzati dalle forze normali che sono il risultato della risposta elastica dei campioni viscoelastici soggetti a taglio.
+Queste forze normali possono trascinare elementi di volume fuori del gap angolare e farli arrampicare sul bordo esterno del cono, In tale situazione si ha spaccamento del campione verso la metà del gap angolare. Ciò è un problema che disturba fortemente la misura.
+Un'indicazione della presenza di questo inconveniente è il formarsi di una cresta sempre più grande sul bordo del cono. Spesso si arriva addirittura a vedere la spaccatura del campione guardando da vicino la rotazione del cono.
+\end{itemize} 
+
+\begin{figure}
+\centering
+\subfloat[][\emph{Funzionamento del cono (1), caso di separazione del campione (2)}\label{fig:PK}]
+{\includegraphics[width = 0.4\textwidth]{gfx/PK}}\quad
+\subfloat[][\emph{Grafico ottenuto dal test}\label{fig:PK_graph}]
+{\includegraphics[width = 0.4\textwidth]{gfx/PK_graph}}
+\caption{Schematizzazione dei test eseguiti tramite sistema \ac{PK}}
+\label{fig:TestPK}
+\end{figure}
+Allora i calcoli che permettono di ottenere una valutazione della viscosità diventano:
+\begin{align}
+v &= \omega r \frac{z}{\alpha r}\\
+&= \frac{\omega z}{\alpha}\\
+\Rightarrow \dot{\gamma} &= \frac{dv}{dz} = \frac{\omega}{\alpha}\: cost.
+\end{align}
+Dunque:
 \begin{equation}
-\tau_W = \frac{PR}{2(L + L^*)} = \frac{PR}{2(L + eR)}
+\tau = \eta \frac{\omega}{\alpha}
 \end{equation}
-Le perdite saranno:
+\begin{align}
+M_t &= \int_0^R \tau 2\pi r^2 dr =\\
+&= 2\pi \eta \frac{\omega}{\alpha} \frac{R^3}{3}\\
+\Rightarrow \tau &= \frac{3 M_t}{2\pi R^3}
+\end{align}
+Da cui in fine si ottiene la viscosità sostituendo in
 \begin{equation}
-P = \frac{\tau_W 2(L + eR)}{R}
+\eta = \frac{\tau}{\dot{\gamma}}
 \end{equation}
-Allora ne risulta
+
+\subsection{Reometro Piatto-Piatto}
+\begin{figure}
+\centering
+\includegraphics[width = 0.5\textwidth]{gfx/PiattoPiatto}
+\caption{Schema del rotore per uno strumento piatto piatto}
+\label{fig:PiattoPiatto}
+\end{figure}
+
+Nella figura \ref{fig:PiattoPiatto} viene rappresentato il rotore dello strumento per la misura della viscosità.
+La relazione che ci permetterà di ottenere la viscosità sarà:
 \begin{equation}
-\dot{\gamma}_N = \frac{4Q}{\pi R^3}
+v(r,z) = \omega r \frac{z}{H} =%
+\begin{cases}
+\omega r & se z = H\\
+0 & se z = 0
+\end{cases}
 \end{equation}
-Ipotizzando  che $Q$ e $R$ siano costanti allora anche $\dot{\gamma}_N$ sarà costante.
-Dato che $\tau_W = \eta \cdot \dot{\gamma}_N$, allora anche $\tau_W$ sarà costante.
+Da cui allora:
+\begin{equation}
+\dot{\gamma} = \frac{dv}{dz} = \frac{\omega r}{H}
+\end{equation}
+\begin{equation}
+\dot{\gamma}_R = \frac{dv}{dz} = \frac{\omega R}{H}
+\end{equation}
+Calcoliamo il momento torcente
+\begin{equation}
+M_t = \int_0^R{\tau 2\pi r^2 dr}
+\end{equation}
+Ipotizzando che si sita analizzando un fluido newtoniano.
+\begin{equation}
+\eta \frac{\omega}{H} 2\pi \int_0^R{r^3 dr} =%
+2\pi \eta \frac{\omega}{H} \frac{R^4}{4}
+\end{equation}
+Da cui
+\begin{equation}
+\frac{\pi}{2} \eta \frac{\omega}{H} R^4
+\end{equation}
+Notiamo che
+\begin{equation}
+\frac{\pi}{2} \underbrace{\eta \frac{\omega R}{H}}_{\tau} R^3 = \frac{\pi}{2} \tau_R R^3
+\end{equation}
+Invertendo l'equazione di definizione del momento torcente:
+\begin{equation}
+\tau_R = \frac{M_t 2}{\pi R^3}
+\end{equation}
+Da cui finalmente si ottiene la densità, sempre ricordando che tutti questi ragionamenti valgono per un fluido newtoniano:
+\begin{equation}
+\eta = \frac{\tau_R}{\dot{\gamma}_R}
+\end{equation}

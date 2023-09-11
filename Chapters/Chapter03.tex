@@ -135,7 +135,7 @@ Si tratta della caratterizzazione del comportamento meccanico delle plastiche al
 Ipotizzando un materiale solido di cui non si conoscono le caratteristiche meccaniche, la prima prova che si fa è la prova di trazione: si tira e si vede cosa succede.
 
 \begin{quote}
-\emph{Si, ma\dots \dots non funziona come per i metalli}
+\emph{Si, ma\dots \\ \dots non funziona come per i metalli}
 \end{quote}
 Infatti si presenta uno sforzo dipendente, si dal carico, anche dalla velocità di deformazione.
 In generale, i materiali plastici hanno una forte \textbf{sensibilità alla velocità di deformazione}.
@@ -190,13 +190,11 @@ f(x_1 + x_2) &= f(x_1) + f(x_2) :=\textup{Principio di sovrapposizone degli effe
 
 \section{Viscoelasticità lineare}
 Ricordando che:
-\begin{equation}
-\begin{split}
+\begin{align}
 \sigma &= e(\bar{\epsilon}, t) &=\textup{Rilassamento}\label{eqn:Rilassamento}%
 \\
 \epsilon &= d(\bar{\sigma}, t) &=\textup{\eng{Creep}}
-\end{split}
-\end{equation}
+\end{align}
 Ipotizzando che $e$ sia lineare in $\bar{\epsilon}$:
 \begin{equation}
 e(\bar{\epsilon},t) \rightarrow \bar{\epsilon} * E(t)
@@ -254,7 +252,7 @@ Si considera un determinato tempo $\bar{t}$ al quale corrisponderà sia un certo
 \item Si sarebbe tentati di considerarle delle prove di trazione: ovviamente non lo sono, la modalità di realizzazione è completamente diversa da una mera prova di trazione.
 \item Siccome vale:
 \begin{equation}
-\epsilon(t) = \sigma_iD(t) \rightarrow \epsilon(\bar{t}) = \sigma_iD(t)
+\epsilon(t) = \sigma_iD(t) \rightarrow \epsilon(\bar{t}) = \sigma_iD(\bar{t})
 \end{equation}
 In più \begin{equation}
 \frac{\sigma_i}{\epsilon(\bar{t})} = \frac{1}{D(\bar{t})}
@@ -523,7 +521,12 @@ Dunque:
 \emph{Quando vale il modulo di rilassamento $E(t)$ e il modulo di cedevolezza al \eng{creep} $D(t)$?}
 \end{quote}
 
-Allora conviene considerare i due elementi fondamentali:
+Allora conviene considerare i due elementi fondamentali come quelli delle figure \ref{fig:FluidiViscoelastici}.
+In particolare:
+\begin{description}
+\item[Molla] la molla rappresenta il comportamento elastico del fluido preso in considerazione. La schematizzazione e l'equazione rappresentativa sono quelle dalla figura \ref{fig:Molla}.
+\item[Dissipatore] rappresenta il comportamento dissipativo del materiale come se fosse uno smorzatore. Vedi figura \ref{fig:Dissipatore} per equazione e modello.
+\end{description}
 
 \begin{figure}
 \centering
@@ -843,6 +846,6 @@ E(t) &= E_{\infty} + (E_0 - E_{\infty})e^{-\frac{t}{\tau_r}}
 \end{equation}
 Con $\tau_r = \frac{\eta_3}{E_1+E_2}$ tempo di rilassamento.
 
-Si cedevolezza che modulo sono funzioni esponenziali, in entrambi i casi limitati e non arrivano ne a zero che infinito.
+Sia cedevolezza che modulo sono funzioni esponenziali, in entrambi i casi limitati e non arrivano né a zero né infinito.
 
 Il modello \eng{Zener} può avere un'altra conformazione con lo stesso risultato: non è esattamente lo stesso, la forma della risposta sarà la stessa, ma i parametri saranno utilizzati diversamente.
