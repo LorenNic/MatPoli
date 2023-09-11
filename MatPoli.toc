@@ -126,6 +126,4 @@
 \contentsline {section}{\numberline {b.3}Esercizio}{115}{section.B.3}%
 \contentsline {paragraph}{Soluzione}{115}{figure.caption.100}%
 \contentsline {chapter}{\numberline {c}\spacedlowsmallcaps {Tavola periodica}}{119}{appendix.C}%
-\vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{121}{dummy.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
